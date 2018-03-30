@@ -1,0 +1,86 @@
+/*去掉浏览器的默认margin、padding;*/
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/*整个html的容器*/
+.bigbox{
+    width: 100%;
+    height: 2990.03px;
+
+}
+
+/*html的头部*/
+.header{
+    width: 100%;
+    height: 87px;
+
+    padding-top: 6px;
+    padding-bottom: 6px;
+    border-bottom: 1px;
+}
+.header .nav{
+    margin: 0 auto;
+    width: 100%;
+    height: 74px;
+
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.header .nav .topnav{
+    margin: 0 auto;
+    width: 1319px;
+    height: 28px;
+    background-color: silver;
+
+
+}
+.header .nav .topnav ul{
+    width: 211.656px;
+    height: 28px;
+    background-color: greenyellow;
+    float: right;
+    list-style: none;
+
+}
+.header .nav .topnav ul li{
+    height: 28px;
+    line-height: 28px;
+    float: left;
+
+}
+.header .nav .topnav ul .fir_li{
+
+
+   /*2018.3.30完成到此*/
+}
+.header .nav .topnav ul .sec_li{
+    margin-left: 20px;
+}
+.header .nav .topnav ul .thi_li{
+    margin-left: 20px;
+}
+.header .nav .topnav ul li a{
+    text-decoration: none;
+}
+.header .nav .bottomnav{
+    margin: 0 auto;
+    width: 1319px;
+    height: 40px;
+    background-color: aquamarine;
+}
+/*html的内容区*/
+.content{
+    width: 100%;
+    height: 2544.03px;
+    background-color: antiquewhite;
+}
+
+/*html的尾部*/
+.footer{
+    width: 100%;
+    height: 359px;
+    background-color: blueviolet;
+}
