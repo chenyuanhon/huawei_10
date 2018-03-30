@@ -1,0 +1,428 @@
+.content1{
+    width: 1920px;
+    height: 800px;
+    margin: 0px auto;
+    border: 1px solid red;
+    position: relative;
+    background: url("../img/images/menu_HuaweiM5.png") no-repeat;
+}
+.content1_nav{
+    width: 240px;
+    height: 450px;
+    font-size: 15px;
+    border:1px solid red;
+    color: white;
+    position: absolute;
+    left:16%;
+
+}
+.content1_nav_one_text{
+    width: 240px;
+    height: 75px;
+    background-color: #333;
+    background: rgba(0,0,0,0.5);
+    opacity: 0.5;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+.content1_nav_hidden1{
+    width: 648px;
+    height: 450px;
+    background-color: white;
+    opacity: 1;
+    position: absolute;
+    left: 240px;
+    top:0px;
+    z-index: 10;
+    display: none;
+}
+.content1_nav_hidden1_one{
+    width: 648px;
+    height: 70px;
+    color: #ca151d;
+    line-height: 70px;
+    border-bottom: 1px solid gainsboro;
+}
+.content1_nav_hidden1_two{
+    width: 648px;
+    height: 137px;
+    color: #3a3a3a;
+    line-height: 48px;
+    border-bottom: 1px solid gainsboro;
+}
+.content1_nav_hidden1_three{
+    width: 648px;
+    height: 243px;
+}
+.content1_nav_hidden1_three li{
+    width: 152px;
+    height: 243px;
+    background-color: white;
+    opacity: 1;
+    position: relative;
+    top: 0px;
+    left: -30px;
+    float: left;
+}
+.content1_nav_hidden1_three p{
+    color: #a4a4a4;
+    font-size: 13px;
+    position: relative;
+    top:0px;
+    left: 0px;
+    text-align: center;
+}
+.content1_nav_one{
+    width: 200px;
+    height: 75px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+.content1_nav_one:hover .content1_nav_hidden1{
+    display: block;
+}
+
+/*隐藏第二部分*/
+.content1_nav_two_text{
+    width: 240px;
+    height: 75px;
+    background-color: #333;
+    background: rgba(0,0,0,0.5);
+    opacity: 0.5;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+.content1_nav_hidden2{
+    width: 648px;
+    height: 450px;
+    background-color: white;
+    opacity: 1;
+    position: absolute;
+    left: 240px;
+    top:0px;
+    z-index: 10;
+    display: none;
+}
+.content1_nav_hidden2_one{
+    width: 648px;
+    height: 70px;
+    color: #ca151d;
+    line-height: 70px;
+    border-bottom: 1px solid gainsboro;
+}
+.content1_nav_hidden2_two{
+    width: 648px;
+    height: 137px;
+    color: #3a3a3a;
+    line-height: 48px;
+    border-bottom: 1px solid gainsboro;
+}
+.content1_nav_hidden2_three{
+    width: 648px;
+    height: 243px;
+}
+.content1_nav_hidden2_three li{
+    width: 152px;
+    height: 243px;
+    background-color: white;
+    opacity: 1;
+    position: relative;
+    top: 0px;
+    left: -30px;
+    float: left;
+}
+.content1_nav_hidden2_three p{
+    color: #a4a4a4;
+    font-size: 13px;
+    position: relative;
+    top:0px;
+    left: 0px;
+    text-align: center;
+}
+.content1_nav_two{
+    width: 200px;
+    height: 75px;
+    position: absolute;
+    top: 75px;
+    left: 0px;
+}
+.content1_nav_two:hover .content1_nav_hidden2{
+    display: block;
+}
+/*隐藏第三部分*/
+.content1_nav_three_text{
+    width: 240px;
+    height: 75px;
+    background-color: #333;
+    background: rgba(0,0,0,0.5);
+    opacity: 0.5;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+.content1_nav_hidden3{
+    width: 648px;
+    height: 450px;
+    background-color: white;
+    opacity: 1;
+    position: absolute;
+    left: 240px;
+    top:0px;
+    z-index: 10;
+    display: none;
+}
+.content1_nav_hidden3_one{
+    width: 648px;
+    height: 70px;
+    color: #ca151d;
+    line-height: 70px;
+    border-bottom: 1px solid gainsboro;
+}
+.content1_nav_hidden3_two{
+    width: 648px;
+    height: 137px;
+    color: #3a3a3a;
+    line-height: 48px;
+    border-bottom: 1px solid gainsboro;
+}
+.content1_nav_hidden3_three{
+    width: 648px;
+    height: 243px;
+}
+.content1_nav_hidden3_three li{
+    width: 152px;
+    height: 243px;
+    background-color: white;
+    opacity: 1;
+    position: relative;
+    top: 0px;
+    left: -30px;
+    float: left;
+}
+.content1_nav_hidden3_three p{
+    color: #a4a4a4;
+    font-size: 13px;
+    position: relative;
+    top:0px;
+    left: 0px;
+    text-align: center;
+}
+.content1_nav_three{
+    width: 200px;
+    height: 75px;
+    position: absolute;
+    top: 150px;
+    left: 0px;
+}
+.content1_nav_three:hover .content1_nav_hidden3{
+    display: block;
+}
+
+/*隐藏第四部分*/
+.content1_nav_four_text{
+    width: 240px;
+    height: 75px;
+    background-color: #333;
+    background: rgba(0,0,0,0.5);
+    opacity: 0.5;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+.content1_nav_hidden4{
+    width: 648px;
+    height: 450px;
+    background-color: white;
+    opacity: 1;
+    position: absolute;
+    left: 240px;
+    top:0px;
+    z-index: 10;
+    display: none;
+}
+.content1_nav_hidden4_one{
+    width: 648px;
+    height: 70px;
+    color: #ca151d;
+    line-height: 70px;
+    border-bottom: 1px solid gainsboro;
+}
+.content1_nav_hidden4_two{
+    width: 648px;
+    height: 137px;
+    color: #3a3a3a;
+    line-height: 48px;
+    border-bottom: 1px solid gainsboro;
+}
+.content1_nav_hidden4_three{
+    width: 648px;
+    height: 243px;
+}
+.content1_nav_hidden4_three li{
+    width: 152px;
+    height: 243px;
+    background-color: white;
+    opacity: 1;
+    position: relative;
+    top: 0px;
+    left: -30px;
+    float: left;
+}
+.content1_nav_hidden4_three p{
+    color: #a4a4a4;
+    font-size: 13px;
+    position: relative;
+    top:0px;
+    left: 0px;
+    text-align: center;
+}
+.content1_nav_four{
+    width: 200px;
+    height: 75px;
+    position: absolute;
+    top: 225px;
+    left: 0px;
+}
+.content1_nav_four:hover .content1_nav_hidden4{
+    display: block;
+}
+
+/*隐藏第五部分*/
+.content1_nav_five_text{
+    width: 240px;
+    height: 75px;
+    background-color: #333;
+    background: rgba(0,0,0,0.5);
+    opacity: 0.5;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+.content1_nav_hidden5{
+    width: 648px;
+    height: 450px;
+    background-color: white;
+    opacity: 1;
+    position: absolute;
+    left: 240px;
+    top:0px;
+    z-index: 10;
+    display: none;
+}
+.content1_nav_hidden5_one{
+    width: 648px;
+    height: 70px;
+    color: #ca151d;
+    line-height: 70px;
+    border-bottom: 1px solid gainsboro;
+}
+.content1_nav_hidden5_two{
+    width: 648px;
+    height: 137px;
+    color: #3a3a3a;
+    line-height: 48px;
+    border-bottom: 1px solid gainsboro;
+}
+.content1_nav_hidden5_three{
+    width: 648px;
+    height: 243px;
+}
+.content1_nav_hidden5_three li{
+    width: 152px;
+    height: 243px;
+    background-color: white;
+    opacity: 1;
+    position: relative;
+    top: 0px;
+    left: -30px;
+    float: left;
+}
+.content1_nav_hidden5_three p{
+    color: #a4a4a4;
+    font-size: 13px;
+    position: relative;
+    top:0px;
+    left: 0px;
+    text-align: center;
+}
+.content1_nav_five{
+    width: 200px;
+    height: 75px;
+    position: absolute;
+    top: 300px;
+    left: 0px;
+}
+.content1_nav_five:hover .content1_nav_hidden5{
+    display: block;
+}
+/*隐藏第六部分*/
+.content1_nav_six_text{
+    width: 240px;
+    height: 75px;
+    background-color: #333;
+    background: rgba(0,0,0,0.5);
+    opacity: 0.5;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+.content1_nav_hidden6{
+    width: 648px;
+    height: 450px;
+    background-color: white;
+    opacity: 1;
+    position: absolute;
+    left: 240px;
+    top:0px;
+    z-index: 10;
+    display: none;
+}
+.content1_nav_hidden6_one{
+    width: 648px;
+    height: 70px;
+    color: #ca151d;
+    line-height: 70px;
+    border-bottom: 1px solid gainsboro;
+}
+.content1_nav_hidden6_two{
+    width: 648px;
+    height: 137px;
+    color: #3a3a3a;
+    line-height: 48px;
+    border-bottom: 1px solid gainsboro;
+}
+.content1_nav_hidden6_three{
+    width: 648px;
+    height: 243px;
+}
+.content1_nav_hidden6_three li{
+    width: 152px;
+    height: 243px;
+    background-color: white;
+    opacity: 1;
+    position: relative;
+    top: 0px;
+    left: -30px;
+    float: left;
+}
+.content1_nav_hidden6_three p{
+    color: #a4a4a4;
+    font-size: 13px;
+    position: relative;
+    top:0px;
+    left: 0px;
+    text-align: center;
+}
+.content1_nav_six{
+    width: 200px;
+    height: 75px;
+    position: absolute;
+    top: 375px;
+    left: 0px;
+}
+.content1_nav_six:hover .content1_nav_hidden6{
+    display: block;
+}
