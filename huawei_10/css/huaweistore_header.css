@@ -26,6 +26,12 @@
     width: 670px;
     position: relative;
 }
+.header_nav1_text{
+    width: 580px;
+    height: 30px;
+    position: absolute;
+    left: 0px;
+}
 .header_nav a:hover{
     color: #ca151d;
 }
