@@ -1,3 +1,52 @@
-div{
-
+*{
+    margin: 0;
+    padding: 0;
+}
+.bigbox{
+    width: 100%;
+    height: 4920px;
+    border: 1px solid blue;
+    position: absolute;
+}
+.header{
+    width: 100%;
+    height: 73px;
+    border: 1px solid rosybrown;
+    position: fixed;
+}
+.header_left{
+     width: 142px;
+    height: 41px;
+    border: 1px solid gold;
+    position: absolute;
+   left: 60px;
+   top:13px;
+}
+.header_center{
+    width: 713px;
+    height: 41px;
+    position: absolute;
+    left: 316px;
+    top: 13px;
+    border: 1px solid burlywood;
+}
+.header_ul{
+    width: 713px;
+    height: 41px;
+    position: absolute;
+    list-style: none;
+}
+.header_ul  li{
+    float: left;
+    width: 87px;
+    height: 41px;
+    border: 1px solid chocolate;
+}
+.header_right{
+    width: 30px;
+    height: 40px;
+    border: 1px solid burlywood;
+    position: absolute;
+    right: 140px;
+    top: 13px;
 }
