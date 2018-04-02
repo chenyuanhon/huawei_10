@@ -70,8 +70,9 @@
     background-color: #3EBFDD;
     position: relative;
     left: 0px;
+    /*margin: 0 auto;*/
     background: url("../img/cellphone/home-s1-p20-pc-v11.jpg" ) no-repeat;
-    background-size: 1380px 580px;
+    background-size: 1350px 580px;
 }
 .middle11{
     width:518px;
@@ -112,7 +113,7 @@
     margin: 0 auto;
     position: relative;
     background:url("../img/cellphone/homepage_s1_mate10_pc_2248-1026-original (1).jpg") no-repeat;
-    background-size: 1380px 585px;
+    background-size: 1350px 585px;
 }
 .middle21{
     width:590px;
@@ -149,12 +150,13 @@
     width: 100%;
     height: 580px;
     background-color: #F2F2F2;
-    position: relative;
+    /*position: relative;*/
 }
 .middle31{
     width: 1350px;
     height: 580px;
     border: 1px solid navy;
+    position: relative;
 }
 .middle311{
     width: 198px;
@@ -180,39 +182,411 @@
     height: 26px;
     border: 1px solid firebrick;
     top:220px;
-    right: 400px;
+    right: 395px;
     position: absolute;
+    font-size: 19px;
 
+}
+.middle318{
+    width: 170px;
+    height: 50px;
+    position: absolute;
+    border: 2px solid black;
+    bottom: 60px;
+    right: 540px;
+    text-align: center;
+    line-height: 50px;
+}
+.middle319{
+    width: 170px;
+    height: 50px;
+    position: absolute;
+    border: 2px solid black;
+    bottom: 60px;
+    right: 330px;
+    text-align: center;
+    line-height: 50px;
 }
 .middle4{
     width: 100%;
     height: 450px;
-    background-color: #F48682;
+    background-color: white;
+    /*position: relative;*/
+}
+.middle41{
+    width: 1325px;
+    height: 430px;
     position: relative;
-
+    /*border: 1px solid cadetblue;*/
+    top: 10px;
+    right: -10px;
+}
+.middle411{
+    width: 652px;
+    height: 430px;
+    position: absolute;
+    border: 1px solid darkblue;
+    background: url("../img/cellphone/home-s4-p10-original.jpg") no-repeat;
+    background-size: 660px;
+}
+.middle411_top{
+    width: 260px;
+    height: 49px;
+    position: absolute;
+    border: 1px solid olive;
+    top: 30px;
+    right: 180px;
+    font-size: 34px;
+    color: white;
+    text-align: center;
+}
+.middle411_bottom {
+    width: 200px;
+    height: 49px;
+    position: absolute;
+    border: 2px solid white;
+    bottom: 50px;
+    right: 220px;
+    text-align: center;
+    line-height: 50px;
+    color: white;
+}
+.middle412{
+    width: 652px;
+    height: 430px;
+    position: absolute;
+    border: 1px solid darkblue;
+    right: 0px;
+    background: url("../img/cellphone/home-s4-mate10porsche-original.jpg") no-repeat;
+    background-size: 660px;
+}
+.middle412_top{
+    width: 150px;
+    height: 49px;
+    position: absolute;
+    border: 1px solid olive;
+    top: 30px;
+    right: 250px;
+    font-size: 34px;
+    color: white;
+    text-align: center;
+}
+.middle412_bottom {
+    width: 280px;
+    height: 49px;
+    position: absolute;
+    border: 2px solid white;
+    bottom: 55px;
+    right: 175px;
+    text-align: center;
+    line-height: 50px;
+    color: white;
 }
 .middle5{
     width: 100%;
     height: 560px;
-    background-color: beige;
-    position: relative;
+    background-color: white;
+    /*position: relative;*/
+}
+.middle51{
+    width: 1350px;
+    height: 560px;
+    position: absolute;
+}
+.middle511{
+    width:200px;
+    height:460px;
+    /*border: 1px solid cornflowerblue;*/
+    position: absolute;
+    top: 50px;
+    left: 160px;
 
+}
+.middle511_1{
+    width: 140px;
+    height:60px ;
+    margin: 0px 25px;
+    position: absolute;
+    /*border: 1px solid firebrick;*/
+    top: 35px;
+    text-align: center;
+    line-height: 30px;
+    font-size: 15px;
+}
+.middle511_2{
+    width:130px;
+    height:49px;
+    font-size: 14px;
+    position:absolute;
+    /*border: 1px solid peru;*/
+    top:110px;
+    left: 30px;
+    text-align: center;
 
+}
+.middle511_3{
+    width: 200px;
+    height: 160px;
+    position: absolute;
+    /*border: 1px solid gold;*/
+    bottom:110px;
+    background: url("../img/cellphone/home-s3-matebook-x-gold.jpg") no-repeat;
+    background-size: 200px 160px;
+}
+.middle511_4{
+    width: 130px;
+    height: 40px;
+    /*border: 2px solid black;*/
+    position:absolute;
+    bottom: 60px;
+    left: 34px;
+    text-align: center;
+    color: black;
+    text-align: center;
+    line-height: 40px;
+}
+.middle512{
+    width:200px;
+    height:460px;
+    border: 1px solid cornflowerblue;
+    position: absolute;
+    top: 50px;
+    left: 430px;
+}
+.middle512_1{
+    width: 140px;
+    height:60px ;
+    margin: 0px 25px;
+    position: absolute;
+    border: 1px solid firebrick;
+    top: 35px;
+    text-align: center;
+    line-height: 30px;
+}
+.middle512_2 {
+    width: 130px;
+    height: 49px;
+    font-size: 14px;
+    position: absolute;
+    border: 1px solid peru;
+    top: 110px;
+    left: 30px;
+    text-align: center;
+
+}
+.middle512_3{
+    width: 200px;
+    height: 160px;
+    position: absolute;
+    border: 1px solid gold;
+    bottom:110px;
+    background: url("../img/cellphone/home-s3-watch2-pro-gold.png") no-repeat;
+    background-size: 200px 160px;
+
+}
+.middle512_4{
+    width: 130px;
+    height: 40px;
+    border: 2px solid black;
+    position:absolute;
+    bottom: 60px;
+    left: 34px;
+    text-align: center;
+    color: black;
+    text-align: center;
+    line-height: 40px;
+}
+
+.middle513{
+    width:200px;
+    height:460px;
+    border: 1px solid cornflowerblue;
+    position: absolute;
+    top: 50px;
+   right: 460px;
+}
+.middle513_1{
+    width: 140px;
+    height:60px ;
+    margin: 0px 25px;
+    position: absolute;
+    border: 1px solid firebrick;
+    top: 35px;
+    text-align: center;
+    line-height: 30px;
+}
+.middle513_2 {
+    width: 130px;
+    height: 49px;
+    font-size: 14px;
+    position: absolute;
+    border: 1px solid peru;
+    top: 110px;
+    left: 30px;
+    text-align: center;
+
+}
+.middle513_3{
+    width: 200px;
+    height: 160px;
+    position: absolute;
+    border: 1px solid gold;
+    bottom:110px;
+    background: url("../img/cellphone/home-s3-p10-plus-black.png") no-repeat;
+    background-size: 200px 160px;
+}
+.middle513_4{
+    width: 130px;
+    height: 40px;
+    border: 2px solid black;
+    position:absolute;
+    bottom: 60px;
+    left: 34px;
+    text-align: center;
+    color: black;
+    text-align: center;
+    line-height: 40px;
+}
+
+.middle514{
+    width:200px;
+    height:460px;
+    border: 1px solid cornflowerblue;
+    position: absolute;
+    top: 50px;
+    right: 210px;
+}
+.middle514_1{
+    width: 140px;
+    height:60px ;
+    margin: 0px 25px;
+    position: absolute;
+    border: 1px solid firebrick;
+    top: 35px;
+    text-align: center;
+    line-height: 30px;
+}
+.middle514_2 {
+    width: 130px;
+    height: 49px;
+    font-size: 14px;
+    position: absolute;
+    border: 1px solid peru;
+    top: 110px;
+    left: 30px;
+    text-align: center;
+}
+.middle514_3{
+    width: 200px;
+    height: 160px;
+    position: absolute;
+    border: 1px solid gold;
+    bottom:110px;
+    background: url("../img/cellphone/home-s3-band-3yourth-blue.jpg") no-repeat;
+    background-size: 200px 160px;
+
+}
+.middle514_4{
+    width: 130px;
+    height: 40px;
+    border: 2px solid black;
+    position:absolute;
+    bottom: 60px;
+    left: 34px;
+    color: black;
+    text-align: center;
+    line-height: 40px;
 }
 .middle6{
     width: 100%;
     height: 500px;
-    background-color: aquamarine;
+    background-color:#225574;
+    /*position: relative;*/
+    /*background: url("../img/cellphone/Bannerhomepage7.jpg") no-repeat;*/
+    /*background-size: 760px 480px;*/
+}
+.middle61{
+    width: 1350px;
+    height: 480px;
+    border: 1px solid black;
     position: relative;
+    background-color:#225574;
+    background: url("../img/cellphone/Bannerhomepage7.jpg") no-repeat;
+    background-size: 760px 480px;
 
-
+}
+.middle611{
+    width: 150px;
+    height: 49px;
+    position: absolute;
+    border: 1px solid olive;
+    top: 30px;
+    right: 250px;
+    font-size: 34px;
+    color: white;
+    text-align: center;
 }
 .middle7{
     width: 100%;
     height: 562px;
-    background-color: bisque;
+    background-color: white;
     position: relative;
+}
+.middle71{
+    width: 1350px;
+    height: 562px;
+    position: absolute;
+    border:1px solid darkgoldenrod;
+    background: url("../img/cellphone/home-s6-mate10-video-image-original.jpg")no-repeat;
+    background-size: 1350px 560px;
+    bottom: 7px;
+}
+.middle71_1{
+    width: 88px;
+    height: 86px;
+    position: absolute;
+    border: 1px solid firebrick;
+    top: 160px;
+    left: 625px;
+}
+.middle71_2{
+    width: 600px;
+    height:26px;
+    position: absolute;
+    border: 1px solid saddlebrown;
+    top: 330px;
+    left: 370px;
+    font-size: 28px;
+    text-align: center;
+    line-height: 26px;
+    color: white;
 
+}
+.middle71_3{
+    width: 417px;
+    height: 50px;
+    position: absolute;
+    border: 1px solid cornflowerblue;
+    bottom: 80px;
+    left: 260px;
+    background-color:#EF2F34;
+    color: white;
+    line-height: 50px;
+    text-align: center;
+    font-size: 16px;
+}
+.middle71_4{
+    width: 372px;
+    height: 50px;
+    position: absolute;
+    border: 1px solid cornflowerblue;
+    bottom: 80px;
+    right: 270px;
+    background-color:#EF2F34;
+    color: white;
+    text-align: center;
+    line-height: 50px;
+    font-size: 16px;
 
 }
 .middle8{
