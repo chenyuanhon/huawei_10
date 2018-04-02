@@ -1,0 +1,104 @@
+.foot{
+    width: 1365px;
+    height: 479px;
+    background-color: #f0f0f0;
+    position: absolute;
+    bottom:0px;
+}
+.foot1{
+    width: 1330px;
+    height: 140px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+.foot1 li{
+    width: 302px;
+    height: 100px;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    list-style: none;
+    float: left;
+    border-bottom: 1px solid #e3e3e3;
+}
+.foot2{
+    width: 1300px;
+    height: 217px;
+    position: absolute;
+    top:140px;
+    left: 80px;
+}
+.foot2 li{
+    width: 157px;
+    height: 217px;
+    position: relative;
+    top:-18px;
+    left: -40px;
+    list-style: none;
+    float: left;
+}
+.foot2_border{
+    width: 40px;
+    height: 3px;
+    background-color: #3a3a3a;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+.foot2_text1{
+    width: 157px;
+    height: 30px;
+    position: absolute;
+    top:16px;
+    left: 0px;
+    color: #333333;
+}
+.foot2_text2{
+   width: 157px;
+    height: 150px;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+
+}
+.foot2_text2 li{
+    width: 157px;
+    max-height: 30px;
+    position: relative;
+    list-style: none;
+    color:#a4a4a4;
+}
+.foot2_text2 li:hover{
+    color: #ca151d;
+}
+.foot2_text2_border{
+    width: 2px;
+    height: 217px;
+    border-right: 1px solid #e3e3e3;
+    position: absolute;
+    left: 950px;
+    top: 0px;
+}
+.foot2_text2_right{
+    width: 200px;
+    height: 217px;
+    position: absolute;
+    right: 120px;
+    top:0px;
+}
+.foot3_backgroundcolor{
+    width: 1365px;
+    height: 150px;
+    position: absolute;
+    bottom: 0px;
+  background-color: #e6e6e6;
+}
+.foot3{
+    width: 1200px;
+    height: 150px;
+    position: absolute;
+    bottom: -30px;
+    left: 80px;
+
+}
