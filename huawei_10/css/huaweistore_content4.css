@@ -1,0 +1,123 @@
+.content4{
+    width: 1200px;
+    height: 800px;
+    position: absolute;
+    top:2200px;
+    left: 80px;
+}
+
+.content4_title{
+    width: 1200px;
+    height: 60px;
+    position: absolute;
+    left: 0px;
+    top:0px;
+}
+.content4_title_1{
+    width: 70px;
+    height: 60px;
+    position: absolute;
+    left: 0px;
+    top:0px;
+    color: #3a3a3a;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 50px;
+}
+.content4_title_2{
+    width: 1200px;
+    height: 60px;
+    position: absolute;
+    left: 60px;
+    text-align: center;
+
+}
+.content4_title_2 li{
+    width: 142px;
+    height: 60px;
+    position: relative;
+    top:-18px;
+    left: -40px;
+    list-style: none;
+    line-height: 60px;
+    font-size: 15px;
+    color: #a4a4a4;
+    float: left;
+}
+.content4_title_2 li:hover{
+    color: #ca151d;
+}
+.content4_title_3{
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    color: #3a3a3a;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 50px;
+}
+.content4_title_3:hover{
+    color: #e01d20;
+}
+.content4_picture{
+    width: 1300px;
+    height: 750px;
+    position: absolute;
+    top: 60px;
+
+}
+.content4_picture li{
+    width: 291px;
+    height: 346px;
+    background-color: white;
+    margin: 4px;
+    list-style: none;
+    position: relative;
+    left: -42px;
+    top: -18px;
+    float: left;
+}
+
+.content4_picture_1 img{
+    position: absolute;
+    top:20px;
+    left: 70px;
+}
+
+
+.content4_picture_text1{
+    width: 291px;
+    height: 30px;
+    color: #3a3a3a;
+    font-size: 14px;
+    position: absolute;
+    left: 0px;
+    bottom:90px;
+    text-align: center;
+}
+.content4_picture_text2{
+    width: 291px;
+    height: 30px;
+    color: #e3e3e3;
+    font-size: 13px;
+    position: absolute;
+    left: 0px;
+    bottom:60px;
+    text-align: center;
+}
+.content4_picture_text3{
+    width: 291px;
+    height: 30px;
+    color: #ca151d;
+    font-size: 16px;
+    position: absolute;
+    left: 0px;
+    bottom:30px;
+    text-align: center;
+}
+.content4_picture li:hover{
+    box-shadow: 10px 10px 10px #a4a4a4;
+    transform: translateY(-2px);
+}

@@ -1,3 +1,231 @@
-div{
+*{
+    margin: 0;
+    padding: 0;
+}
+.bigbox{
+    width: 100%;
+    height: 5020px;
+    border: 1px solid blue;
+    /*position: absolute;*/
+}
+.header{
+    width: 100%;
+    height: 73px;
+    border: 1px solid rosybrown;
+    position: fixed;
+    background-color: white;
+    z-index: 9999;
+}
+.header_left{
+     width: 142px;
+    height: 41px;
+    border: 1px solid gold;
+    position: absolute;
+   left: 60px;
+   top:13px;
+    background: url("../img/cellphone/huawei_log.png");
+}
+.header_center{
+    width: 750px;
+    height: 41px;
+    position: absolute;
+    left: 305px;
+    top: 16px;
+    border: 1px solid burlywood;
+}
+.header_ul{
+    width: 790px;
+    height: 41px;
+    position: absolute;
+    list-style: none;
+}
+.header_ul  li{
+    float: left;
+    width: 78px;
+    height: 41px;
+    border: 1px solid chocolate;
+    font-size: 13px;
+    text-align: center;
+    line-height: 35px;
+}
+.header_right{
+    width: 30px;
+    height: 40px;
+    border: 1px solid burlywood;
+    position: absolute;
+    right: 120px;
+    top: 13px;
+}
+.middle{
+    width: 100%;
+    height: 4245px;
+    border: 1px solid peru;
+    padding-top: 73px;
+    position: relative;
+}
+.middle1{
+    width: 100%;
+    height: 560px;
+    /*background: url("img/");*/
+    background-color: #3EBFDD;
+    position: relative;
+    left: 0px;
+    background: url("../img/cellphone/home-s1-p20-pc-v11.jpg" ) no-repeat;
+    background-size: 1380px 580px;
+}
+.middle11{
+    width:518px;
+    height: 50px;
+    position: absolute;
+    top: 440px;
+    left: 400px;
+    border: 1px solid white;
+}
+.middle11_left{
+    width: 220px;
+    height: 49px;
+    border: 1px solid white;
+    /*padding-top: 43px;*/
+    position: absolute;
+    right: 300px;
+    /*bottom: 100px;*/
+    font-size: 15px;
+    text-align: center;
+    line-height: 50px;
+
+}
+.middle11_right{
+    width: 270px;
+    height: 49px;
+    border: 1px solid white;
+    position: absolute;
+    right: 0px;
+    /*bottom: 100px;*/
+    font-size: 15px;
+    text-align: center;
+    line-height: 50px;
+}
+.middle2{
+    width: 100%;
+    height: 585px;
+    background-color: #F48682;
+    margin: 0 auto;
+    position: relative;
+    background:url("../img/cellphone/homepage_s1_mate10_pc_2248-1026-original (1).jpg") no-repeat;
+    background-size: 1380px 585px;
+}
+.middle21{
+    width:590px;
+    height: 50px;
+    position: absolute;
+    top: 460px;
+    left: 350px;
+    border: 1px solid black;
+}
+.middle21_left{
+    width: 290px;
+    height: 48px;
+    border: 1px solid red;
+    /*padding-top: 43px;*/
+    position: absolute;
+    left: 0px;
+    /*bottom: 100px;*/
+    font-size: 14px;
+    text-align: center;
+    line-height: 50px
+}
+.middle21_right{
+    width: 290px;
+    height: 48px;
+    border: 1px solid royalblue;
+    position: absolute;
+    right: 0px;
+    /*bottom: 100px;*/
+    font-size: 14px;
+    text-align: center;
+    line-height: 50px;
+}
+.middle3{
+    width: 100%;
+    height: 580px;
+    background-color: #F2F2F2;
+    position: relative;
+}
+.middle31{
+    width: 1350px;
+    height: 580px;
+    border: 1px solid navy;
+}
+.middle311{
+    width: 198px;
+    height: 426px;
+    position: absolute;
+    border: 1px solid red;
+    top: 110px;
+    left: 310px;
+    background: url("../img/cellphone/home-s2-nova3e-blue1.png") no-repeat;
+
+}
+.middle312{
+    width: 260px;
+    height: 69px;
+    position: absolute;
+    border: 1px  solid olive;
+    top: 130px;
+    right: 450px;
+    background: url("../img/cellphone/huaweizi.PNG") no-repeat;
+}
+.middle313{
+    width: 315px;
+    height: 26px;
+    border: 1px solid firebrick;
+    top:220px;
+    right: 400px;
+    position: absolute;
+
+}
+.middle4{
+    width: 100%;
+    height: 450px;
+    background-color: #F48682;
+    position: relative;
+
+}
+.middle5{
+    width: 100%;
+    height: 560px;
+    background-color: beige;
+    position: relative;
+
+
+}
+.middle6{
+    width: 100%;
+    height: 500px;
+    background-color: aquamarine;
+    position: relative;
+
+
+}
+.middle7{
+    width: 100%;
+    height: 562px;
+    background-color: bisque;
+    position: relative;
+
+
+}
+.middle8{
+    width: 100%;
+    height: 580px;
+    background-color: chartreuse;
+    position: relative;
+
+
+}
+.footer{
+    width: 100%;
+    height: 700px;
+    background-color: blue;
 
 }
