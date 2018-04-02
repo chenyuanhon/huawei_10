@@ -1,0 +1,207 @@
+/************************************************µ×²¿****************************************************************/
+.footerup{
+    width: 100%;
+    height: 650px;
+    background-color: #F0F0F0;
+    /*border: 1px solid red;*/
+
+}
+.footerup_content{
+    width: 1090px;
+    height: 650px;
+    background-color: #F0F0F0;
+    box-sizing: border-box;
+    /*border: 1px solid red;*/
+    margin: 0 auto;
+    position: relative;
+}
+.footerup_textbox{
+    width: 927px;
+    height: 253px;
+    /*border: 1px solid red;*/
+    position: absolute;
+    left: 10px;
+    top: 55px;
+}
+.footerup_first_box1{
+    width: 110px;
+    height: 235px;
+    /*border: 1px solid red;*/
+    float: left;
+}
+.footerup_first_box1 a,.footerup_first_box2 a,.footerup_first_box3 a,.footerup_first_box4 a{
+    text-decoration: none;
+    list-style: none;
+    color: #222222;
+}
+.footerup_first_box1 a:hover,.footerup_first_box2 a:hover,.footerup_first_box3 a:hover,.footerup_first_box4 a:hover{
+    text-decoration: underline;
+}
+.footerup_first_box1 h2,.footerup_first_box2 h2,.footerup_first_box3 h2,.footerup_first_box4 h2{
+    font-size: 20px;
+}
+
+.footerup_first_box1 h2 i{
+    padding-left:5px;
+}
+.footerup_first_box2 h2 i,.footerup_first_box3 h2 i{
+    padding-left:5px;
+}
+.footerup_first_box1 .p_top,.footerup_first_box2 .p_top,.footerup_first_box3 .p_top,.footerup_first_box4 .p_top{
+    padding-top: 15px;
+}
+
+.footerup_first_box1 p,.footerup_first_box2 p{
+    font-size: 14px;
+    line-height: 28px;
+}
+.footerup_first_box3 p{
+    font-size: 14px;
+    line-height: 15px;
+}
+.footerup_first_box4 p{
+    font-size: 14px;
+    line-height: 15px;
+}
+.footerup_first_box2{
+    width: 135px;
+    height: 177px;
+    /*border: 1px solid red;*/
+    float: left;
+    margin-left: 120px;
+}
+.footerup_first_box5{
+    width: 40px;
+    height: 103px;
+    /*border: 1px solid red;*/
+    float: left;
+    margin-left: 108px;
+}
+.footerup_first_box5 ul{
+    width: 40px;
+    height: 103px;
+    list-style: none;
+}
+.footerup_first_box5 ul li{
+    height: 36px;
+    line-height: 36px;
+    text-align: center;
+}
+.footerup_first_box5 ul li a{
+    color: black;
+}
+.footerup_first_box3{
+    width: 102px;
+    height: 150px;
+    /*border: 1px solid red;*/
+    float: left;
+    margin-left: 100px;
+
+}
+.footerup_first_box4{
+    width: 119px;
+    height: 178px;
+    /*border: 1px solid red;*/
+    float: left;
+    margin-left: 60px;
+}
+.footerup_textbox2{
+    width: 792px;
+    height: 112px;
+    /*border: 1px solid red;*/
+    position: absolute;
+    left: 10px;
+    top: 318px;
+}
+.footerup_textbox3{
+    width: 792px;
+    height: 112px;
+    /*border: 1px solid red;*/
+    position: absolute;
+    left: 10px;
+    top: 470px;
+}
+.footerup_textbox2 a, .footerup_textbox3 a{
+    text-decoration: none;
+    list-style: none;
+    color: #222222;
+}
+.footerup_textbox2 a:hover,.footerup_textbox3 a:hover{
+    text-decoration: underline;
+}
+.footerup_textbox2 h2, .footerup_textbox3 h2{
+    font-size: 20px;
+}
+.footerup_textbox2 ul,.footerup_textbox3 ul{
+    width: 792px;
+    height: 112px;
+    list-style: none;
+}
+.footerup_textbox2 ul li,.footerup_textbox3 ul li{
+    width: 185px;
+    height: 50px;
+    line-height: 50px;
+    float: left;
+    font-size: 14px;
+}
+
+
+/********************************************/
+.footerdown{
+    width: 100%;
+    height: 40px;
+    background-color: #222222;
+    /*border: 1px solid red;*/
+}
+.footerdown_content{
+    width: 1110px;
+    height: 40px;
+    background-color: #222222;
+    box-sizing: border-box;
+    padding-left: 10px;
+    /*border: 1px solid red;*/
+    margin: 0 auto;
+}
+.footerdown_content span{
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    font-size: 14px;
+    /*border: 1px solid red;*/
+    color: white;
+    float: left;
+}
+.footerdown_content span a{
+    color: white;
+    text-decoration: none;
+    list-style: none;
+}
+.footerdown_content span a:hover, .footerdown_content .footerdown_ul ul li a:hover{
+    text-decoration: underline;
+}
+.footerdown_content .footerdown_ul{
+    height: 40px;
+    width: 244px;
+    /*border: 1px solid red;*/
+    float: right;
+}
+.footerdown_content .footerdown_ul ul{
+    height: 40px;
+    width: 244px;
+    list-style: none;
+}
+.footerdown_content .footerdown_ul ul li{
+    height: 40px;
+    font-size: 12px;
+    line-height: 40px;
+    width: 80px;
+    text-align: center;
+    float: left;
+}
+.footerdown_content .footerdown_ul ul li a{
+    width: 80px;
+    height: 30px;
+    /*border-right:1px solid white ;*/
+    color: white;
+    text-decoration: none;
+}
