@@ -87,6 +87,12 @@
     left: 180px;
     top: 0px;
 }
+.header_nav2_subnav img{
+    width: 200px;
+    height: 125px;
+    position: absolute;
+    right: 0px;
+}
 .header_nav2_subnav_hidden{
     width: 350px;
     height: 200px;
