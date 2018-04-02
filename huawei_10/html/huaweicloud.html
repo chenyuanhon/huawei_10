@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+<!--头部导航栏开始-->
 <head lang="en">
     <meta charset="UTF-8">
     <title></title>
@@ -10,8 +11,18 @@
 
 <div class="head-bg">
     <div class="head">
-        <span class="head-menu">三</span>
-        <div class="logo"></div>
+        <span class="head-menu">
+            <ul class="topbar-nav">
+                <li>产品</li>
+                <li>解决方案</li>
+                <li>EI企业智能</li>
+                <li>云市场</li>
+                <li>云市区</li>
+                <li>合作伙伴</li>
+            </ul>
+        </span>
+
+        <a href=""><div class="logo"></div></a>
         <div class="head-nav">
             <ul >
                 <li>最新活动</li>
@@ -25,21 +36,346 @@
         </div>
         <div class="head-navright">
             <ul >
-                <li>O</li>
-                <li>中文(简体)</li>
-                <li>控制台</li>
-                <li>备案</li>
+                <li id="registration">注册</li>
                 <li>登录</li>
-                <li>注册</li>
+                <li>备案</li>
+                <li>控制台</li>
+                <li>中文(简体)</li>
+                <li>O</li>
             </ul>
         </div>
     </div>
 
 </div>
-<div class="content-bg">
-    <div class="">
+        <!-- 头部区域结束-->
+<!--主内容区开始-->
+
+<div class="content">
+    <!-- 第一板块-->
+    <div class="events-bg">
+        <div class="events-pic"></div>
+        <div class="banner-main" >
+            <div class="banner-main-text">
+                <p>全新移动会议云服务发布</p>
+                <p>方寸之间，沟通无界</p>
+                <span class="banner-main-text-button">立即下载</span>
+
+            </div>
+        </div>
+        <div class="events">
+            <div class="events-box">
+                <div class="events-box-item">
+                   <a> <img src="../img/tupian/events-icon6.png">
+                    <p>免费试用专区</p></a>
+                    <p>热门云产品0元体验</p>
+
+                </div>
+                <div class="events-box-item">
+                    <a><img src="../img/tupian/events-icon2.png">
+                    <p>新用户专区</p></a>
+                    <p>ECS限时特惠26元/月起</p></div>
+                <div class="events-box-item">
+                    <a> <img src="../img/tupian/events-icon1.png">
+                    <p>热销专区</p></a>
+                    <p>超全配置 7折特惠</p>
+                </div>
+                <div class="events-box-item">
+                    <a><img src="../img/tupian/events-icon9.png">
+                    <p>市场活动</p></a>
+                    <p>品牌活动|技术沙龙|城市巡展</p>
+                </div>
+
+            </div>
+        </div>
+        <div class="events-bar">
+        <div class="events-bar-wrapper">
+            <div class="events-bar-wrapper-new"></div>
+            <div class="events-bar-wrapper-item">Windows内核提权漏洞（CVE-2018-1038）安全预警</div>
+            <div class="events-bar-wrapper-item">华为云云数据迁移服务于2018年4月9日00:00（北京时间）转商通知</div>
+            <div class="events-bar-wrapper-item">Drupal内核远程代码执行漏洞（CVE-2018-7600）安全预警</div>
+            <div class="events-bar-wrapper-more">更多></div>
+        </div>
+        </div>
+        <div class="sidebar-control">
+            <ul>
+                <li>O</li>
+                <li>O</li>
+                <li>O</li>
+                <li>O</li>
+                <li>O</li>
+            </ul>
+        </div>
+</div>
+    <div class="product-bg">
+        <div class="product">
+            <div class="product-head">
+                <p>为您提供丰富多样的云计算产品</p>
+                <p>可信|开放|全球服务</p>
+            </div>
+            <div class="product-body-pc">
+                <ul class="product-nav-tabs">
+                    <li><a><img src="../img/tupian/icon-calc.svg"><p>计算</p></a></li>
+                    <li><a><img src="../img/tupian/icon-disk.svg"><p>存储</p></a></li>
+                    <li><a><img src="../img/tupian/icon-web.svg"><p>网络</p></a></li>
+                    <li><a><img src="../img/tupian/icon-safe.svg"><p>安全</p></a></li>
+                    <li><a><img src="../img/tupian/icon-datalib.svg"><p>数据库</p></a></li>
+                </ul>
+                <div class="product-tab-content-bg">
+                    <div class="product-tab-content">
+                    <ul class="product-list">
+                        <li class="product-item">
+                            <a>
+                            <h2>弹性云服务器</h2>
+                            <p>
+                                一种可随时自助获取、可弹性伸缩的云服务器，帮助用户打造可靠、安全、灵活、高效的应用环境
+                            </p>
+                            </a>
+                        </li>
+                        <li class="product-item"><a>
+                            <h2> FPGA加速云服务器</h2>
+                            <p>
+                                提供FPGA开发和使用的工具及环境，让用户方便地开发FPGA加速器和部署基于FPGA加速的业务
+                            </p>
+                        </a></li>
+                        <li class="product-item"><a>
+                            <h2> GPU加速云服务器</h2>
+                            <p>
+                                提供优秀的浮点计算能力，从容应对高实时、高并发的海量计算场景。P系列适合于深度学习，科学计算，CAE等；G系列适合于3D动画渲染，CAD等
+                            </p>
+                        </a></li>
+                        <li class="product-item"><a>
+                            <h2>云服务器备份</h2>
+                            <p>
+                                可为云服务器创建备份，利用备份数据恢复云服务器业务数据，最大限度保障用户数据的安全性和正确性，确保业务安全
+                            </p>
+                        </a></li>
+                        <li class="product-item"><a>
+                            <h2>云容器引擎</h2>
+                            <p>
+                                基于Docker容器技术开发，秒级扩容，为企业应用提供快速打包/部署、自动化运维等基于容器的全生命周期管理能力
+                            </p>
+                        </a></li>
+                        <li class="product-item"><a>
+                            <h2>裸金属服务器</h2>
+                            <p>
+                                为用户提供专属的物理服务器，提供卓越的计算性能，满足核心应用对高性能及稳定性的需求
+                            </p>
+                        </a></li>
+                    </ul>
+                    </div>
+                </div>
+                <ul class="product-nav-tabs">
+                    <li><a><img src="../img/tupian/icon-service.svg"><p>应用服务</p></a></li>
+                    <li><a><img src="../img/tupian/icon-analysis.svg"><p>EI企业智能</p></a></li>
+                    <li><a><img src="../img/tupian/icon-develop.svg"><p>软件开发服务</p></a></li>
+                    <li><a><img src="../img/tupian/icon-manage.svg"><p>管理与部署</p></a></li>
+                    <li><a><img src="../img/tupian/icon-new.svg"><p>新产品上线</p></a></li>
+                </ul>
+            </div>
+            <div class="product-bottom">
+                更多云计算产品>
+            </div>
+        </div>
 
     </div>
+    <div class="solution">
+        <div class="solution-head">
+            <h2>
+                为您定制行业解决方案，轻松跨入云时代
+            </h2>
+            <p>
+                满足广泛的业务需求
+            </p>
+        </div>
+        <div class="solution-wrapper">
+            <div class=" solution-body">
+                <div class="solution-item solution-item-business">
+                    <div class="solution-inner">
+                        <i class="solution-icon-business"></i>
+                        <h2>
+                            电商行业企业自建解决方案
+                        </h2>
+                        <p>
+                            提供端到端解决方案，支持PC端、移动端、微信商城等多种部署模式，构建企业自有电商生态
+                        </p>
+                        <div class="button-red" >
+                            了解详情
+                        </div>
+
+
+                    </div>
+                </div>
+
+                <div class="solution-item solution-item-game">
+                    <div class="solution-inner">
+                        <i class="solution-icon-game"></i>
+                        <h2>
+                            游戏行业解决方案
+                        </h2>
+                        <p>
+                            打造专业、快速、稳定、安全的游戏开发、部署、运营支撑平台，并以完善的售后服务与生态支撑助力游戏的成功
+                        </p>
+                        <div class="button-red" >
+                            了解详情
+                        </div>
+                    </div>
+                </div>
+
+                <div class="solution-item solution-item-webmobile">
+                    <div class="solution-inner">
+                        <i class="solution-icon-webmobile"></i>
+                        <h2>
+                            移动互联解决方案
+                        </h2>
+                        <p>
+                            依托华为基础云服务、数据安全及生态支撑等能力，打造支持海量并发、安全可靠、高性能的移动互联解决方案
+                        </p>
+                        <div class="button-red" >
+                            了解详情
+                        </div>
+                    </div>
+                </div>
+
+                <div class="solution-item solution-item-calc">
+                    <div class="solution-inner">
+                        <i class="solution-icon-calc"></i>
+                        <h2>
+                            高性能计算解决方案
+                        </h2>
+                        <p>
+                            提供用于解决计算密集型、海量数据处理等业务的计算服务，帮助企业快速构建高性能计算的应用
+                        </p>
+                        <div class="button-red" >
+                            了解详情
+                        </div>
+                    </div>
+                </div>
+
+                <div class="solution-item solution-item-sap">
+                    <div class="solution-inner">
+                        <i class="solution-icon-sap"></i>
+                        <h2>
+                            SAP解决方案
+                        </h2>
+                        <p>
+                            面向企业市场推出的SAP HANA云化解决方案和服务，提供自动化管理和SAP全生命周期管理
+                        </p>
+                        <div class="button-red" >
+                            了解详情
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="solution-more-wrapper"></div>
+        </div>
+    </div>
 </div>
+<div class="register-area"></div>
+    <div class="footer-service">
+        <div class="footer-wrapper footer-service-wrapper">
+            <ul>
+            <li><a><i class="footer-icon-support"></i>
+                <h2>7*24</h2>
+                <p>多渠道服务支持</p> </a>
+            </li>
+
+                    <li><a><i class="footer-icon-unsub"></i>
+                        <h2>5天</h2>
+                        <p>内无理由退订</p> </a>
+                    </li>
+
+                        <li><a><i class="footer-icon-record"></i>
+                            <h2>0元</h2>
+                            <p>免费备案</p> </a>
+                        </li>
+
+                            <li><a><i class="footer-icon-pay"></i>
+                                <h2>赔偿4</h2>
+                                <p>100倍故障赔偿</p> </a>
+                            </li>
+
+                                <li><a><i class="footer-icon-feedback"></i>
+                                    <h2>意见</h2>
+                                    <p>反馈与投诉建议</p> </a>
+                                </li>
+
+                <li><a><i class="footer-icon-vip"></i>
+                    <h2>VIP</h2>
+                    <p>专享服务</p> </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div id="footer">
+        <div class="footer-nav">
+            <div class="footer-wrapper">
+                <div class="footer-nav-menus">
+                    <dl>
+                        <dt>服务于支持</dt>
+                        <dd><a>解决方案</a></dd>
+                        <dd><a>云市场</a></dd>
+                        <dd><a>开发者中心</a></dd>
+                        <dd><a>客户案例</a></dd>
+                        <dd><a>意见反馈</a></dd>
+                        <dd><a>服务咨询</a></dd>
+                        <dd><a>支持与服务计划</a></dd>
+                        <dd><a>帮助中心</a></dd>
+                    </dl>
+                    <dl>
+                        <dt>账号与支付</dt>
+                        <dd><a>充值/付款</a></dd>
+                        <dd><a>线下汇款/电汇</a></dd>
+                        <dd><a>合同申请</a></dd>
+                        <dd><a>索取发票</a></dd>
+                    </dl>
+                    <dl>
+                        <dt>快速链接</dt>
+                        <dd><a>免费注册</a></dd>
+                        <dd><a>管理控制台</a></dd>
+                        <dd><a>备案中心</a></dd>
+                        <dd><a>订单管理</a></dd>
+                        <dd><a>用户中心</a></dd>
+                        <dd><a>价格计算器</a></dd>
+                        <dd><a>华为云图标库</a></dd>
+                        <dd><a>华为云Axure组件库</a></dd>
+                    </dl>
+                    <dl>
+                        <dt>其他链接</dt>
+                        <dd><a>华为官网</a></dd>
+                        <dd><a>华为企业业务</a></dd>
+                        <dd><a>华为开发者联盟</a></dd>
+                        <dd><a>华为商城</a></dd>
+                        <dd><a>网站地图</a></dd>
+                        <dd><a>关于我们</a></dd>
+                        <dd><a>联系我们</a></dd>
+                    </dl>
+                    <dl>
+                        <dt>联系我们</dt>
+                        <dd><a>售前邮箱</a></dd>
+                        <dd><a>售后邮箱</a></dd>
+                        <dd><a>备案服务邮箱</a></dd>
+                        <dd><a>云市场咨询邮箱</a></dd>
+                    </dl>
+                </div>
+                <div class="footer-nav-submenus">
+                    <dl class="footer-nav-about">
+                        <dt>关注华为云</dt>
+                        <dd><a>华为云微信</a></dd>
+                        <dd><a>华为云微博</a></dd>
+                        <dd><a>华为云APP</a></dd>
+                    </dl>
+                    <ul class="footer-nav-others">
+                        <li>4000-955-988</li>
+                        <li>华为云安全</li>
+                        <li>可信合规</li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
 </body>
 </html>
