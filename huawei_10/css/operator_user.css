@@ -1,5 +1,5 @@
 /*去掉浏览器的默认margin、padding;*/
-*{
+* {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
@@ -8,6 +8,7 @@
 /*整个html的容器*/
 .bigbox{
     width: 100%;
+    /*width: 1349px;*/
     height: 2990.03px;
 
 }
@@ -15,6 +16,7 @@
 /*html的头部*/
 .header{
     width: 100%;
+    /*width: 1349px;*/
     height: 87px;
 
     padding-top: 6px;
@@ -23,7 +25,7 @@
 }
 .header .nav{
     margin: 0 auto;
-    width: 100%;
+    width: 1319px;
     height: 74px;
 
     padding-left: 15px;
@@ -32,44 +34,91 @@
 .header .nav .topnav{
     margin: 0 auto;
     width: 1319px;
+
     height: 28px;
-    background-color: silver;
+
 
 
 }
-.header .nav .topnav ul{
+.header .nav .topnav div{
+    width: 1319px;
+    height: 28px;
+    margin: 0 auto;
+    /*float: right;*/
+}
+.header .nav .topnav div ul{
     width: 211.656px;
     height: 28px;
-    background-color: greenyellow;
+
     float: right;
     list-style: none;
 
 }
-.header .nav .topnav ul li{
+.header .nav .topnav div ul li{
     height: 28px;
     line-height: 28px;
     float: left;
+    font-size: 15px;
 
 }
-.header .nav .topnav ul .fir_li{
 
-
-   /*2018.3.30完成到此*/
+.header .nav .topnav div ul li :hover{
+    color: blue;
 }
-.header .nav .topnav ul .sec_li{
+.header .nav .topnav div ul .fir_li{
+
+
+   /*  2018.3.30完成到此  */
+}
+.header .nav .topnav div ul .sec_li{
     margin-left: 20px;
 }
-.header .nav .topnav ul .thi_li{
+.header .nav .topnav div ul .thi_li{
     margin-left: 20px;
 }
-.header .nav .topnav ul li a{
+.header .nav .topnav div ul li a{
     text-decoration: none;
+    color: black;
 }
 .header .nav .bottomnav{
     margin: 0 auto;
     width: 1319px;
+
     height: 40px;
-    background-color: aquamarine;
+}
+.header .nav .bottomnav img{
+    width: 167px;
+    height: 40px;
+    float: left;
+}
+.header .nav .bottomnav ul{
+    float: left;
+    width: 500px;
+    height: 40px;
+    list-style: none;
+    margin-left: 20px;
+}
+.header .nav .bottomnav ul li{
+    float: left;
+    height: 40px;
+    margin-right: 25px;
+    text-align: center;
+    line-height: 40px;
+    font-size: 17px;
+}
+.header .nav .bottomnav i{
+    float: right;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 25px;
+    margin-right: 10px;
+    color: gray;
+    font-weight: bold;
+}
+.header .nav .bottomnav div :hover{
+    color: red;
 }
 /*html的内容区*/
 .content{
@@ -77,7 +126,88 @@
     height: 2544.03px;
     background-color: antiquewhite;
 }
+.content .topbar{
+    /*width: 1349px;*/
+    width: 100%;
+    height: 508px;
+    margin: 0 auto;
+    background-color: rgb(35,82,120);
+}
+.content .topbar .barcontainer{
+    width: 1349px;
+    /*width: 100%;*/
+    height: 508px;
+    margin: 0 auto;
+    background: url("../img/operator_user/barcontainer_bg.jpg") center;
+    background-repeat: no-repeat;
 
+
+}
+.content .topbar .barcontainer div{
+    width: 1170px;
+    height: 508px;
+    margin: 0 auto;
+    /*border: 1px solid red;*/
+    padding-top: 200px;
+    position: relative;
+}
+.content .topbar .barcontainer img{
+    width: 492px;
+    height: 196px;
+    position: absolute;
+    top: 124px;
+    left: 100px;
+}
+.content .topbar .barcontainer div p{
+    width: 1170px;
+    height: 90px;
+    margin: 128px auto;
+    position: relative;
+}
+.content .topbar .barcontainer div p a{
+
+    background-color: rgb(208,53,53);
+
+    text-align: center;
+    position: absolute;
+    color: white;
+    font-size: 18px;
+    padding: 8px 18px 8px 18px;
+    /*line-height: 40px;*/
+    top: 25px;
+    left: 100px;
+    border-radius: 5px;
+    text-decoration: none;
+
+}
+.content .topbar .barcontainer div p :hover{
+    text-decoration: underline;
+}
+.content .column{
+    width: 100%;
+    height: 388px;
+    padding: 0px 15px 20px 15px;
+    background-color: #63a35c;
+}
+.content .column h1{
+    width: 1170px;
+    margin: 0 auto;
+    text-align: center;
+    /*font-size: 25px;*/
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-weight: lighter;
+}
+.content .column .group{
+    width: 1170px;
+    height: 270px;
+    margin: 30px auto;
+
+    background-color: #df5000;
+}
+content .column .group .left{
+}
 /*html的尾部*/
 .footer{
     width: 100%;
