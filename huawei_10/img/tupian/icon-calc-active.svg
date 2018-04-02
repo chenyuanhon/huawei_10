@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="60px" height="60px" viewBox="0 0 60 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>Icon/60/_高性能计算云 红</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="symbol" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Icon/60/_高性能计算云-红">
+            <g id="Icon/模板" stroke="#E41F2B" opacity="0">
+                <g id="Group-2-Copy">
+                    <g id="Group-100" opacity="0.15" stroke-width="0.5" stroke-linecap="square">
+                        <path d="M0,0 L60,60 M60,0 L0,60" id="Diagonal"></path>
+                        <path d="M3.1171875,0 L3.1171875,60 M18.6328125,0 L18.6328125,60 M30,0 L30,60 M41.3671875,0 L41.3671875,60 M56.8671875,0 L56.8671875,60" id="Vertical"></path>
+                        <path d="M3.125,0 L3.125,60 M18.640625,0 L18.640625,60 M30.0078125,0 L30.0078125,60 M41.375,0 L41.375,60 M56.875,0 L56.875,60" id="Vertical" transform="translate(30.000000, 30.000000) rotate(-270.000000) translate(-30.000000, -30.000000) "></path>
+                    </g>
+                    <g id="Group" transform="translate(3.000000, 3.000000)" stroke-width="0.5" opacity="0.300000012">
+                        <rect id="Rectangle-46-Copy-2" transform="translate(27.000000, 27.000000) rotate(-270.000000) translate(-27.000000, -27.000000) " x="7.25" y="0.25" width="39.5" height="53.5" rx="7.11111111"></rect>
+                        <rect id="Rectangle-46-Copy-2" transform="translate(27.000000, 27.000000) rotate(-270.000000) translate(-27.000000, -27.000000) " x="3.75" y="3.75" width="46.5" height="46.5" rx="7.11111111"></rect>
+                        <circle id="Oval-27" cx="27" cy="27" r="26.75"></circle>
+                        <circle id="Oval-27" cx="27" cy="27" r="11.25"></circle>
+                        <rect id="Rectangle-46-Copy" x="7.25" y="0.25" width="39.5" height="53.5" rx="7.11111111"></rect>
+                    </g>
+                </g>
+            </g>
+            <g id="ICON" transform="translate(5.000000, 12.000000)">
+                <circle id="Oval-13" stroke="#E41F2B" cx="11" cy="8" r="2.5"></circle>
+                <circle id="Oval-13-Copy" stroke="#E41F2B" cx="11" cy="27" r="2.5"></circle>
+                <path d="M34,10 L48,10" id="Line-Copy-2" stroke="#252B3A" stroke-linecap="square"></path>
+                <path d="M34,30 L48,30" id="Line-Copy-3" stroke="#252B3A" stroke-linecap="square"></path>
+                <path d="M32,32 L32,-16 L21,-16 C19.3431458,-16 18,-14.6568542 18,-13 L18,29 C18,30.6568542 19.3431458,32 21,32 L32,32 Z" id="Rectangle-9-Copy-2" stroke="#252B3A" stroke-width="2" transform="translate(25.000000, 8.000000) scale(-1, 1) rotate(-270.000000) translate(-25.000000, -8.000000) "></path>
+                <path d="M18,4 L18,52 L32,52 L32,7 C32,5.34314575 30.6568542,4 29,4 L18,4 Z" id="Rectangle-9-Copy-3" stroke="#252B3A" stroke-width="2" transform="translate(25.000000, 28.000000) scale(-1, 1) rotate(-270.000000) translate(-25.000000, -28.000000) "></path>
+            </g>
+        </g>
+    </g>
+</svg>
