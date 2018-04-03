@@ -8,19 +8,27 @@
     background-color: white;
 }
 .header_banner{
-    width: 1365px;
-    height: 65px;
+    width: 1360px;
+    height: 60px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
 }
-.header_banner img{
-   width: 1365px;
-    height: 65px;
+
+.header_banner_picture{
+    width: 1960px;
+    height: 90px;
+    position: absolute;
+    left: -300px;
+    top:0px;
 }
+
 .header_nav{
     width: 1300px;
     height: 130px;
     margin: 0px auto;
-    position: relative;
-    top: 0px;
+    position: absolute;
+    top: 90px;
     color: #a4a4a4;
     font-size: 13px;
     line-height: 30px;
