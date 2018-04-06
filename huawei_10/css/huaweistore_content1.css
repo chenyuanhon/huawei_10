@@ -3,8 +3,13 @@
     height: 750px;
     margin: 0px auto;
     position: relative;
-    background: url("../img/images/logo_BackGround.jpg") no-repeat;
-    background-size: 1365px 450px;
+}
+.content1_background{
+    width: 1920px;
+    height: 450px;
+    position: absolute;
+    top: 0px;
+    left:-300px;
 }
 li{
     list-style: none;

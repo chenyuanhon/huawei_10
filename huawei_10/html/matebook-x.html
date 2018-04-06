@@ -1,0 +1,1093 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <!--<link href="../icon/xb_ttf/iconfont.css" rel="stylesheet">-->
+    <link href="../icon/xb_tff2/iconfont.css" rel="stylesheet">
+    <style type="text/css">
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .bigbox{
+            width: 100%;
+            height: 11820px;
+            /*border: 1px solid black;*/
+        }
+        .header{
+            width: 1036px;
+            height: 65px;
+            /*border: 1px solid red;*/
+            margin: 15px auto 0 auto;
+        }
+        .header img{
+            float: left;
+           margin-top: 15px;
+        }
+        .header ul{
+            width: 695px;
+            height: 65px;
+            /*border: 1px solid red;*/
+            margin-left: 60px;
+            list-style: none;
+            float: left;
+        }
+        .header ul li{
+            width: 70px;
+            height: 63px;
+            line-height: 63px;
+            font-size: 15px;
+            float: left;
+            padding-right: 10px;
+        }
+        .header ul .header_li_i{
+            width: 90px;
+            padding-left: 7px;
+        }
+        .header ul .header_li_i i{
+            display: block;
+            float: right;
+            padding-left: 5px;
+            font-size: 20px;
+        }
+        .header ul li a{
+            color: #000000;
+            list-style: none;
+            text-decoration: none;
+            transition: .1s linear;
+        }
+        .header ul li a:hover{
+            color: #DB1530;
+            border-bottom: 2px solid #DB1530 ;
+        }
+        .header ul  .header_libig{
+            width: 100px;
+        }
+        .header ul  .header_libig a{
+            color: #DB1530;
+        }
+        .header ul  .header_lismall{
+            width: 40px;
+        }
+        .header ul .header_liborder{
+            border-right: 1px solid #808080;
+        }
+        .header_right{
+            width: 35px;
+            height: 25px;
+            float: right;
+            /*border: 1px  solid red;*/
+            cursor: pointer;
+            margin-top: 20px;
+        }
+        .header_right i{
+            font-size: 24px;
+            color: #0B0707;
+        }
+        .content{
+            width: 1920px;
+            height: 11740px;
+            /*border: 1px  solid blue;*/
+            margin: 0 auto;
+            position: relative;
+        }
+        .content1{
+            width: 1920px;
+            height: 867px;
+            background: url("../img/xb_images/matebook_x/content1.jpg") no-repeat;
+        }
+        .content1 .content1_text{
+            width: 482px;
+            height: 128px;
+            /*border: 1px  solid red;*/
+            background: url("../img/xb_images/matebook_x/content1_text.png") no-repeat ;
+            position: absolute;
+            left: 100px;
+            top: 450px;
+        }
+        .content2{
+            width: 1920px;
+            height: 979px;
+            background: url("../img/xb_images/matebook_x/content2.jpg") no-repeat;
+            position: relative;
+        }
+        .content2 .content2_text{
+            width: 380px;
+            height: 235px;
+            /*border: 1px solid red;*/
+            position: absolute;
+            left: 240px;
+            top: 300px;
+        }
+        .content2 .content2_text h2{
+            color: #000000;
+            height: 45px ;
+            width: 350px;
+            font-size: 40px;
+            font-weight: 500;
+            padding-bottom: 25px;
+        }
+        .content2 .content2_text p{
+            width: 346px;
+            height: 140px;
+            line-height: 26px;
+            font-size: 15px;
+            color: #2D2A2A;
+        }
+        .content3{
+            width: 1920px;
+            height: 800px;
+            /*border: 1px solid red;*/
+        }
+        .content3 .content3_up{
+            width: 623px;
+            height: 161px;
+            /*border: 1px solid red;*/
+            margin: 50px auto 0 auto;
+        }
+        .content3_up h2{
+            width: 623px;
+            height: 44px;
+            line-height: 44px;
+            font-size: 40px;
+            text-align: center;
+            color: black;
+            font-weight: 500;
+            padding-bottom: 30px;
+        }
+        .content3_up p{
+            width: 623px;
+            height: 28px;
+            line-height: 25px;
+            font-size: 15px;
+            text-align: center;
+            color: #2D2A2A;
+
+        }
+        .content3 .content3_right{
+            width: 950px;
+            height: 530px;
+            /*border: 1px solid red;*/
+            background: url("../img/xb_images/matebook_x/content3left.png") no-repeat  -900px 80px;
+            float: right;
+        }
+        .content3 .content3_left{
+            width: 950px;
+            height: 530px;
+            /*border: 1px solid red;*/
+            background: url("../img/xb_images/matebook_x/content3left.png") no-repeat  -900px 80px;
+            transform:rotateY(180deg);
+            float: left;
+        }
+        .content3 .content3_rightdown{
+            width: 526px;
+            height: 23px;
+            /*border: 1px solid red;*/
+            margin-top: 3px;
+            float: right;
+            margin-right: 20px;
+        }
+        .content3 .content3_rightdown span{
+            font-size: 14px;
+            width: 526px;
+            height: 23px;
+            line-height: 20px;
+            text-align: center;
+
+        }
+        .content4{
+               width: 1920px;
+               height: 867px;
+               background: url("../img/xb_images/matebook_x/content4bg.png") no-repeat;
+                /*background-color: #F1F1F1;*/
+             position: relative;
+           }
+        .content4 .content4_text{
+            width: 530px;
+            height: 257px;
+            /*border: 1px solid red;*/
+            position: absolute;
+            left: 160px;
+            top: 160px;
+        }
+        .content4 .content4_text h2{
+            width: 530px;
+            height: 44px;
+            line-height: 44px;
+            font-size: 40px;
+            text-align: left;
+            color: black;
+            font-weight: 500;
+            padding-bottom: 28px;
+        }
+        .content4 .content4_text p{
+            width: 530px;
+            height: 32px;
+            line-height: 32px;
+            font-size: 16px;
+            text-align: left;
+            color: #2D2A2A;
+        }
+        .content4 .content4_pic{
+            width: 1191px;
+            height: 646px;
+            background: url("../img/xb_images/matebook_x/content4.png") no-repeat;
+            /*background-size: 730px 468px;*/
+            position: absolute;
+            left: 805px;
+            top: 102px;
+        }
+        .content4 .content4_rightdowm span{
+                width: 430px;
+                height: 25px;
+                line-height: 25px;
+                font-size: 14px;
+                /*border: 1px  solid red;*/
+                position: absolute;
+                left: 1505px;
+                /*top: 782px;*/
+             bottom: 30px;
+        }
+
+        .content5{
+                  width: 1920px;
+                  height: 867px;
+                  background: url("../img/xb_images/matebook_x/content5.jpg") no-repeat;
+            position: relative;
+              }
+        .content5 .content5_text{
+            width: 430px;
+            height: 257px;
+            /*border: 1px solid red;*/
+            position: absolute;
+            right: 300px;
+            top: 260px;
+        }
+        .content5 .content5_text h2{
+            width: 430px;
+            height: 44px;
+            line-height: 44px;
+            font-size: 42px;
+            text-align: left;
+            color: black;
+            font-weight: 500;
+            padding-bottom: 32px;
+        }
+        .content5 .content5_text p{
+            width: 430px;
+            height: 32px;
+            line-height: 32px;
+            font-size: 14px;
+            text-align: left;
+            color: #2D2A2A;
+        }
+        .content6{
+            width: 1920px;
+            height: 867px;
+            background: url("../img/xb_images/matebook_x/content6.jpg") no-repeat 0 488px #F6F6F6;
+            /*border: 1px solid red;*/
+            position: relative;
+        }
+        .content6 .content6_text{
+            width: 637px;
+            height: 233px;
+            /*border: 1px solid red;*/
+            box-sizing: border-box;
+            padding-top: 142px;
+            margin:0 auto;
+        }
+        .content6 .content6_text h2{
+            width: 637px;
+            height: 44px;
+            line-height: 44px;
+            font-size: 42px;
+            text-align: center;
+            color: black;
+            font-weight: 500;
+            padding-bottom: 37px;
+        }
+        .content6 .content6_text p{
+            width: 637px;
+            height: 35px;
+            line-height: 35px;
+            font-size: 14px;
+            text-align: center;
+            color: #2D2A2A;
+        }
+        .content7{
+            width: 1920px;
+            height: 867px;
+            background: url("../img/xb_images/matebook_x/content7.png") no-repeat;
+            /*border: 1px solid red;*/
+            position: relative;
+        }
+        .content7 .content7_text{
+            width: 437px;
+            height: 233px;
+            /*border: 1px solid red;*/
+            box-sizing: border-box;
+            padding-top: 142px;
+            padding-left: 240px;
+            margin:0 auto;
+        }
+        .content7 .content7_text h2{
+            width: 437px;
+            height: 45px;
+            line-height: 45px;
+            font-size: 45px;
+            text-align: left;
+            color: black;
+            font-weight: 500;
+            padding-bottom: 37px;
+        }
+        .content7 .content7_text p{
+            width: 437px;
+            height: 35px;
+            line-height: 35px;
+            font-size: 14px;
+            text-align: left;
+            color: #2D2A2A;
+        }
+        .content8{
+            width: 1920px;
+            height: 867px;
+            background: url("../img/xb_images/matebook_x/content8.png") no-repeat 0 500px #F9F9F9;
+            /*border: 1px solid red;*/
+            position: relative;
+        }
+        .content8 .content8_text{
+            width: 727px;
+            height: 233px;
+            /*border: 1px solid red;*/
+            box-sizing: border-box;
+            padding-top: 142px;
+            padding-left: 0;
+            margin:0 auto;
+        }
+        .content8 .content8_text h2{
+            width: 727px;
+            height: 45px;
+            line-height: 45px;
+            font-size: 45px;
+            text-align: center;
+            color: black;
+            font-weight: 500;
+            padding-bottom: 37px;
+        }
+        .content8 .content8_text p{
+            width: 727px;
+            height: 35px;
+            line-height: 35px;
+            font-size: 14px;
+            text-align: center;
+            color: #2D2A2A;
+        }
+        .content9{
+            width: 1920px;
+            height: 867px;
+            background: url("../img/xb_images/matebook_x/content9.png") no-repeat 760px 150px;
+            /*border: 1px solid red;*/
+            position: relative;
+        }
+        .content9 .content9_text{
+            width: 437px;
+            height: 233px;
+            /*border: 1px solid red;*/
+            box-sizing: border-box;
+            position: absolute;
+            left: 180px;
+            top: 222px;
+        }
+        .content9 .content9_text h2{
+            width: 437px;
+            height: 45px;
+            line-height: 45px;
+            font-size: 45px;
+            text-align: left;
+            color: black;
+            font-weight: 500;
+            padding-bottom: 25px;
+        }
+        .content9 .content9_text p{
+            width: 437px;
+            height: 30px;
+            line-height: 30px;
+            font-size: 14px;
+            text-align: left;
+            color: #2D2A2A;
+        }
+        .content9 .content9_rightdowm{
+            width: 700px;
+            height: 25px;
+            line-height: 25px;
+            font-size: 14px;
+            /*border: 1px  solid red;*/
+            position: absolute;
+            left: 1005px;
+            /*top: 782px;*/
+            bottom: 40px;
+        }
+        .content10{
+            width: 1920px;
+            height: 800px;
+            /*border: 1px solid red;*/
+        }
+        .content10 .content10_up{
+            width: 823px;
+            height: 161px;
+            /*border: 1px solid red;*/
+            margin: 50px auto 0 auto;
+        }
+        .content10_up h2{
+            width: 823px;
+            height: 44px;
+            line-height: 44px;
+            font-size: 40px;
+            text-align: center;
+            color: black;
+            font-weight: 500;
+            padding-bottom: 30px;
+        }
+        .content10_up p{
+            width: 823px;
+            height: 28px;
+            line-height: 25px;
+            font-size: 15px;
+            text-align: center;
+            color: #2D2A2A;
+
+        }
+        .content10 .content10_right{
+            width: 960px;
+            height: 530px;
+            /*border: 1px solid red;*/
+            background: url("../img/xb_images/matebook_x/content10.jpg") no-repeat  -10px 80px;
+            float: right;
+        }
+        .content10 .content10_left{
+            width: 960px;
+            height: 530px;
+            /*border: 1px solid red;*/
+            background: url("../img/xb_images/matebook_x/content10.jpg") no-repeat -10px 80px;
+            transform:rotateY(180deg);
+            float: left;
+        }
+            .content11{
+                width: 1920px;
+                height: 477px;
+                /*border: 1px solid red;*/
+            }
+        .content11 .content11_right{
+            width: 950px;
+            height: 477px;
+            /*border: 1px solid red;*/
+            /*margin-top: ;*/
+            background: url("../img/xb_images/matebook_x/content11right.jpg") no-repeat  -10px 80px;
+            float: right;
+        }
+        .content11 .content11_left{
+            width: 950px;
+            height: 477px;
+            /*border: 1px solid red;*/
+            background: url("../img/xb_images/matebook_x/content11left.jpg") no-repeat 0 80px;
+            /*transform:rotateY(180deg);*/
+            float: left;
+        }
+        .content12{
+            width: 1920px;
+            height: 867px;
+            background: url("../img/xb_images/matebook_x/content12.png") no-repeat -100px 150px;
+            /*border: 1px solid red;*/
+            position: relative;
+        }
+        .content12 .content12_text{
+            width: 437px;
+            height: 233px;
+            /*border: 1px solid red;*/
+            position: absolute;
+            right: 360px;
+            top: 200px;
+        }
+        .content12 .content12_text h2{
+            width: 437px;
+            height: 45px;
+            line-height: 45px;
+            font-size: 45px;
+            text-align: left;
+            color: black;
+            font-weight: 500;
+            padding-bottom: 37px;
+        }
+        .content12 .content12_text p{
+            width: 437px;
+            height: 30px;
+            line-height: 30px;
+            font-size: 14px;
+            text-align: left;
+            color: #2D2A2A;
+        }
+        .content13{
+            width: 1920px;
+            height: 867px;
+            background: url("../img/xb_images/matebook_x/content13bg.png") #F3F3F3 ;
+            /*border: 1px solid red;*/
+            position: relative;
+        }
+        .content13pic{
+            width: 1920px;
+            height: 867px;
+            background: url("../img/xb_images/matebook_x/content13.jpg") no-repeat 760px 50px #F3F3F3 ;
+            /*border: 1px solid red;*/
+            /*position: relative;*/
+        }
+        .content13 .content13_text{
+            width: 437px;
+            height: 233px;
+            /*border: 1px solid red;*/
+            box-sizing: border-box;
+            position: absolute;
+            left: 180px;
+            top: 222px;
+        }
+        .content13 .content13_text h2{
+            width: 437px;
+            height: 45px;
+            line-height: 45px;
+            font-size: 45px;
+            text-align: left;
+            color: black;
+            font-weight: 500;
+            padding-bottom: 25px;
+        }
+        .content13 .content13_text p{
+            width: 437px;
+            height: 30px;
+            line-height: 30px;
+            font-size: 14px;
+            text-align: left;
+            color: #2D2A2A;
+        }
+        .content13 .content13_rightdowm{
+            width: 600px;
+            height: 105px;
+            line-height: 25px;
+            font-size: 14px;
+            /*border: 1px  solid red;*/
+            position: absolute;
+            left: 1105px;
+            /*top: 782px;*/
+            bottom: 30px;
+        }
+        .content14{
+            width: 1920px;
+            height: 207px;
+            /*border: 1px solid red;*/
+            position: relative;
+        }
+        .content14 .content14_text{
+            width: 1488px;
+            height: 112px;
+            /*border: 1px solid red;*/
+            box-sizing: border-box;
+           margin: 50px auto 0 auto;
+        }
+        .content14 .content14_text p{
+            width: 1488px;
+            height: 25px;
+            line-height: 25px;
+            font-size: 10px;
+            text-align: center;
+            color: #737373;
+        }
+        .footer{
+            width: 1249px;
+            height: 635px;
+            /*border: 1px solid red;*/
+            margin: 0 auto;
+            position: relative;
+        }
+        .footer .footerup{
+            width: 1225px;
+            height: 67px;
+            border-bottom: 1px solid #808080;
+            box-sizing: border-box;
+
+        }
+        .footer .footerup .footerup_left{
+            width: 392px;
+            height: 56px;
+            /*border: 1px solid red;*/
+            box-sizing: border-box;
+            margin-top: 5px;
+            float: left;
+        }
+        .footer .footerup .footerup_left p{
+            text-align: center;
+            /*margin-top: 5px;*/
+            line-height: 20px;
+            font-size: 12px;
+            color: #000;
+            font-weight: 400;
+        }
+        .footer .footerup .footerup_left p:first-child{
+            margin-top: 13px;
+        }
+        .footer .footerup .footerup_left p span{
+            font-size: 14px;
+            color: #000000;
+            font-weight: bold;
+        }
+        .footer .footerup .footerup_left p i{
+            font-size: 22px;
+            color: #000000;
+        }
+
+        .footer .footerup .footerup_center{
+            width: 87px;
+            height: 40px;
+            border-right: 1px solid #2E2E2E;
+            float: left;
+        }
+        .footer .footerup .footerup_right{
+            width: 650px;
+            height: 56px;
+            /*border: 1px solid red;*/
+            float: right;
+        }
+        .footer .footerup .footerup_right ul{
+            width: 650px;
+            height: 56px;
+            list-style: none;
+        }
+        .footer .footerup .footerup_right ul li{
+            width: 150px;
+            height: 56px;
+            line-height: 56px;
+            cursor: pointer;
+            float: left;
+        }
+        .footer .footerup .footerup_right ul li i{
+            font-size: 25px;
+            padding-right: 13px;
+        }
+        .footer .footerup .footerup_right ul li a{
+            text-decoration: none;
+            list-style: none;
+            color: #000000;
+            font-weight: 600;
+        }
+        .footer .footerup .footerup_right ul li:hover a{
+            color: #C9282C;
+        }
+
+
+
+        .footer .footercontent{
+            width: 1084px;
+            height: 400px;
+            /*border: 1px solid red;*/
+
+        }
+        .footer .footercontent1{
+            width: 125px;
+            height: 290px;
+            /*border: 1px solid red;*/
+            margin-top: 20px;
+            float: left;
+        }
+        .footer .footercontent1 ul{
+            width: 125px;
+            height: 290px;
+            list-style: none;
+        }
+        .footer .footercontent2 ul{
+            width: 125px;
+            height: 362px;
+            list-style: none;
+        }
+        .footer .footercontent1 ul li,.footer .footercontent2 ul li,.footer .footercontent3 ul li,.footer .footercontent4 ul li,.footer .footercontent5 ul li{
+            width: 125px;
+            height: 20px;
+            line-height: 20px;
+            padding-top: 23px;
+        }
+        .footer .footercontent1 ul li:first-child, .footer .footercontent2 ul li:first-child, .footer .footercontent3 ul li:first-child, .footer .footercontent4 ul li:first-child, .footer .footercontent5 ul li:first-child{
+            padding-top: 2px;
+            font-weight: 600;
+            font-size: 21px;
+        }
+        .footer .footercontent1 ul li a,.footer .footercontent2 ul li a,.footer .footercontent3 ul li a,.footer .footercontent4 ul li a,.footer .footercontent5 ul li a{
+            color: black;
+            list-style: none;
+            text-decoration: none;
+        }
+        .footer .footercontent1 ul li a:hover,.footer .footercontent2 ul li a:hover,.footer .footercontent3 ul li a:hover,.footer .footercontent4 ul li a:hover,.footer .footercontent5 ul li a:hover{
+            color: #C9282C;
+        }
+
+
+        .footer .footercontent2{
+            width: 125px;
+            height: 372px;
+            /*border: 1px solid red;*/
+            margin-top: 20px;
+            margin-left: 90px;
+            float: left;
+        }
+        .footer .footercontent3{
+            width: 125px;
+            height: 135px;
+            /*border: 1px solid red;*/
+            margin-top: 20px;
+            margin-left: 90px;
+            float: left;
+        }
+        .footer .footercontent3 ul, .footer .footercontent4 ul{
+            width: 125px;
+            height: 135px;
+            list-style: none;
+        }
+        .footer .footercontent4{
+            width: 125px;
+            height: 135px;
+            /*border: 1px solid red;*/
+            margin-top: 20px;
+            margin-left: 90px;
+            float: left;
+        }
+        .footer .footercontent5{
+            width: 125px;
+            height: 335px;
+            /*border: 1px solid red;*/
+            margin-top: 20px;
+            margin-left: 90px;
+            float: left;
+        }
+        .footer .footercontent5 ul{
+            width: 125px;
+            height: 335px;
+            list-style: none;
+        }
+        .footer .footerdown{
+            width: 1224px;
+            height: 91px;
+            border-top: 1px solid #000000;
+            margin-top: 50px;
+        }
+        .footer .footerdown .footerdown_left{
+            width: 386px;
+            height: 77px;
+            /*border: 1px solid red;*/
+            margin-top: 10px;
+            float: left;
+        }
+        .footer .footerdown .footerdown_left p {
+            font-size: 20px;
+        }
+        .footer .footerdown .footerdown_left p a{
+            list-style: none;
+            color: black;
+        }
+        .footer .footerdown .footerdown_left ul{
+            width: 386px;
+            height: 40px;
+            list-style: none;
+        }
+        .footer .footerdown .footerdown_left ul li{
+            float: left;
+            font-size: 12px;
+            padding-right: 10px;
+            /*border: 1px solid red;*/
+            margin-top: 23px;
+        }
+        .footer .footerdown .footerdown_left ul li a{
+            list-style: none;
+            text-decoration: none;
+            color: black;
+        }
+        .footer .footerdown .footerdown_left ul li a:hover{
+            color: #C9282C;
+        }
+
+        .footer .footerdown .footerdown_right{
+            width: 646px;
+            height: 97px;
+            /*border: 1px solid red;*/
+            margin-top: 10px;
+            float: right;
+        }
+        .footer .footerdown .footerdown_right ul{
+            width: 646px;
+            height: 47px;
+            list-style: none;
+        }
+        .footer .footerdown .footerdown_right ul li{
+            width: 190px;
+            height: 35px;
+            /*border: 1px solid red;*/
+            line-height: 35px;
+            margin-left: 23px;
+            text-align: center;
+            float: left;
+        }
+        .footer .footerdown .footerdown_right ul li i{
+            padding-left: 12px;
+            font-size: 24px;
+            cursor: pointer;
+        }
+        .footer .footerdown .footerdown_right p{
+            display: block;
+            font-size: 14px;
+            float: right;
+        }
+
+    </style>
+</head>
+<!--参考网页：http://consumer.huawei.com/cn/tablets/matebook-x/-->
+<body>
+<div class="bigbox">
+<div class="header">
+    <img src="../img/xb_images/huawei_logo.png" />
+            <ul>
+                <li class="header_lismall"><a href="">手机</a></li>
+                <li class="header_libig"><a href="">笔记本&平板</a></li>
+                <li class="header_lismall"><a href="">穿戴</a></li>
+                <li><a href="">智能家居</a></li>
+                <li><a href="">更多产品</a></li>
+                <li><a href="">软件应用</a></li>
+                <li class="header_lismall"><a href="">服务</a></li>
+                <li class="header_liborder"><a href="">华为商城</a></li>
+                <li class="header_li_i"><a href="">华为官网</a><i class="iconfont icon-fenxiangfasong"></i></li>
+            </ul>
+            <div class="header_right"><i class="iconfont icon-sousuo"></i></div>
+
+</div>
+    <div class="content">
+        <div class="content1">
+                <div class="content1_text">
+                </div>
+        </div>
+        <div class="content2">
+            <div class="content2_text">
+                    <h2>流光溢彩 寓繁于简</h2>
+                    <p>HUAWEI MateBook X继承华为高品质设计基因，采用金属一体化机身，弧面侧边搭配亮面机身，质感十足。更有流光金、深空灰与玫瑰金三款高档配色可供选择，无论在商务会议场合，或是偶得休憩时刻，HUAWEI MateBook X与你都将成为引人注目的焦点。
+                    </p>
+                </div>
+        </div>
+        <div class="content3">
+            <div class="content3_up">
+                <h2>轻薄小美 精妙干练</h2>
+              <p>HUAWEI MateBook X薄至12.5mm，轻至 1.05kg*，13英寸的机身尺寸甚至</p>
+                <p>小于一张普通A4纸，携带时的轻薄便捷，为工作时更添一份轻松从容。</p>
+
+            </div>
+            <div class="content3_left"></div>
+            <div class="content3_right">
+            </div>
+            <div class="content3_rightdown">
+                <span>*机身尺寸和重量等数据来自华为实验室，实际产品可能存在差异</span>
+            </div>
+        </div>
+
+        <div class="content4">
+            <div class="content4_text">
+                <h2>鲜活视界 纤毫毕现</h2>
+              <p>HUAWEI MateBook X拥有业界高水准的4.4mm微边框设计，屏占比高达88%，广阔视野，让工作更加专注投入，让影音娱乐更加沉浸逼真。13英寸镜面显示屏，2K高清显示（分辨率2160*1440），178度广视角*，高达100%（sRGB标准）色域与1000:1的对比度，细节栩栩如生，画面生动逼真。此外，贴心的护眼模式，可过滤部分有害蓝光，有效缓解视觉疲劳。</p>
+
+
+            </div>
+            <div class="content4_pic"></div>
+            <div class="content4_rightdowm">
+                <span>*设计理论值，实测中可能存在合理误差</span>
+            </div>
+        </div>
+        <div class="content5">
+            <div class="content5_text">
+                <h2>一指开启 可靠安"芯"</h2>
+               <p> HUAWEI MateBook X采用指纹识别与电源键合一的设计，按压电源键启动的同时，自动识别指纹进行身份验证，直接进入工作界面，省去输入密码的繁琐。更有独立安全芯片充分保证指纹信息安全，便捷更安全。</p>
+            </div>
+        </div>
+
+        <div class="content6">
+            <div class="content6_text">
+                <h2>办公享受 指尖感受</h2>
+                <p>HUAWEI MateBook X采用全尺寸键盘，让指尖的敲打清晰有力而又不失舒适。</p>
+                <p>键盘支持自动背光调节和防泼溅，明暗光线轻松应对，多种场合使用更安心。</p>
+            </div>
+        </div>
+        <div class="content7">
+            <div class="content7_text">
+                <h2>性能强劲 游刃有余</h2>
+                <p>HUAWEI MateBook X采用第七代智能英特尔® 酷睿™ i7/i5处理器，最高可选8GB运行内存，最高可选512GB高速PCIe固态硬盘，满足多方面使用需求，使你面对繁杂工作时，更加得心应手。</p>
+            </div>
+        </div>
+
+        <div class="content8">
+            <div class="content8_text">
+                <h2>冷静高效 安静低调</h2>
+                <p>HUAWEI MateBook X内置空间智冷技术，突破性采用PCM相变散热材质，将航天领域科技引入传统</p>
+                <p>笔记本行业，高效散热无需风扇，有效避免风扇噪音和积尘困扰，带你进入舒适、安静世界。</p>
+            </div>
+        </div>
+
+        <div class="content9">
+            <div class="content9_text">
+                <h2>智能续航 经久不衰</h2>
+                <p> HUAWEI MateBook X秉承华为在智能终端积累的省电管理技术与经验，有效优化续航性能，持久续航，支持不间断高清视频播放10小时*。此外，更采用Wi-Fi双天线设计，结合Mate signal+技术，有效提升了网络速度和信号覆盖范围，让你享受高速上网体验。
+                </p>
+            </div>
+            <div class="content9_rightdowm">
+                <span>*数据来自华为实验室，在50%亮度、自动背光开启状态下，本地播放1080P视频，续航可达10小时</span>
+            </div>
+        </div>
+
+
+        <div class="content10">
+            <div class="content10_up">
+                <h2>八面玲珑 精巧如一</h2>
+                <p>HUAWEI MateBook X机身配备两个USB-C接口，可连接全系标配新一代扩展坞HUAWEI MateDock 2，</p>
+                <p>在更多场景中使用，省去繁琐配件，只为便捷实用。</p>
+            </div>
+            <div class="content10_left"></div>
+            <div class="content10_right">
+            </div>
+        </div>
+
+        <div class="content11">
+            <div class="content11_left"></div>
+            <div class="content11_right">
+            </div>
+
+        </div>
+
+
+
+        <div class="content12">
+            <div class="content12_text">
+                <h2>视听盛宴 身临其境</h2>
+                <p>   作为办公、生活的得力助手，HUAWEI MateBook X在
+                    影音娱乐系统上依然表现非常出色：搭载具有华为和杜比
+                    联合设计的扬声器的杜比全景声音响系统，软硬件相结合，
+                    还原声音细节，营造三维全方位的震撼灵动音效，带给你身临其境的影音感受。</p>
+            </div>
+        </div>
+
+        <div class="content13">
+            <div class="content13pic"></div>
+            <div class="content13_text">
+                <h2>正版预装 想你所想</h2>
+                <p> HUAWEI MateBook X预装正版Windows10操作系统及Office软件*，让你上手即可开始工作，不必再为安装办公软件而苦恼。
+                </p>
+            </div>
+            <div class="content13_rightdowm">
+                <span>*内置价值749RMB正版office家庭和学生版。正版、安全、稳定的office软件Word、Excel、PowerPoint和OneNote，将供您终身免费使用。如需激活office，请在激活系统后6个月内完成office激活，逾期将无法激活使用。</span>
+            </div>
+        </div>
+
+
+        <div class="content14">
+            <div class="content14_text">
+                <p>以上页面中的产品图片及屏幕内容仅作示意，实物产品效果（包括但不限于外观、颜色、尺寸）和屏幕显示内容（包括但不限于背景、UI、配图）可能略有差异，请以实物为准。</p>
+                <p> 以上页面中的数据为理论值，均来自华为内部实验室，于特定测试环境下所得（请见各项具体说明），实际使用中可能因产品个体差异、软件版本、使用条件和环境因素不同略有不同，请以实际使用的情况为准。</p>
+                <p> 由于产品批次和生产供应因素实时变化，为尽可能提供准确的产品信息、规格参数、产品特性，华为可能实时调整和修订以上页面中的文字表述、图片效果等内容，以求与实际产品性能、规格、指数、零部件等信息相匹配。</p>
+                <p> 如遇确有进行上述修改和调整必要的情形，恕不专门通知。</p>
+            </div>
+        </div>
+
+
+        <div class="footer">
+                <div class="footerup">
+                    <div class="footerup_left">
+                        <p><span><i class="iconfont icon-dianhuazhengzaibohao"></i> 服务热线</span>&nbsp;&nbsp;400-830-8300 / 800-830-8300（座机）</p>
+                        <p>普通话 7*24小时</p>
+                    </div>
+                    <div class="footerup_center"></div>
+                    <div class="footerup_right">
+                        <ul>
+                            <li><i class="iconfont icon-gongzhonghao"></i><a href="">微信客服</a></li>
+                            <li><i class="iconfont icon-zaixiankefu"></i><a href="">在线客服</a></li>
+                            <li><i class="iconfont icon-dianpu"></i><a href="">零售店查询</a></li>
+                            <li><i class="iconfont icon-icon--"></i><a href="">服务中心查询</a></li>
+                        </ul>
+
+                    </div>
+
+                </div>
+                <div class="footercontent">
+                    <div class="footercontent1">
+                        <ul>
+                            <li>购买产品</li>
+                            <li><a href="">智能手机</a></li>
+                            <li><a href="">笔记本&平板</a></li>
+                            <li><a href="">智能穿戴</a></li>
+                            <li><a href="">智能家居</a></li>
+                            <li><a href="">移动宽带</a></li>
+                            <li><a href="">配件</a></li>
+                        </ul>
+                    </div>
+                    <div class="footercontent2">
+                     <ul> <li>服务与支持</li>
+                        <li><a href="">保修政策</a></li>
+                        <li><a href="">预约服务</a></li>
+                        <li><a href="">寄修服务</a></li>
+                        <li><a href="">保修状态查询</a></li>
+                        <li><a href="">维修配件价格</a></li>
+                        <li><a href="">维修进度查询</a></li>
+                        <li><a href="">环保回收</a></li>
+                        <li><a href="">联系我们</a></li>
+                        </ul>
+                    </div>
+                    <div class="footercontent3">
+                      <ul>  <li>应用与下载</li>
+                        <li><a href="">预置应用公示</a></li>
+                        <li><a href="">店面元素下载</a></li>
+                        </ul>
+                    </div>
+                    <div class="footercontent4">
+                        <ul>  <li>新闻中心</li>
+                            <li><a href="">华为新闻</a></li>
+                            <li><a href="">华为视频</a></li>
+                        </ul>
+                    </div>
+                    <div class="footercontent5">
+                        <ul> <li>关于我们</li>
+                            <li><a href="">关于我们</a></li>
+                            <li><a href="">华为商城</a></li>
+                            <li><a href="">企业业务</a></li>
+                            <li><a href="">运营商网络</a></li>
+                            <li><a href="">华为海洋</a></li>
+                            <li><a href="">华为集团</a></li>
+                            <li><a href="">加入华为</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footerdown">
+                    <div class="footerdown_left">
+                        <p><a href="">CN</a></p>
+                            <ul>
+                                <li><a href="">网站地图</a></li>
+                                <li><a href="">使用条款</a></li>
+                                <li><a href="">隐私政策</a></li>
+                                <li><a href="">关于cookies</a></li>
+                                <li><a href="">法律信息</a></li>
+                            </ul>
+                    </div>
+                    <div class="footerdown_right">
+                        <ul>
+                            <li>访问花粉俱乐部 <i class="iconfont icon-huawei"></i>  </li>
+                            <li> 关注我们<i class="iconfont icon-gongzhonghao"></i><i class="iconfont icon-xinlangweibo"></i></li>
+                            <li>关注花粉俱乐部<i class="iconfont icon-gongzhonghao"></i><i class="iconfont icon-xinlangweibo"></i></li>
+                        </ul>
+                            <p>版权所有 © 华为技术有限公司 1998-2017。保留一切权利。 粤A2-20044005号</p>
+                    </div>
+                </div>
+        </div>
+
+
+    </div>
+
+
+</div>
+</body>
+</html>
