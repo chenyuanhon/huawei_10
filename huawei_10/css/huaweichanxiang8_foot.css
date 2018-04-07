@@ -1,0 +1,38 @@
+.foot1{
+    width: 200px;
+    height: 60px;
+    position: absolute;
+    bottom: 50px;
+    left: 300px;
+    font-size: 28px;
+    font-weight: 700;
+    box-shadow: 10px 10px 6px black;
+    border-radius: 20%;
+    line-height: 60px;
+    text-align: center;
+
+}
+.foot1 a{
+text-decoration: none;
+    color: #222222;
+}
+.foot2{
+    width: 200px;
+    height: 60px;
+    position: absolute;
+    bottom: 50px;
+    left: 600px;
+    font-size: 28px;
+    font-weight: 700;
+    color: #222222;
+    box-shadow: 10px 10px 6px black;
+    border-radius: 20%;
+    line-height: 60px;
+    text-align: center;
+}
+.foot1 a:hover{
+    color: #DB1530;
+}
+.foot2 a:hover{
+    color: #DB1530;
+}
