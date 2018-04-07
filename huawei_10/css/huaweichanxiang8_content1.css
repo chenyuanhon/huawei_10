@@ -17,10 +17,10 @@
     height: 296px;
     position: absolute;
     top: 0px;
-    left: -310px;
+    left: -360px;
 }
 .content1_text{
-    width: 100px;
+    width: 130px;
     height: 40px;
     position: absolute;
     top: 300px;
@@ -28,7 +28,9 @@
     color: #020202;
     font-weight: 600;
     font-size: 20px;
-
+}
+.content1_text a:hover{
+    color: #DB1530;
 }
 .content1_two{
     width: 1200px;
@@ -42,5 +44,5 @@
     height: 173px;
     position: absolute;
     top: 0px;
-    left: -310px;
+    left: -360px;
 }
