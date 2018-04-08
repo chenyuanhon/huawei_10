@@ -36,9 +36,6 @@
     width: 1319px;
 
     height: 28px;
-
-
-
 }
 .header .nav .topnav div{
     width: 1319px;
@@ -61,7 +58,6 @@
     font-size: 15px;
 
 }
-
 .header .nav .topnav div ul li :hover{
     color: blue;
 }
@@ -105,6 +101,96 @@
     text-align: center;
     line-height: 40px;
     font-size: 17px;
+
+}
+.header .nav .bottomnav ul li:hover{
+    color: red;
+    border-bottom: 2px solid red;
+}
+.one:hover .dis_block{
+    display: block;
+}
+/**************dis_block*******************/
+.header .dis_block{
+    width: 100%;
+    height: 417px;
+    background-color: rgb(241,241,241);
+    position: absolute;
+    z-index: 999;
+    top: 87px;
+    left: 0px;
+    display: none;
+}
+.header .dis_block .hot{
+    width: 1200px;
+    height: 417px;
+    margin: 0 auto;
+    /*background-color: #0086b3;*/
+    padding: 0px 15px 0px 30px;
+}
+.header .dis_block .hot .left{
+    width: 300px;
+    height: 417px;
+    /*background-color: #63a35c;*/
+    float: left;
+}
+.header .dis_block .hot .left ul{
+    width: 300px;
+    height: 417px;
+    list-style: none;
+}
+.header .dis_block .hot .left ul li{
+    width: 300px;
+    height: 49px;
+    /*background-color: #795da3;*/
+    border-bottom: 1px solid rgb(204,204,204);
+    text-align: left;
+}
+.header .dis_block .hot .left ul li p{
+    font-size: 19px;
+    line-height: 49px;
+    color: rgb(51,51,51);
+}
+.header .dis_block .hot .left ul li p:hover{
+    color: rgb(0,102,255);
+}
+.header .dis_block .hot .middle{
+    width: 370px;
+    height: 402px;
+    /*background-color: #a71d5d;*/
+    float: left;
+    margin-left: 90px;
+    margin-top: 15px;
+}
+.header .dis_block .hot .middle img{
+    width: 295px;
+    height: 150px;
+}
+.header .dis_block .hot .middle p{
+    color: rgb(51,51,51);
+    margin-top: 10px;
+    line-height: 30px;
+    font-size: 15.5px;
+    float: left;
+}
+.header .dis_block .hot .right{
+    width: 370px;
+    height: 402px;
+    /*background-color: blue;*/
+    float: left;
+    margin-left: 22px;
+    margin-top: 15px;
+}
+.header .dis_block .hot .right img{
+    width: 295px;
+    height: 150px;
+}
+.header .dis_block .hot .right p{
+    color: rgb(51,51,51);
+    margin-top: 10px;
+    line-height: 30px;
+    font-size: 15.5px;
+    float: left;
 }
 .header .nav .bottomnav i{
     float: right;
@@ -117,7 +203,7 @@
     color: gray;
     font-weight: bold;
 }
-.header .nav .bottomnav div :hover{
+.header .nav .bottomnav .search_icon :hover{
     color: red;
 }
 /*htmlµÄÄÚÈÝÇø*/
@@ -330,7 +416,6 @@
 }
 .content .column .group .middle .middle_interface .p_btn a{
     background-color: rgb(208,53,53);
-
     text-align: center;
     position: absolute;
     color: white;
@@ -449,6 +534,7 @@
     width: 1200px;
     height: 745px;
     margin: 15px auto;
+    overflow: hidden;
 }
 /**************************roundcon_div1********************************/
 .content .container .group .roundcon .roundcon_div1{
@@ -480,7 +566,60 @@
     color: white;
 
 }
-/*********************************roundcon_div2***********************************/
+.content .container .group .roundcon .roundcon_div1 .extend{
+    width: 370px;
+    height: 490px;
+    /*height: 100%;*/
+    background: url("../img/operator_user/pic_extend1.jpg");
+    position: absolute;
+    background-color: #55a532;
+    padding: 0px 25px 0px 25px;
+    z-index: 999;
+    top: -490px;
+    left: 15px;
+    overflow: visible;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+}
+.content .container .group .roundcon .roundcon_div1 .extend div{
+    width: 80px;
+    height: 80px;
+    margin-top: 22px;
+}
+.content .container .group .roundcon .roundcon_div1 .extend div img{
+    width: 80px;
+    height: 80px;
+
+}
+.content .container .group .roundcon .roundcon_div1 .extend .p1{
+    margin-top: 60px;
+    font-size: 24px;
+
+}
+.content .container .group .roundcon .roundcon_div1 .extend .p2{
+    width: 320px;
+    margin-top: 105px;
+    font-size: 19px;
+    text-align: center;
+    line-height: 29px;
+}
+/*.content .container .group .roundcon .roundcon_div1 .extend img{*/
+    /*width: 370px;*/
+    /*height: 490px;*/
+    /*background-position: center;*/
+/*}*/
+.content .container .group .roundcon .roundcon_div1:hover .extend{
+    display: block;
+    height: 490px;
+    /*transition: 3s;*/
+    position: absolute;
+    top: 0;
+    /*overflow: auto;*/
+}
+/*********************************roundcon_div2***************************/
 .content .container .group .roundcon .roundcon_div2{
     width: 400px;
     height: 230px;
@@ -510,6 +649,54 @@
     top: 122px;
     color: white;
 
+}
+.content .container .group .roundcon .roundcon_div2 .extend{
+    width: 370px;
+    height: 490px;
+    /*height: 100%;*/
+    background: url("../img/operator_user/pic_extend2.jpg");
+    position: absolute;
+    background-color: #55a532;
+    padding: 0px 25px 0px 25px;
+    z-index: 999;
+    top: -490px;
+    left: 15px;
+    overflow: visible;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+}
+.content .container .group .roundcon .roundcon_div2 .extend div{
+    width: 80px;
+    height: 80px;
+    margin-top: 22px;
+}
+.content .container .group .roundcon .roundcon_div2 .extend div img{
+    width: 80px;
+    height: 80px;
+
+}
+.content .container .group .roundcon .roundcon_div2 .extend .p1{
+    margin-top: 60px;
+    font-size: 24px;
+
+}
+.content .container .group .roundcon .roundcon_div2 .extend .p2{
+    width: 320px;
+    margin-top: 105px;
+    font-size: 19px;
+    text-align: center;
+    line-height: 29px;
+}
+.content .container .group .roundcon .roundcon_div2:hover .extend{
+    display: block;
+    height: 490px;
+    /*transition: 3s;*/
+    position: absolute;
+    top: 0;
+    /*overflow: auto;*/
 }
 /*********************roundcon_div3**************************************/
 .content .container .group .roundcon .roundcon_div3{
@@ -541,6 +728,54 @@
     color: white;
 
 }
+.content .container .group .roundcon .roundcon_div3 .extend{
+    width: 370px;
+    height: 490px;
+    /*height: 100%;*/
+    background: url("../img/operator_user/pic_extend3.jpg");
+    position: absolute;
+    background-color: #55a532;
+    padding: 0px 25px 0px 25px;
+    z-index: 999;
+    top: -490px;
+    left: 15px;
+    overflow: visible;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+}
+.content .container .group .roundcon .roundcon_div3 .extend div{
+    width: 80px;
+    height: 80px;
+    margin-top: 22px;
+}
+.content .container .group .roundcon .roundcon_div3 .extend div img{
+    width: 80px;
+    height: 80px;
+
+}
+.content .container .group .roundcon .roundcon_div3 .extend .p1{
+    margin-top: 60px;
+    font-size: 24px;
+
+}
+.content .container .group .roundcon .roundcon_div3 .extend .p2{
+    width: 320px;
+    margin-top: 105px;
+    font-size: 19px;
+    text-align: center;
+    line-height: 29px;
+}
+.content .container .group .roundcon .roundcon_div3:hover .extend{
+    display: block;
+    height: 490px;
+    /*transition: 3s;*/
+    position: absolute;
+    top: 0;
+    /*overflow: auto;*/
+}
 /************************roundcon_div4************************************/
 .content .container .group .roundcon .roundcon_div4{
     width: 400px;
@@ -550,6 +785,7 @@
     /*background-color: #222222;*/
     float: left;
     position: relative;
+    /*overflow: hidden;*/
 }
 .content .container .group .roundcon .roundcon_div4 img{
      width: 100%;
@@ -570,6 +806,58 @@
     top: 122px;
     color: white;
 
+}
+.content .container .group .roundcon .roundcon_div4 .extend{
+    width: 370px;
+    height: 490px;
+    /*display: none;*/
+    /*height: 100%;*/
+    background: url("../img/operator_user/pic_extend4.jpg");
+    position: absolute;
+    background-color: #55a532;
+    padding: 0px 25px 0px 25px;
+    z-index: 999;
+    /*top: 490px;*/
+
+    top: 490px;
+    left: 15px;
+    overflow: visible;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+}
+.content .container .group .roundcon .roundcon_div4 .extend div{
+    width: 80px;
+    height: 80px;
+    margin-top: 22px;
+}
+.content .container .group .roundcon .roundcon_div4 .extend div img{
+    width: 80px;
+    height: 80px;
+
+}
+.content .container .group .roundcon .roundcon_div4 .extend .p1{
+    margin-top: 60px;
+    font-size: 24px;
+
+}
+.content .container .group .roundcon .roundcon_div4 .extend .p2{
+    width: 320px;
+    margin-top: 105px;
+    font-size: 19px;
+    text-align: center;
+    line-height: 29px;
+}
+.content .container .group .roundcon .roundcon_div4:hover .extend{
+    display: block;
+    height: 490px;
+    /*transition: 3s;*/
+    position: absolute;
+    top: -260px;
+    /*overflow: auto;*/
+    /*display: block;*/
 }
 /**********************roundcon_div5***********************************/
 .content .container .group .roundcon .roundcon_div5{
@@ -601,6 +889,58 @@
     color: white;
 
 }
+.content .container .group .roundcon .roundcon_div5 .extend{
+    width: 370px;
+    height: 490px;
+    /*display: none;*/
+    /*height: 100%;*/
+    background: url("../img/operator_user/pic_extend5.jpg");
+    position: absolute;
+    background-color: #55a532;
+    padding: 0px 25px 0px 25px;
+    z-index: 999;
+    /*top: 490px;*/
+
+    top: 490px;
+    left: 15px;
+    overflow: visible;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+}
+.content .container .group .roundcon .roundcon_div5 .extend div{
+    width: 80px;
+    height: 80px;
+    margin-top: 22px;
+}
+.content .container .group .roundcon .roundcon_div5 .extend div img{
+    width: 80px;
+    height: 80px;
+
+}
+.content .container .group .roundcon .roundcon_div5 .extend .p1{
+    margin-top: 60px;
+    font-size: 24px;
+
+}
+.content .container .group .roundcon .roundcon_div5 .extend .p2{
+    width: 320px;
+    margin-top: 105px;
+    font-size: 19px;
+    text-align: center;
+    line-height: 29px;
+}
+.content .container .group .roundcon .roundcon_div5:hover .extend{
+    display: block;
+    height: 490px;
+    /*transition: 3s;*/
+    position: absolute;
+    top: -260px;
+    /*overflow: auto;*/
+    /*display: block;*/
+}
 /*********************roundcon_div6*************************/
 .content .container .group .roundcon .roundcon_div6{
     width: 400px;
@@ -630,6 +970,58 @@
     top: 122px;
     color: white;
 
+}
+.content .container .group .roundcon .roundcon_div6 .extend{
+    width: 370px;
+    height: 490px;
+    /*display: none;*/
+    /*height: 100%;*/
+    background: url("../img/operator_user/pic_extend6.jpg");
+    position: absolute;
+    background-color: #55a532;
+    padding: 0px 25px 0px 25px;
+    z-index: 999;
+    /*top: 490px;*/
+
+    top: 490px;
+    left: 15px;
+    overflow: visible;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+}
+.content .container .group .roundcon .roundcon_div6 .extend div{
+    width: 80px;
+    height: 80px;
+    margin-top: 22px;
+}
+.content .container .group .roundcon .roundcon_div6 .extend div img{
+    width: 80px;
+    height: 80px;
+
+}
+.content .container .group .roundcon .roundcon_div6 .extend .p1{
+    margin-top: 60px;
+    font-size: 24px;
+
+}
+.content .container .group .roundcon .roundcon_div6 .extend .p2{
+    width: 320px;
+    margin-top: 105px;
+    font-size: 19px;
+    text-align: center;
+    line-height: 29px;
+}
+.content .container .group .roundcon .roundcon_div6:hover .extend{
+    display: block;
+    height: 490px;
+    /*transition: 3s;*/
+    position: absolute;
+    top: -260px;
+    /*overflow: auto;*/
+    /*display: block;*/
 }
 /*********************roundcon_div7*************************/
 .content .container .group .roundcon .roundcon_div7{
@@ -661,6 +1053,58 @@
     color: white;
 
 }
+.content .container .group .roundcon .roundcon_div7 .extend{
+    width: 370px;
+    height: 490px;
+    /*display: none;*/
+    /*height: 100%;*/
+    background: url("../img/operator_user/pic_extend7.jpg");
+    position: absolute;
+    background-color: #55a532;
+    padding: 0px 25px 0px 25px;
+    z-index: 999;
+    /*top: 490px;*/
+
+    top: 230px;
+    left: 15px;
+    overflow: visible;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+}
+.content .container .group .roundcon .roundcon_div7 .extend div{
+    width: 80px;
+    height: 80px;
+    margin-top: 22px;
+}
+.content .container .group .roundcon .roundcon_div7 .extend div img{
+    width: 80px;
+    height: 80px;
+
+}
+.content .container .group .roundcon .roundcon_div7 .extend .p1{
+    margin-top: 60px;
+    font-size: 24px;
+
+}
+.content .container .group .roundcon .roundcon_div7 .extend .p2{
+    width: 320px;
+    margin-top: 105px;
+    font-size: 19px;
+    text-align: center;
+    line-height: 29px;
+}
+.content .container .group .roundcon .roundcon_div7:hover .extend{
+    display: block;
+    height: 490px;
+    /*transition: 3s;*/
+    position: absolute;
+    top: -260px;
+    /*overflow: auto;*/
+    /*display: block;*/
+}
 /*********************roundcon_div8*************************/
 .content .container .group .roundcon .roundcon_div8{
     width: 400px;
@@ -690,6 +1134,58 @@
     top: 122px;
     color: white;
 
+}
+.content .container .group .roundcon .roundcon_div8 .extend{
+    width: 370px;
+    height: 490px;
+    /*display: none;*/
+    /*height: 100%;*/
+    background: url("../img/operator_user/pic_extend8.jpg");
+    position: absolute;
+    background-color: #55a532;
+    padding: 0px 25px 0px 25px;
+    z-index: 999;
+    /*top: 490px;*/
+
+    top: 230px;
+    left: 15px;
+    overflow: visible;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+}
+.content .container .group .roundcon .roundcon_div8 .extend div{
+    width: 80px;
+    height: 80px;
+    margin-top: 22px;
+}
+.content .container .group .roundcon .roundcon_div8 .extend div img{
+    width: 80px;
+    height: 80px;
+
+}
+.content .container .group .roundcon .roundcon_div8 .extend .p1{
+    margin-top: 60px;
+    font-size: 24px;
+
+}
+.content .container .group .roundcon .roundcon_div8 .extend .p2{
+    width: 320px;
+    margin-top: 105px;
+    font-size: 19px;
+    text-align: center;
+    line-height: 29px;
+}
+.content .container .group .roundcon .roundcon_div8:hover .extend{
+    display: block;
+    height: 490px;
+    /*transition: 3s;*/
+    position: absolute;
+    top: -260px;
+    /*overflow: auto;*/
+    /*display: block;*/
 }
 /*****************************************/
 .content .container .group .roundcon .roundcon_div9{
@@ -737,6 +1233,10 @@
 
 }
 /**************startcon1*********************/
+.content .row .start a{
+    color: black;
+}
+
 .content .row .start .startcon1{
     width: 292px;
     height: 252px;
@@ -745,6 +1245,7 @@
     float: left;
     margin-top: 16px;
     position: relative;
+    /*display: none;*/
 }
 .content .row .start .startcon1 .bus_display{
     display: block;
@@ -761,6 +1262,44 @@
     top: 170px;
     /*background-color: #795da3;*/
     font-size: 20px;
+}
+.content .row .start .startcon1 .startcon1_none{
+    width: 292px;
+    height: 252px;
+    padding: 0px 15px 0px 15px;
+    background-color: rgb(21,176,232);
+    margin-top: 16px;
+    z-index: 999;
+    top: -16px;
+    left: 0px;
+    position: absolute;
+    display: none;
+    /*transition: 2s;*/
+}
+.content .row .start .startcon1 .bus_displaynone{
+    display: block;
+    width: 84px;
+    height: 84px;
+    position: absolute;
+    /*border: 1px solid red;*/
+
+    top: 48px;
+    left: 104px;
+    z-index: 999;
+    /*display: none;*/
+}
+.content .row .start .startcon1 .startcon1_none p{
+    color: white;
+}
+.content .row .start .startcon1 p{
+    width: 262px;
+    position: absolute;
+    top: 170px;
+    /*background-color: #795da3;*/
+    font-size: 20px;
+}
+.content .row .start .startcon1:hover .startcon1_none{
+    display: block;
 }
 /*****************startcon2******************/
 .content .row .start .startcon2{
@@ -788,6 +1327,44 @@
     /*background-color: #795da3;*/
     font-size: 20px;
 }
+.content .row .start .startcon2 .startcon2_none{
+    width: 292px;
+    height: 252px;
+    padding: 0px 15px 0px 15px;
+    background-color: rgb(121,199,155);
+    margin-top: 16px;
+    z-index: 999;
+    top: -16px;
+    left: 0px;
+    position: absolute;
+    display: none;
+    /*transition: 2s;*/
+}
+.content .row .start .startcon2 .run_displaynone{
+    display: block;
+    width: 84px;
+    height: 84px;
+    position: absolute;
+    /*border: 1px solid red;*/
+
+    top: 48px;
+    left: 104px;
+    z-index: 999;
+    /*display: none;*/
+}
+.content .row .start .startcon2 .startcon2_none p{
+    color: white;
+}
+.content .row .start .startcon2 p{
+    width: 262px;
+    position: absolute;
+    top: 170px;
+    /*background-color: #795da3;*/
+    font-size: 20px;
+}
+.content .row .start .startcon2:hover .startcon2_none{
+    display: block;
+}
 /******************startcon3************************/
 .content .row .start .startcon3{
     width: 292px;
@@ -814,6 +1391,44 @@
     /*background-color: #795da3;*/
     font-size: 20px;
 }
+.content .row .start .startcon3 .startcon3_none{
+    width: 292px;
+    height: 252px;
+    padding: 0px 15px 0px 15px;
+    background-color: rgb(242,112,98);
+    margin-top: 16px;
+    z-index: 999;
+    top: -16px;
+    left: 0px;
+    position: absolute;
+    display: none;
+    /*transition: 2s;*/
+}
+.content .row .start .startcon3 .net_displaynone{
+    display: block;
+    width: 84px;
+    height: 84px;
+    position: absolute;
+    /*border: 1px solid red;*/
+
+    top: 48px;
+    left: 104px;
+    z-index: 999;
+    /*display: none;*/
+}
+.content .row .start .startcon3 .startcon3_none p{
+    color: white;
+}
+.content .row .start .startcon3 p{
+    width: 262px;
+    position: absolute;
+    top: 170px;
+    /*background-color: #795da3;*/
+    font-size: 20px;
+}
+.content .row .start .startcon3:hover .startcon3_none{
+    display: block;
+}
 /*********************startcon4*************************/
 .content .row .start .startcon4{
     width: 292px;
@@ -839,6 +1454,44 @@
     top: 170px;
     /*background-color: #795da3;*/
     font-size: 20px;
+}
+.content .row .start .startcon4 .startcon4_none{
+    width: 292px;
+    height: 252px;
+    padding: 0px 15px 0px 15px;
+    background-color: rgb(255,221,80);
+    margin-top: 16px;
+    z-index: 999;
+    top: -16px;
+    left: 0px;
+    position: absolute;
+    display: none;
+    /*transition: 2s;*/
+}
+.content .row .start .startcon4 .value_displaynone{
+    display: block;
+    width: 84px;
+    height: 84px;
+    position: absolute;
+    /*border: 1px solid red;*/
+
+    top: 48px;
+    left: 104px;
+    z-index: 999;
+    /*display: none;*/
+}
+.content .row .start .startcon4 .startcon4_none p{
+    color: white;
+}
+.content .row .start .startcon4 p{
+    width: 262px;
+    position: absolute;
+    top: 170px;
+    /*background-color: #795da3;*/
+    font-size: 20px;
+}
+.content .row .start .startcon4:hover .startcon4_none{
+    display: block;
 }
 /*****************bar**********************/
 .content .bar{
