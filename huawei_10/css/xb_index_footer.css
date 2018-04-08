@@ -79,16 +79,22 @@
 }
 .footerup_first_box5 ul{
     width: 40px;
-    height: 103px;
+    height: 153px;
     list-style: none;
 }
 .footerup_first_box5 ul li{
-    height: 36px;
-    line-height: 36px;
+    height: 50px;
+    line-height: 50px;
+    /*border: 1px solid  red;*/
     text-align: center;
 }
 .footerup_first_box5 ul li a{
     color: black;
+    list-style: none;
+    text-decoration: none;
+}
+.footerup_first_box5 ul li a i{
+    font-size: 25px;
 }
 .footerup_first_box3{
     width: 102px;
