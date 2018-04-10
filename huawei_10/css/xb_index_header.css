@@ -693,26 +693,26 @@
 /***************************************************************************/
 .pic_qiehuan{
     width: 30px;
-    height: 100px;
+    height: 30px;
     /*border: 1px solid black;*/
-    background: url("../img/xb_images/nav_Switching.png") no-repeat 0 71px;
+    background: url("../img/xb_images/nav_Switching.png") no-repeat 0 15px;
     position: absolute;
     left: 216px;
-    top: -30px;;
+    top: 27px;;
 }
 .pic_qiehuan2{
     width: 30px;
-    height: 100px;
+    height: 30px;
     /*border: 1px solid black;*/
-    background: url("../img/xb_images/nav_Switching.png") no-repeat 0 71px;
+    background: url("../img/xb_images/nav_Switching.png") no-repeat 0 15px;
     position: absolute;
     left: 185px;
-    top: -30px;;
+    top: 27px;;
     /*z-index: 666;*/
 }
 
 .headerdown_nav_content ul a:hover .pic_qiehuan, .headerdown_nav_content ul a:hover .pic_qiehuan2{
-    background-position:0 20px ;
+    background-position:0 -37px ;
 }
 .headerdown_nav_content ul li a:hover{
     color: #F67570;
