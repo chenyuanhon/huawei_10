@@ -126,7 +126,7 @@
 .footerup_textbox3{
     width: 1070px;
     height: 112px;
-    /*border: 1px solid red;*/
+    border: 1px solid red;
     position: absolute;
     left: 10px;
     top: 470px;
