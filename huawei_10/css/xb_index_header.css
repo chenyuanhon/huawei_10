@@ -36,7 +36,7 @@
     width: 50px;
     height: 20px;
     font-size: 12px;
-    line-height: 12px;
+    line-height: 20px;
     color: white;
 }
 .headerup_group i{
@@ -57,7 +57,7 @@
     position: absolute;
     top: 25px;
     left: -130px;
-    z-index: 9999;
+    z-index: 999;
 }
 .li_none{
     width: 1062px;
@@ -284,6 +284,7 @@
 .headerdown_nav_content ul .li_phone{
     margin-left: 30px;
     width: 250px;
+    /*z-index: 666;*/
     margin-right: 23px;
     position: relative;
     /*border: 1px solid red;*/
@@ -294,8 +295,9 @@
     display: none;
     background-color: #F5F5F5;
     position: absolute;
-    top:77px;
+    top:75px;
     left: -325px;
+    /*border: 1px solid red;*/
     z-index: 999;
 }
 .li_phone:hover .li_phonehover{
@@ -482,7 +484,7 @@
     text-decoration: underline;
     color: black;
 }
-#li_phonehoverright .access_technology{
+#access_technology{
     height: 30px;
     width:100px;
     /*display: block;*/
@@ -491,15 +493,15 @@
     position: absolute;
     bottom: 47px;
 }
-#li_phonehoverright .access_technology a{
+#access_technology a{
     position: absolute;
     top: -25px;
     left: 0;
 }
-#li_phonehoverright .access_technology span{
+#access_technology span{
     color: #F48682;
 }
-.access_technology a:hover span{
+#access_technology a:hover span{
     text-decoration: underline;
 }
 .headerdown_nav_content ul .li_solve{
@@ -517,7 +519,7 @@
     /*border: 1px solid red;*/
     position: absolute;
     left: -598px;
-    top: 78px;
+    top: 75px;
     z-index: 999;
     display: none;
 }
@@ -668,18 +670,18 @@
 #li_solveboxrightcontent p a:hover,#li_solveboxrightcontent span a:hover{
     text-decoration: underline;
 }
-#li_solveboxrightcontent span{
+#go_technology{
     display: block;
     padding-top: 17px;
     font-size: 16px;
 }
-#li_solveboxrightcontent span small{
+#go_technology small{
     color: #F66F6A;
     font-size: 16px;
 }
-
-
-
+#go_technology a:hover small{
+    text-decoration: underline;
+}
 .li_solve:hover .li_solvebox{
     display: block;
 }
@@ -691,26 +693,26 @@
 /***************************************************************************/
 .pic_qiehuan{
     width: 30px;
-    height: 100px;
+    height: 30px;
     /*border: 1px solid black;*/
-    background: url("../img/xb_images/nav_Switching.png") no-repeat 0 71px;
+    background: url("../img/xb_images/nav_Switching.png") no-repeat 0 15px;
     position: absolute;
     left: 216px;
-    top: -30px;;
+    top: 27px;;
 }
 .pic_qiehuan2{
     width: 30px;
-    height: 100px;
+    height: 30px;
     /*border: 1px solid black;*/
-    background: url("../img/xb_images/nav_Switching.png") no-repeat 0 71px;
+    background: url("../img/xb_images/nav_Switching.png") no-repeat 0 15px;
     position: absolute;
     left: 185px;
-    top: -30px;;
+    top: 27px;;
     /*z-index: 666;*/
 }
 
 .headerdown_nav_content ul a:hover .pic_qiehuan, .headerdown_nav_content ul a:hover .pic_qiehuan2{
-    background-position:0 20px ;
+    background-position:0 -37px ;
 }
 .headerdown_nav_content ul li a:hover{
     color: #F67570;

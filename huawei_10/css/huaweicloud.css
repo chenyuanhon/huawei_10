@@ -23,7 +23,7 @@ li{
 
 }
 .head-menu{
-    background: url("../img/tupian/headMenu.png" ) no-repeat center;
+    /*background: url("../img/tupian/headMenu.png" ) no-repeat center;*/
     display: block;
     width: 36px;
     height: 46px;
@@ -33,9 +33,22 @@ li{
     float: left;
     transform: rotate(0deg);
     transition: 1s;
+    position: relative;
 }
-.head-menu:hover{
+.head-menu1{
+
+    /*border: solid 1px red;*/
+    width: 36px;
+    height: 46px;
+    background: url("../img/tupian/headMenu.png" ) no-repeat center;
+    transition: 0.7s;
+}
+.head-menu:hover .head-menu1{
     transform: rotate(90deg);
+}
+.head-menu:hover .sidebar-nav1{
+
+    display: block;
 }
 .logo{
     background: url("../img/tupian/logo.png") no-repeat center;
@@ -44,28 +57,38 @@ li{
     /*border: 1px solid yellow;*/
     float: left;
 }
-.head-nav{
+.head-nav {
     /*border: 1px solid yellow;*/
     width: 708px;
     height: 46px;
-    line-height: 40px;
+    line-height: 44px;
     float: left;
     padding-left: 30px;
 }
-.head-nav ul {
+.head-nav>ul {
     display: inline-block;
     vertical-align: top;
-    position: relative;
+    position: absolute;
 }
-.head-nav ul li{
+.head-nav>ul li{
      float: left;
      /*border: 1px solid red;*/
     padding-left: 16px;
     padding-right: 16px;
+    position: relative;
+    /*position: relative;*/
  }
-.head-nav ul li:hover{
+.head-nav-ul-li:hover{
     color: red;
+    border-bottom: red 2px solid;
+
 }
+.head-nav-product:hover{
+    color: red;
+    border-bottom: red 2.5px solid;
+    display: block;
+}
+
 .head-navright{
     width: 398px;
     height: 46px;
@@ -73,10 +96,11 @@ li{
     float: right;
     z-index: 12;
     position: relative;
+    box-sizing: border-box;
 }
 .head-navright li{
     float: right;
-
+    position: relative;
 }
 .head-navright li:hover{
     color: red;
@@ -90,6 +114,38 @@ li{
     background-color: #ef323e;
     color: white;
  }
+.chinese:hover .language{
+    display: block;
+}
+.language{
+    width: 128px;
+    height: 60px;
+    /*border: 1px solid yellow;*/
+    position: absolute;
+    left: -10px;
+    background: rgba(34,34,34,.94);
+    box-sizing: border-box;
+    /*padding-left: 20px;*/
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: none;
+}
+.language>a{
+    display: block;
+    line-height: 20px;
+    height: 20px;
+    padding: 10px 20px;
+    font-size: 14px;
+    color: #c3c5c6;
+    /*white-space: nowrap;*/
+    /*cursor: default;*/
+    /*position: relative;*/
+
+}
+.language>a:hover{
+    color: red;
+    border-right: 2px solid red;
+}
 .head-navright ul li{
     display: inline-block;
     vertical-align: middle;
@@ -158,9 +214,11 @@ li{
     line-height: 38px;
     margin-top: 30px;
     font-size: 18px;
-    color: white;
     background-color: #e41f2b;
     box-shadow: 0 10px 20px 0 rgba(239,35,54,.2);
+}
+.banner-main-text-button>a:hover{
+    color: white;
 }
 .events{
     width: 100%;
@@ -270,20 +328,25 @@ li{
     float: right;
     margin-left: -30px;
 }
-.sidebar-control{
+.sidebar-control>ul{
     position: absolute;
     bottom: 175px;
-    left: 0;
-    width: 100px;
+    left: 600px;
+    width: 150px;
     height: 20px;
-    margin: 0 ;
+    margin: 0 auto  ;
     padding: 0;
-    text-align: center;
-    font-size: 10px;
+    /*text-align: center;*/
+    font-size: 14px;
     /*border: 1px solid yellow;*/
 }
+/**/
 .sidebar-control li{
     float: left;
+    margin-right: 10px;
+}
+.sidebar-control li:hover{
+    color: red;
 }
 /*events over*/
 /* product start*/
@@ -600,7 +663,6 @@ h2{
 .footer-wrapper{
     box-sizing: border-box;
     max-width: 1200px;
-    /*height: 260px;*/
     padding-left: 10px;
     padding-right: 10px;
     margin-left: auto;
@@ -755,4 +817,207 @@ height: 100px;
 .footer-nav-others {}
 
 
+.footer-copyright-container{
+    border-top:1px solid red;
+    width: 100%;
+    height: 61px;
+}
+.footer-copyright-wrapper{
+    height: 61px;
+    padding-bottom: 6px;
+    padding-top: 6px;
+}
+.footer-law ul{
+float: right;
+    overflow: hidden;
+    /*font-size: 0;*/
+}
+.footer-law li{
+    display: inline-block;
+    font-size: 12px;
+    line-height: 24px;
+}
+.footer-copyright{
+    float: left;
+    width: 560px;
+    height: 24px;
+
+}
+.footer-copyright span{
+    display: inline-block;
+    margin-right: 10px;
+    font-size: 12px;
+    line-height: 24px;
+}
+.footer-record{
+    width: 100%;
+    height: 24px;
+    clear: both;
+    box-sizing: border-box;
+
+}
+.footer-record-icon1{
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    margin-right: 8px;
+    vertical-align: middle;
+    background-size: 100% 100%;
+    background: url("../img/tupian/a6.png") no-repeat center;
+
+}.footer-record-icon2{
+     display: inline-block;
+     width: 18px;
+     height: 18px;
+     margin-right: 8px;
+     vertical-align: middle;
+     background-size: 100% 100%;
+     background: url("../img/tupian/a7.png") no-repeat center;
+ }
+.footer-record span{
+    font-size: 8px;
+    vertical-align: middle;
+}
+.footer-nav-menus a:hover{
+    color: white;
+}
+.suspended-nav{
+    width: 48px;
+    height: 220px;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    z-index: 999;
+    /*border: 1px solid yellow;*/
+}
+.suspended-nav-top{
+    width: 48px;
+    height: 148px;
+    background-color: red;
+    margin-bottom: 20px;
+    z-index: 20;
+
+}
+.suspended-nav-bottom{
+    width: 48px;
+    height: 48px;
+    background-color: white;
+}
+.suspended-nav-top-icon{
+    /*border: 1px solid black;*/
+    width: 24px;
+    height: 24px;
+    position: relative;
+    left: 12px;
+    top: 12px;
+    margin-bottom: 12px;
+    background: url("../img/tupian/icons-float-bar2.png")no-repeat;
+    background-position:0px 0px;
+
+}
+.suspended-nav-bottom>div{
+    /*border: 1px solid black;*/
+    width: 24px;
+    height: 24px;
+    position: relative;
+    left: 12px;
+    top: 12px;
+    background: url("../img/tupian/icons-float-bar2.png")no-repeat;
+    background-position:-144px 0px;
+}
+.suspended-nav-top >p{
+    /*border: 1px solid black;*/
+    position: absolute;
+   top: 48px;
+    padding: 10px 16px;
+    background-color: white;
+    font-size: 14px;
+    color: #333;
+    line-height: 16px;
+    text-align: center;
+    transition: 0.35s;
+}
+.suspended-nav-top:hover .sus-extend{
+    display: block;
+
+}
+.suspended-nav-bottom>div:hover {
+    background: url("../img/tupian/icons-float-bar2.png")no-repeat;
+    background-position: -120px;
+
+}
+.sus-extend{
+    width: 220px;
+    height: 212px;
+    box-sizing: border-box;
+    padding-right: 5px;
+    background-color: white;
+    background-clip: content-box;
+    position: absolute;
+    right: 48px;
+    top: 0px;
+    display: none;
+    /*display: none;*/
+}
+.sus-inner1{
+    box-sizing: border-box;
+    width: 220px;
+    height: 60px;
+    padding: 10px 0 10px 60px;
+    line-height: 20px;
+    font-size: 14px;
+    position: relative;
+}
+.sus-inner2{
+    line-height: 40px;
+    padding: 0px 0 10px 60px;
+    font-size: 15px;
+    position: relative;
+}
+.sus-inner1>a>div{
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    left: 18px;
+    top: 18px;
+    background: url("../img/tupian/icons-float-bar2.png")no-repeat;
+    background-position: -48px ;
+
+}
+.intelligent{
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    left: 18px;
+    top: 9px;
+    background: url("../img/tupian/icons-float-bar2.png")no-repeat;
+    background-position: -24px ;
+}
+.manual{
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    left: 18px;
+    top: 9px;
+    background: url("../img/tupian/icons-float-bar2.png")no-repeat;
+    background-position: -72px ;
+}
+.advice{
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    left: 18px;
+    top: 9px;
+    background: url("../img/tupian/icons-float-bar2.png")no-repeat;
+    background-position: -96px ;
+}
+.sus-extend a{
+    color: black;
+}
+.sus-inner1 a:hover{
+    color: red;
+}
+.sus-inner2 a:hover{
+    color: red;
+}
 

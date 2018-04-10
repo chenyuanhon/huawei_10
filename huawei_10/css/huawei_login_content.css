@@ -5,7 +5,7 @@
     margin: 0 auto;
 }
 .bigbox{
-    height: 1400px;
+    height: 1300px;
 }
 .content_left{
     width: 397px;
@@ -55,7 +55,7 @@
     cursor: pointer;
     color: white;
     margin-right: 22px;
-    border-radius:8% ;
+    border-radius:7% ;
     float: right;
     margin-top: 27px;
 }

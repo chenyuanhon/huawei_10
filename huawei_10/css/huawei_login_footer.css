@@ -16,7 +16,7 @@
     position: relative;
 }
 .footerup_textbox{
-    width: 927px;
+    width: 1070px;
     height: 253px;
     /*border: 1px solid red;*/
     position: absolute;
@@ -75,7 +75,7 @@
     height: 103px;
     /*border: 1px solid red;*/
     float: left;
-    margin-left: 108px;
+    margin-left: 50px;
 }
 .footerup_first_box5 ul{
     width: 40px;
@@ -93,9 +93,13 @@
     list-style: none;
     text-decoration: none;
 }
-.footerup_first_box5 ul li a i{
-    font-size: 25px;
+.footerup_first_box5 ul li a:hover{
+    opacity: .5;
 }
+.footerup_first_box5 ul li a i{
+    font-size: 26px;
+}
+
 .footerup_first_box3{
     width: 102px;
     height: 150px;
@@ -109,10 +113,10 @@
     height: 178px;
     /*border: 1px solid red;*/
     float: left;
-    margin-left: 60px;
+    margin-left: 174px;
 }
 .footerup_textbox2{
-    width: 792px;
+    width: 1070px;
     height: 112px;
     /*border: 1px solid red;*/
     position: absolute;
@@ -120,7 +124,7 @@
     top: 318px;
 }
 .footerup_textbox3{
-    width: 792px;
+    width: 1070px;
     height: 112px;
     /*border: 1px solid red;*/
     position: absolute;
@@ -139,12 +143,12 @@
     font-size: 20px;
 }
 .footerup_textbox2 ul,.footerup_textbox3 ul{
-    width: 792px;
+    width: 1070px;
     height: 112px;
     list-style: none;
 }
 .footerup_textbox2 ul li,.footerup_textbox3 ul li{
-    width: 185px;
+    width: 245px;
     height: 50px;
     line-height: 50px;
     float: left;

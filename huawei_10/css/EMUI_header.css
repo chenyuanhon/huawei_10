@@ -1,0 +1,125 @@
+.container1{
+    width: 100%;
+    height: 1400px;
+}
+.container2{
+    width: 1365px;
+    height: 1400px;
+    margin: 0px auto;
+    position: relative;
+}
+.header{
+    width: 1365px;
+    height: 110px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+.header_one{
+     width: 2000px;
+     height: 40px;
+     position: absolute;
+     top: 0px;
+     left: -317.5px;
+     background-color: #4a4a4a;
+     z-index:3;
+ }
+.header_one_left{
+    width: 700px;
+    height: 40px;
+    position: absolute;
+    top: 0px;
+    left: 60px;
+
+}
+.header_one_left li{
+    width: 100px;
+    height: 40px;
+    position: relative;
+    top: -20px;
+    left: 317.5px;
+    color: #F9F9F9;
+    line-height: 40px;
+    float: left;
+    list-style: none;
+
+}
+.header_one_left li a{
+    text-decoration: none;
+    color: #F9F9F9;
+}
+.header_one_left_li{
+    width: 100px;
+    height: 40px;
+}
+.header_one_left_li:hover .header_one_left_hidden{
+    display: block;
+}
+
+.header_one_left_hidden{
+    width: 140px;
+    height: 200px;
+    background-color: #4a4a4a;
+    position: absolute;
+    left: -30px;
+    display: none;
+}
+.header_one_left_hidden li{
+    width: 140px;
+    height: 40px;
+    color: #F9F9F9;
+    position: relative;
+    top: 0px;
+    left: -40px;
+    text-align: center;
+}
+.header_one_left_hidden li:hover{
+    background-color: #808080;
+}
+.header_one_right{
+    width: 140px;
+    height: 40px;
+    position: absolute;
+    right: 450px;
+    top: 0px;
+    color: #F9F9F9;
+    line-height: 40px;
+}
+
+.header_two{
+    width: 1200px;
+    height: 70px;
+    position: absolute;
+    top: 40px;
+    left: 0px;
+    background-color: #FFFFFF;
+    z-index:2;
+}
+.header_two_left{
+    width: 90px;
+    height: 29px;
+    position: absolute;
+    top: 20.5px;
+    left: 100px;
+}
+.header_two_right{
+    width: 700px;
+    height: 70px;
+    position: absolute;
+    left: 590px;
+    top: 0px;
+
+}
+.header_two_right li {
+    min-width: 100px;
+    height: 70px;
+    color: #4a4a4a;
+    line-height: 70px;
+    list-style: none;
+    position: relative;
+    top:-15px;
+    float: left;
+}
+.header_two_right li a:hover{
+    color: #007dff;
+}
