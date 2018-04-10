@@ -98,6 +98,7 @@
     width: 100%;
     height: 80px;
     /*background-color: wheat;*/
+    border-bottom:2px solid #E7E7E7 ;
 }
 .headerup_language{
     width: 210px;
@@ -253,6 +254,11 @@
     cursor: pointer;
     background: url("../img/xb_images/huawei_logo.png") no-repeat center;
     float: left;
+}
+.huawei_logo a{
+    display: block;
+    width: 160px;
+    height: 78px;
 }
 .headerdown_nav_content{
     width: 800px;
