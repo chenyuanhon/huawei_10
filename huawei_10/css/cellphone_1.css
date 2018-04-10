@@ -3,15 +3,16 @@
     padding: 0;
 }
 .bigbox{
-    width: 100%;
-    height: 5020px;
-    border: 1px solid blue;
+    width: 1346px;
+    height: 5069px;
+    /*border: 1px solid blue;*/
     /*position: absolute;*/
+    margin: 0 auto;
 }
 .header{
     width: 100%;
-    height: 73px;
-    border: 1px solid rosybrown;
+    height: 60px;
+    /*border: 1px solid rosybrown;*/
     position: fixed;
     background-color: white;
     z-index: 9999;
@@ -19,47 +20,62 @@
 .header_left{
      width: 142px;
     height: 41px;
-    border: 1px solid gold;
+    /*border: 1px solid gold;*/
     position: absolute;
    left: 60px;
-   top:13px;
+   top:15px;
     background: url("../img/cellphone/huawei_log.png");
 }
 .header_center{
-    width: 750px;
+    width: 780px;
     height: 41px;
     position: absolute;
     left: 305px;
     top: 16px;
-    border: 1px solid burlywood;
+    /*border: 1px solid burlywood;*/
 }
 .header_ul{
-    width: 790px;
+    width: 800px;
     height: 41px;
     position: absolute;
     list-style: none;
 }
 .header_ul  li{
     float: left;
-    width: 78px;
+    width: 83px;
     height: 41px;
-    border: 1px solid chocolate;
-    font-size: 13px;
+    /*border: 1px solid chocolate;*/
+    font-size: 14px;
     text-align: center;
     line-height: 35px;
 }
+.header_ul  li:hover{
+    color: red;
+    text-decoration: underline;
+}
+/*.header_ul_right{*/
+    /*width: 25px;*/
+    /*height: 41px;*/
+    /*position: absolute;*/
+    /*/!*border: 1px solid firebrick;*!/*/
+    /*right: 2px;*/
+    /*line-height: 33px;*/
+
+/*}*/
 .header_right{
     width: 30px;
     height: 40px;
-    border: 1px solid burlywood;
+    /*border: 1px solid burlywood;*/
     position: absolute;
-    right: 120px;
-    top: 13px;
+    right: 140px;
+    top: 15px;
+    text-align: center;
+    line-height: 40px;
 }
 .middle{
     width: 100%;
-    height: 4245px;
-    border: 1px solid peru;
+    height: 4375px;
+    /*border: 1px solid peru;*/
     padding-top: 73px;
     position: relative;
 }
@@ -80,12 +96,12 @@
     position: absolute;
     top: 440px;
     left: 400px;
-    border: 1px solid white;
+    /*border: 1px solid white;*/
 }
 .middle11_left{
     width: 220px;
     height: 49px;
-    border: 1px solid white;
+    border: 2px solid white;
     /*padding-top: 43px;*/
     position: absolute;
     right: 300px;
@@ -93,18 +109,27 @@
     font-size: 15px;
     text-align: center;
     line-height: 50px;
-
+    color: white;
+}
+.middle11_left:hover{
+    color: red;
+    border: 2px solid red;
 }
 .middle11_right{
     width: 270px;
     height: 49px;
-    border: 1px solid white;
+    border: 2px solid white;
     position: absolute;
     right: 0px;
     /*bottom: 100px;*/
     font-size: 15px;
     text-align: center;
     line-height: 50px;
+    color: white;
+}
+.middle11_right:hover{
+    color: red;
+    border: 2px solid red;
 }
 .middle2{
     width: 100%;
@@ -116,17 +141,17 @@
     background-size: 1350px 585px;
 }
 .middle21{
-    width:590px;
+    width:620px;
     height: 50px;
     position: absolute;
     top: 460px;
     left: 350px;
-    border: 1px solid black;
+    /*border: 1px solid black;*/
 }
 .middle21_left{
     width: 290px;
     height: 48px;
-    border: 1px solid red;
+    border: 2px solid black;
     /*padding-top: 43px;*/
     position: absolute;
     left: 0px;
@@ -135,10 +160,14 @@
     text-align: center;
     line-height: 50px
 }
+.middle21_left:hover{
+    color: red;
+    border: 2px solid red;
+}
 .middle21_right{
     width: 290px;
     height: 48px;
-    border: 1px solid royalblue;
+    border: 2px solid black;
     position: absolute;
     right: 0px;
     /*bottom: 100px;*/
@@ -146,25 +175,29 @@
     text-align: center;
     line-height: 50px;
 }
+.middle21_right:hover{
+    color: red;
+    border: 2px solid red;
+}
 .middle3{
     width: 100%;
     height: 580px;
-    background-color: #F2F2F2;
-    /*position: relative;*/
+    /*background-color: #F2F2F2;*/
+    position: relative;
 }
 .middle31{
-    width: 1350px;
+    width: 1346px;
     height: 580px;
-    border: 1px solid navy;
+    /*border: 1px solid navy;*/
     position: relative;
 }
 .middle311{
     width: 198px;
     height: 426px;
     position: absolute;
-    border: 1px solid red;
+    /*border: 1px solid red;*/
     top: 110px;
-    left: 310px;
+    left: 290px;
     background: url("../img/cellphone/home-s2-nova3e-blue1.png") no-repeat;
 
 }
@@ -172,7 +205,7 @@
     width: 260px;
     height: 69px;
     position: absolute;
-    border: 1px  solid olive;
+    /*border: 1px  solid olive;*/
     top: 130px;
     right: 450px;
     background: url("../img/cellphone/huaweizi.PNG") no-repeat;
@@ -180,12 +213,47 @@
 .middle313{
     width: 315px;
     height: 26px;
-    border: 1px solid firebrick;
+    /*border: 1px solid firebrick;*/
     top:220px;
     right: 395px;
     position: absolute;
     font-size: 19px;
-
+}
+.middle314{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    background-color: #035C89;
+    right: 675px;
+    bottom: 170px;
+    border-radius: 50%;
+}
+.middle315{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    background-color: #191919;
+    right: 625px;
+    bottom: 170px;
+    border-radius: 50%;
+}
+.middle316{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    background-color: #E6BBBC;
+    right: 575px;
+    bottom: 170px;
+    border-radius: 50%;
+}
+.middle317{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    background-color: #E0CFBB;
+    right: 525px;
+    bottom: 170px;
+    border-radius: 50%;
 }
 .middle318{
     width: 170px;
@@ -197,6 +265,12 @@
     text-align: center;
     line-height: 50px;
 }
+.middle318:hover{
+    color: red;
+    border: 2px solid red;
+    transition: 1s;
+
+}
 .middle319{
     width: 170px;
     height: 50px;
@@ -206,6 +280,12 @@
     right: 330px;
     text-align: center;
     line-height: 50px;
+    transition: 1s;
+
+}
+.middle319:hover{
+    color: red;
+    border: 2px solid red;
 }
 .middle4{
     width: 100%;
@@ -233,7 +313,7 @@
     width: 260px;
     height: 49px;
     position: absolute;
-    border: 1px solid olive;
+    /*border: 1px solid olive;*/
     top: 30px;
     right: 180px;
     font-size: 34px;
@@ -250,12 +330,18 @@
     text-align: center;
     line-height: 50px;
     color: white;
+    transition: 1s;
+
+}
+.middle411_bottom:hover{
+    color: red;
+    border: 2px solid red;
 }
 .middle412{
     width: 652px;
     height: 430px;
     position: absolute;
-    border: 1px solid darkblue;
+    /*border: 1px solid darkblue;*/
     right: 0px;
     background: url("../img/cellphone/home-s4-mate10porsche-original.jpg") no-repeat;
     background-size: 660px;
@@ -264,7 +350,7 @@
     width: 150px;
     height: 49px;
     position: absolute;
-    border: 1px solid olive;
+    /*border: 1px solid olive;*/
     top: 30px;
     right: 250px;
     font-size: 34px;
@@ -281,6 +367,11 @@
     text-align: center;
     line-height: 50px;
     color: white;
+    transition: 1s;
+}
+.middle412_bottom:hover{
+    color: red;
+    border: 2px solid red;
 }
 .middle5{
     width: 100%;
@@ -289,7 +380,7 @@
     /*position: relative;*/
 }
 .middle51{
-    width: 1350px;
+    width: 1346px;
     height: 560px;
     position: absolute;
 }
@@ -336,7 +427,7 @@
 .middle511_4{
     width: 130px;
     height: 40px;
-    /*border: 2px solid black;*/
+    border: 2px solid black;
     position:absolute;
     bottom: 60px;
     left: 34px;
@@ -344,11 +435,16 @@
     color: black;
     text-align: center;
     line-height: 40px;
+    transition: 1s;
+}
+.middle511_4:hover{
+    color: red;
+    border: 2px solid red;
 }
 .middle512{
     width:200px;
     height:460px;
-    border: 1px solid cornflowerblue;
+    /*border: 1px solid cornflowerblue;*/
     position: absolute;
     top: 50px;
     left: 430px;
@@ -358,7 +454,7 @@
     height:60px ;
     margin: 0px 25px;
     position: absolute;
-    border: 1px solid firebrick;
+    /*border: 1px solid firebrick;*/
     top: 35px;
     text-align: center;
     line-height: 30px;
@@ -368,7 +464,7 @@
     height: 49px;
     font-size: 14px;
     position: absolute;
-    border: 1px solid peru;
+    /*border: 1px solid peru;*/
     top: 110px;
     left: 30px;
     text-align: center;
@@ -378,7 +474,7 @@
     width: 200px;
     height: 160px;
     position: absolute;
-    border: 1px solid gold;
+    /*border: 1px solid gold;*/
     bottom:110px;
     background: url("../img/cellphone/home-s3-watch2-pro-gold.png") no-repeat;
     background-size: 200px 160px;
@@ -395,12 +491,16 @@
     color: black;
     text-align: center;
     line-height: 40px;
+    transition: 1s;
 }
-
+.middle512_4:hover{
+    color: red;
+    border: 2px solid red;
+}
 .middle513{
     width:200px;
     height:460px;
-    border: 1px solid cornflowerblue;
+    /*border: 1px solid cornflowerblue;*/
     position: absolute;
     top: 50px;
    right: 460px;
@@ -410,7 +510,7 @@
     height:60px ;
     margin: 0px 25px;
     position: absolute;
-    border: 1px solid firebrick;
+    /*border: 1px solid firebrick;*/
     top: 35px;
     text-align: center;
     line-height: 30px;
@@ -420,7 +520,7 @@
     height: 49px;
     font-size: 14px;
     position: absolute;
-    border: 1px solid peru;
+    /*border: 1px solid peru;*/
     top: 110px;
     left: 30px;
     text-align: center;
@@ -430,7 +530,7 @@
     width: 200px;
     height: 160px;
     position: absolute;
-    border: 1px solid gold;
+    /*border: 1px solid gold;*/
     bottom:110px;
     background: url("../img/cellphone/home-s3-p10-plus-black.png") no-repeat;
     background-size: 200px 160px;
@@ -446,12 +546,16 @@
     color: black;
     text-align: center;
     line-height: 40px;
+    transition: 1s;
 }
-
+.middle513_4:hover{
+    color: red;
+    border: 2px solid red;
+}
 .middle514{
     width:200px;
     height:460px;
-    border: 1px solid cornflowerblue;
+    /*border: 1px solid cornflowerblue;*/
     position: absolute;
     top: 50px;
     right: 210px;
@@ -461,7 +565,7 @@
     height:60px ;
     margin: 0px 25px;
     position: absolute;
-    border: 1px solid firebrick;
+    /*border: 1px solid firebrick;*/
     top: 35px;
     text-align: center;
     line-height: 30px;
@@ -471,7 +575,7 @@
     height: 49px;
     font-size: 14px;
     position: absolute;
-    border: 1px solid peru;
+    /*border: 1px solid peru;*/
     top: 110px;
     left: 30px;
     text-align: center;
@@ -480,7 +584,7 @@
     width: 200px;
     height: 160px;
     position: absolute;
-    border: 1px solid gold;
+    /*border: 1px solid gold;*/
     bottom:110px;
     background: url("../img/cellphone/home-s3-band-3yourth-blue.jpg") no-repeat;
     background-size: 200px 160px;
@@ -496,35 +600,67 @@
     color: black;
     text-align: center;
     line-height: 40px;
+    transition: 1s;
+}
+.middle514_4:hover{
+    color: red;
+    border: 2px solid red;
 }
 .middle6{
     width: 100%;
     height: 500px;
-    background-color:#225574;
+    /*background-color:#225574;*/
     /*position: relative;*/
     /*background: url("../img/cellphone/Bannerhomepage7.jpg") no-repeat;*/
     /*background-size: 760px 480px;*/
 }
 .middle61{
-    width: 1350px;
+    width: 1346px;
     height: 480px;
-    border: 1px solid black;
+    /*border: 1px solid black;*/
     position: relative;
     background-color:#225574;
-    background: url("../img/cellphone/Bannerhomepage7.jpg") no-repeat;
-    background-size: 760px 480px;
+    background: url("../img/cellphone/Bannerhomepage7.jpg") no-repeat -980px 10px;
+    overflow: hidden;
+
+    /*background-size: 760px 480px;*/
 
 }
 .middle611{
     width: 150px;
     height: 49px;
     position: absolute;
-    border: 1px solid olive;
-    top: 30px;
-    right: 250px;
-    font-size: 34px;
-    color: white;
+    /*border: 1px solid olive;*/
+    top: 40px;
+    right:450px;
+    font-size: 25px;
+    color: black;
     text-align: center;
+    line-height: 49px;
+}
+.middle612{
+    width: 255px;
+    height: 73px;
+    position: absolute;
+    /*border: 1px solid peru;*/
+    right: 350px;
+    top: 170px;
+    font-size: 19px;
+}
+.middle613{
+    width: 123px;
+    height: 57px;
+    position: absolute;
+    border: 2px solid black;
+    bottom: 78px;
+    right: 475px;
+    text-align: center;
+    line-height: 57px;
+    transition: 1s;
+}
+.middle613:hover{
+    color: red;
+    border: 2px solid red;
 }
 .middle7{
     width: 100%;
@@ -533,10 +669,10 @@
     position: relative;
 }
 .middle71{
-    width: 1350px;
+    width: 1346px;
     height: 562px;
     position: absolute;
-    border:1px solid darkgoldenrod;
+    /*border:1px solid darkgoldenrod;*/
     background: url("../img/cellphone/home-s6-mate10-video-image-original.jpg")no-repeat;
     background-size: 1350px 560px;
     bottom: 7px;
@@ -545,15 +681,19 @@
     width: 88px;
     height: 86px;
     position: absolute;
-    border: 1px solid firebrick;
+    /*border: 1px solid firebrick;*/
     top: 160px;
     left: 625px;
+    background-color: white;
+    background: url("../img/cellphone/wmp.png")no-repeat;
+    background-size: 90px 90px;
+
 }
 .middle71_2{
     width: 600px;
     height:26px;
     position: absolute;
-    border: 1px solid saddlebrown;
+    /*border: 1px solid saddlebrown;*/
     top: 330px;
     left: 370px;
     font-size: 28px;
@@ -566,7 +706,7 @@
     width: 417px;
     height: 50px;
     position: absolute;
-    border: 1px solid cornflowerblue;
+    /*border: 1px solid cornflowerblue;*/
     bottom: 80px;
     left: 260px;
     background-color:#EF2F34;
@@ -574,12 +714,17 @@
     line-height: 50px;
     text-align: center;
     font-size: 16px;
+    transition: 1s;
+}
+.middle71_3:hover{
+    color: white;
+     background-color: brown;
 }
 .middle71_4{
     width: 372px;
     height: 50px;
     position: absolute;
-    border: 1px solid cornflowerblue;
+    /*border: 1px solid cornflowerblue;*/
     bottom: 80px;
     right: 270px;
     background-color:#EF2F34;
@@ -587,19 +732,483 @@
     text-align: center;
     line-height: 50px;
     font-size: 16px;
-
+    transition: 1s;
+}
+.middle71_4:hover{
+    color: white;
+    background-color: brown;
 }
 .middle8{
     width: 100%;
     height: 580px;
-    background-color: chartreuse;
+    /*background-color: chartreuse;*/
     position: relative;
-
-
+}
+.middle81{
+    width: 1346px;
+    height: 580px;
+    /*border: 1px solid darkslategray;*/
+    position: absolute;
+}
+.middle811{
+    width: 300px;
+    height: 50px;
+    /*border: 1px solid grey;*/
+    position: absolute;
+    top: 50px;
+    left: 510px;
+    color: black;
+    font-size: 26px;
+    text-align: center;
+    line-height: 50px;
+}
+.middle812{
+    width: 300px;
+    height: 390px;
+    position: absolute;
+    /*border: 1px solid forestgreen;*/
+    top: 138px;
+    left: 184px;
+    background: url("../img/cellphone/hoem-s7-phone-mate10pro.jpg") no-repeat;
+    background-size: 300px 390px;
+}
+.middle812_1{
+    width: 300px;
+    height: 50px;
+    position: absolute;
+    top: 125px;
+    /*border: 1px solid green;*/
+    font-size: 37px;
+    text-align: center;
+    line-height: 50px;
+}
+.middle812_2{
+    width: 110px;
+    height: 66px;
+    position: absolute;
+    /*border: 1px solid gold;*/
+    bottom: 90px;
+    left: 90px;
+    text-align: center;
+    line-height: 65px;
+    font-size: 16px;
+}
+.middle812_21{
+    width: 50px;
+    height: 2px;
+    background-color: black;
+    position: absolute;
+    left: 35px;
+}
+.middle813{
+    width: 300px;
+    height: 390px;
+    position: absolute;
+    /*border: 1px solid forestgreen;*/
+    top: 138px;
+    left: 512px;
+    background: url("../img/cellphone/home-s7-phone-mediapad-m2-10.jpg") no-repeat;
+    background-size: 300px 390px;
+}
+.middle813_1{
+    width: 300px;
+    height: 50px;
+    position: absolute;
+    top: 125px;
+    /*border: 1px solid green;*/
+    font-size: 37px;
+    text-align: center;
+    line-height: 50px;
+}
+.middle813_2{
+    width: 110px;
+    height: 66px;
+    position: absolute;
+    /*border: 1px solid gold;*/
+    bottom: 90px;
+    left: 90px;
+    text-align: center;
+    line-height: 65px;
+    font-size: 16px;
+}
+.middle813_21{
+    width: 50px;
+    height: 2px;
+    background-color: black;
+    position: absolute;
+    left: 35px;
+}
+.middle814{
+    width: 300px;
+    height: 390px;
+    position: absolute;
+    /*border: 1px solid forestgreen;*/
+    top: 138px;
+    right: 211px;
+    background: url("../img/cellphone/home-s7-phone-watch-2.jpg") no-repeat;
+    background-size: 300px 390px;
+}
+.middle814_1{
+    width: 300px;
+    height: 50px;
+    position: absolute;
+    top: 125px;
+    /*border: 1px solid green;*/
+    font-size: 37px;
+    text-align: center;
+    line-height: 50px;
+}
+.middle814_2{
+    width: 110px;
+    height: 66px;
+    position: absolute;
+    /*border: 1px solid gold;*/
+    bottom: 90px;
+    left: 90px;
+    text-align: center;
+    line-height: 65px;
+    font-size: 16px;
+}
+.middle814_21{
+    width: 50px;
+    height: 2px;
+    background-color: black;
+    position: absolute;
+    left: 35px;
 }
 .footer{
     width: 100%;
-    height: 700px;
-    background-color: blue;
+    height: 620px;
+    /*background-color: greenyellow;*/
+    position: absolute;
+}
+.footer1{
+    width: 1346px;
+    height: 620px;
+    /*border: 1px solid saddlebrown;*/
+    position: absolute;
+}
+.footer11{
+    width: 1025px;
+    height: 85px;
+    /*border: 1px solid #F67570;*/
+    position: absolute;
+    left: 155px;
+}
+.footer11_1{
+    width: 400px;
+    height: 81px;
+    /*border: 1px solid forestgreen;*/
+    text-align: center;
+    line-height: 81px;
+    font-size: 11px;
+    position: absolute;
+}
+.footer11_2{
+    width: 623px;
+    height: 84px;
+    /*border: 1px solid saddlebrown;*/
+    position: absolute;
+    list-style: none;
+    top: 0px;
+    left: 398px;
+}
+.footer11_2 li{
+    float: left;
+    width: 152px;
+    height: 84px;
+    /*border: 1px solid firebrick;*/
+    font-size: 13px;
+    text-align: center;
+    line-height: 83px;
+    transition: 1s;
+}
+.footer11_2 li:hover{
+    color: red;
 
+}
+.footer11_2_lines{
+    width: 1px;
+    height: 41px;
+    background-color: #808080;
+    position: absolute;
+    top: 20px;
+}
+.footer11_3{
+    width: 1025px;
+    height: 1px;
+    position: absolute;
+    background-color: #808080;
+    bottom: 0px;
+}
+.footer12{
+    width: 1022px;
+    height: 430px;
+    /*border: 1px solid firebrick;*/
+    position: absolute;
+    top: 88px;
+    left: 155px;
+}
+.footer12_1{
+    width: 120px;
+    height: 425px;
+    position: absolute;
+    /*border: 1px solid darkgoldenrod;*/
+}
+.footer12_1_one{
+    width: 120px;
+    height: 60px;
+    position: absolute;
+    /*border: 1px solid royalblue;*/
+    font-size: 16px;
+    text-align: center;
+    line-height: 60px;
+}
+.footer12_1_two{
+    width: 120px;
+    height: 365px;
+    position: absolute;
+    /*border: 1px solid lightslategray;*/
+    bottom: 0px;
+    list-style: none;
+}
+.footer12_1_two li{
+    width: 120px;
+    height: 39px;
+    /*border: 1px solid peru;*/
+    text-align: center;
+    line-height: 44px;
+    font-size: 14px;
+    transition: 1s;
+}
+.footer12_1_two li:hover{
+    color: red;
+}
+.footer12_2{
+    width: 120px;
+    height: 425px;
+    position: absolute;
+    /*border: 1px solid darkgoldenrod;*/
+    left: 200px;
+}
+.footer12_2_one{
+    width: 120px;
+    height: 60px;
+    position: absolute;
+    /*border: 1px solid royalblue;*/
+    font-size: 16px;
+    text-align: center;
+    line-height: 60px;
+}
+.footer12_2_two{
+    width: 120px;
+    height: 365px;
+    position: absolute;
+    /*border: 1px solid lightslategray;*/
+    bottom: 0px;
+    list-style: none;
+}
+.footer12_2_two li{
+    width: 120px;
+    height: 39px;
+    /*border: 1px solid peru;*/
+    text-align: center;
+    line-height: 44px;
+    font-size: 14px;
+    transition: 1s;
+}
+.footer12_2_two li:hover{
+    color: red;
+}
+.footer12_3{
+    width: 120px;
+    height: 425px;
+    position: absolute;
+    /*border: 1px solid darkgoldenrod;*/
+    left: 400px;
+}
+.footer12_3_one{
+    width: 120px;
+    height: 60px;
+    position: absolute;
+    /*border: 1px solid royalblue;*/
+    font-size: 16px;
+    text-align: center;
+    line-height: 60px;
+}
+.footer12_3_two{
+    width: 120px;
+    height: 365px;
+    position: absolute;
+    /*border: 1px solid lightslategray;*/
+    bottom: 0px;
+    list-style: none;
+}
+.footer12_3_two li{
+    width: 120px;
+    height: 39px;
+    /*border: 1px solid peru;*/
+    text-align: center;
+    line-height: 44px;
+    font-size: 14px;
+    transition: 1s;
+}
+.footer12_3_two li:hover{
+    color: red;
+}
+.footer12_4{
+    width: 120px;
+    height: 425px;
+    position: absolute;
+    /*border: 1px solid darkgoldenrod;*/
+    left: 600px;
+}
+.footer12_4_one{
+    width: 120px;
+    height: 60px;
+    position: absolute;
+    /*border: 1px solid royalblue;*/
+    font-size: 16px;
+    text-align: center;
+    line-height: 60px;
+}
+.footer12_4_two{
+    width: 120px;
+    height: 365px;
+    position: absolute;
+    /*border: 1px solid lightslategray;*/
+    bottom: 0px;
+    list-style: none;
+}
+.footer12_4_two li{
+    width: 120px;
+    height: 39px;
+    /*border: 1px solid peru;*/
+    text-align: center;
+    line-height: 44px;
+    font-size: 14px;
+    transition: 1s;
+}
+.footer12_4_two li:hover{
+    color: red;
+}
+.footer12_5{
+    width: 120px;
+    height: 425px;
+    position: absolute;
+    /*border: 1px solid darkgoldenrod;*/
+    left: 800px;
+}
+.footer12_5_one{
+    width: 120px;
+    height: 60px;
+    position: absolute;
+    /*border: 1px solid royalblue;*/
+    font-size: 16px;
+    text-align: center;
+    line-height: 60px;
+}
+.footer12_5_two{
+    width: 120px;
+    height: 365px;
+    position: absolute;
+    /*border: 1px solid lightslategray;*/
+    bottom: 0px;
+    list-style: none;
+}
+.footer12_5_two li{
+    width: 120px;
+    height: 39px;
+    /*border: 1px solid peru;*/
+    text-align: center;
+    line-height: 44px;
+    font-size: 14px;
+    transition: 1s;
+}
+.footer12_5_two li:hover{
+    color: red;
+}
+.footer12_6{
+    width: 1025px;
+    height: 1px;
+    position: absolute;
+    bottom: 0px;
+    background-color:#808080;
+}
+.footer13{
+     width: 1022px;
+     height: 50px;
+     position: absolute;
+     /*border: 1px solid darkgoldenrod;*/
+     bottom: 50px;
+     left: 155px;
+ }
+.footer13_1{
+    width: 40px;
+    height: 50px;
+    position: absolute;
+    /*border: 1px solid #3EBFDD;*/
+    font-size: 18px;
+    text-align: center;
+    line-height: 50px;
+    text-decoration:underline;
+    transition: 1s;
+}
+.footer13_1:hover{
+    color: red;
+}
+.footer13_2{
+    width: 520px;
+    height: 50px;
+    /*border: 1px solid peru;*/
+    position: absolute;
+    right: 0px;
+    list-style: none;
+}
+.footer13_2 li{
+    width: 170px;
+    height: 50px;
+    /*border: 1px solid brown;*/
+    float: left;
+    font-size: 13px;
+    line-height: 50px;
+    text-align: center;
+}
+.footer14{
+    width: 1022px;
+    height: 50px;
+    position: absolute;
+    /*border: 1px solid darkgoldenrod;*/
+    bottom: 0px;
+    left: 155px;
+}
+.footer14_1{
+    width: 375px;
+    height: 50px;
+    position: absolute;
+    /*border: 1px solid firebrick;*/
+    list-style: none;
+}
+.footer14_1 li{
+    width: 73px;
+    height: 50px;
+    float:left;
+    /*border: 1px solid #e01d20;*/
+    font-size: 13px;
+    text-align: center;
+    line-height: 50px;
+    transition: 1s;
+}
+.footer14_1 li:hover{
+    color: red;
+}
+.footer14_2{
+    width: 435px;
+    height: 50px;
+    position: absolute;
+    /*border: 1px solid firebrick;*/
+    right: 0px;
+    font-size: 12px;
+    text-align: center;
+    line-height: 50px;
 }
