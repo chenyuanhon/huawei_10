@@ -3,7 +3,7 @@
     padding: 0;
 }
 .bigbox{
-    width: 1350px;
+    width: 1346px;
     height: 5069px;
     /*border: 1px solid blue;*/
     /*position: absolute;*/
@@ -75,7 +75,7 @@
 .middle{
     width: 100%;
     height: 4375px;
-    border: 1px solid peru;
+    /*border: 1px solid peru;*/
     padding-top: 73px;
     position: relative;
 }
@@ -186,7 +186,7 @@
     position: relative;
 }
 .middle31{
-    width: 1350px;
+    width: 1346px;
     height: 580px;
     /*border: 1px solid navy;*/
     position: relative;
@@ -380,7 +380,7 @@
     /*position: relative;*/
 }
 .middle51{
-    width: 1350px;
+    width: 1346px;
     height: 560px;
     position: absolute;
 }
@@ -615,7 +615,7 @@
     /*background-size: 760px 480px;*/
 }
 .middle61{
-    width: 1350px;
+    width: 1346px;
     height: 480px;
     /*border: 1px solid black;*/
     position: relative;
@@ -669,7 +669,7 @@
     position: relative;
 }
 .middle71{
-    width: 1350px;
+    width: 1346px;
     height: 562px;
     position: absolute;
     /*border:1px solid darkgoldenrod;*/
@@ -745,7 +745,7 @@
     position: relative;
 }
 .middle81{
-    width: 1350px;
+    width: 1346px;
     height: 580px;
     /*border: 1px solid darkslategray;*/
     position: absolute;
@@ -883,7 +883,7 @@
     position: absolute;
 }
 .footer1{
-    width: 1350px;
+    width: 1346px;
     height: 620px;
     /*border: 1px solid saddlebrown;*/
     position: absolute;

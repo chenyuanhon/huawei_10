@@ -7,6 +7,8 @@
     <link href="css/xb_index_header.css" rel="stylesheet">
     <link href="css/xb_index_content.css" rel="stylesheet">
     <link href="css/xb_index_footer.css" rel="stylesheet">
+    <link href="icon/xb_ttf2/iconfont.css" rel="stylesheet">
+
     <!--<link rel="SHORTCUT ICON" href="img/xb_images/huawei.ico"/> &lt;!&ndash;设置华为官网小图标&&ndash;&gt;-->
     <link rel="shortcut icon" href="img/xb_images/huawei.ico"/> <!--设置华为官网小图标-->
 
@@ -37,12 +39,11 @@
     </script>
 </head>
 <body>
-
 <div class="bigbox">
     <div class="header">
                 <div class="headerup">
                     <div class="headerup1">
-                        <div class="headerup_group" onclick="show()"><span>集团网站1</span><i class="iconfont icon-xiajiantou" > </i>
+                        <div class="headerup_group" onclick="show()"><span>集团网站</span><i class="iconfont icon-xiajiantou" > </i>
                                     <div id="li_nonebig">
                                         <!--点击事件-->
                                     <div class="li_none">
@@ -68,10 +69,7 @@
                     </div>
                         <div class="headerup_language">
                             <ul>
-
-
                                 <li class="li_language" ><a href="javascript:show2();"><i class="iconfont icon-duoyuyan"></i>&nbsp; <span>选择区域/语言</span> &nbsp;<i class="iconfont icon-xiajiantou" ></i></a>
-
                                <!-- *************************设置多语言按钮事件隐藏内容************************-->
                                 <div id="li_nonebig2">
                                     <div class="language_bigbox">
@@ -106,7 +104,7 @@
                                         </div>
                                         <div class="language_box4">
                                             <ul>
-                                                <li><img src="img/xb_images/language/Turkey.png" width="27px" height="17px"> <span>Turkey- <a href="">Türkiye</a></span></li>
+                                                <li><img src="img/xb_images/language/Turkey.png" style="width: 27px; height:17px;"> <span>Turkey- <a href="">Türkiye</a></span></li>
                                                 <li><img src="img/xb_images/language/United Kingdom.png"> <span>United Kingdom- <a href="">English</a></span></li>
                                                 <li><img src="img/xb_images/language/United States.png"> <span>United States- <a href="">English</a></span></li>
                                                 <li><img src="img/xb_images/language/Vietnam.png"> <span>Australia- <a href="">Tiếng Việt</a></span></li>
@@ -115,7 +113,7 @@
                                      </div>
                                 </div>
                                 </li>
-                                <li class="li_login"><i class="iconfont icon-icon-"></i><a href="">登陆</a></li>
+                                <li class="li_login"><i class="iconfont icon-icon-"></i><a href="html/huawei_login.html">登陆</a></li>
                             </ul>
                         </div>
                     </div>
@@ -132,7 +130,7 @@
                                     <div class="li_phonehoverleft"><div class="li_understandmore"><p>了解更多<i class="iconfont icon-jiantou"></i></p></div> </div>
                                  <div class="li_phonehovercenter">
                                      <div class="li_centerphone">
-                                         <div class="nav_phone"><p><a href="">手机</a></p></div>
+                                         <div class="nav_phone"><p><a href="html/cellphone.html">手机</a></p></div>
                                          <div class="nav_computer"><p><a href="">笔记本&平板</a></p></div>
                                          <div class="nav_watch"><p><a href="">穿戴设备</a></p></div>
                                          <div class="nav_intelligent"><p><a href="">智能家居</a></p></div>
@@ -148,7 +146,7 @@
                                      <p><a href="">预约服务</a></p>
                                      <p><a href="">保修状态查询</a></p>
                                      <p><a href="">保修政策</a></p>
-                                     <p class="access_technology"><a href="">访问<span>技术支持中心</span></a></p>
+                                     <p id="access_technology"><a href="">访问<span>技术支持中心</span></a></p>
                                  </div>
                             </div>
                             </li>
@@ -181,7 +179,7 @@
                                                     <p><a href="">云数据中心</a></p>
                                                     <p><a href="">企业网络</a></p>
                                                     <p><a href="">企业无线</a></p>
-                                                    <p><a href=""class="color_viewall">各行各业解决方案</a></p>
+                                                    <p><a href="" class="color_viewall">各行各业解决方案</a></p>
                                                     <p><a href="" class="color_viewall">查看全部</a></p>
                                                 </div>
                                                 <div id="li_solveboxleftcontent3">
@@ -200,7 +198,7 @@
                                             <p><a href="">软件下载</a></p>
                                             <p><a href="">技术论坛</a></p>
                                             <p><a href="">工具</a></p>
-                                            <span><a href="">前往<small>技术支持中心</small></a></span>
+                                            <span id="go_technology"><a href="">前往<small>技术支持中心</small></a></span>
                                         </div>
 
                                     </div>
@@ -209,7 +207,7 @@
 
                             </li>
                             <li class="li_shop"><a href="html/huaweistore.html">华为商城<i class="iconfont icon-fenxiangfasong"></i></a></li>
-                            <li class="li_huaweicloud"><a href="">华为云<i class="iconfont icon-fenxiangfasong"></i></a></li>
+                            <li class="li_huaweicloud"><a href="html/huaweicloud.html">华为云<i class="iconfont icon-fenxiangfasong"></i></a></li>
                         </ul>
                     </div>
                     <div class="headerdown_nav_search"><i class="iconfont icon-sousuo"></i></div>
@@ -366,7 +364,7 @@
                             <ul>
                                 <li><a href=""><i class="iconfont icon-xinlangweibo"></i></a></li>
                                 <li><a href=""><i class="iconfont icon-in"></i></a></li>
-                                <li><a href=""><i class="iconfont icon-youxi"></i></a></li>
+                                <li><a href=""><i class="iconfont icon-gongzhonghao"></i></a></li>
                             </ul>
                         </div>
                      </div>
