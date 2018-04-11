@@ -52,6 +52,11 @@
    top:15px;
     background: url("../img/cellphone/huawei_log.png");
 }
+.header2_left a{
+    width: 142px;
+    height: 41px;
+    display: block;
+}
 .header2_center{
     width: 780px;
     height: 41px;
