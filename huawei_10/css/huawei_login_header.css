@@ -2,12 +2,6 @@
     margin: 0;
     padding: 0;
 }
-.bigbox{
-    width: 100%;
-    height: 4200px;
-    /*border: 1px solid red;*/
-    margin: 0 auto;
-}
 .header{
     width: 100%;
     height: 103px;
@@ -104,6 +98,7 @@
     width: 100%;
     height: 80px;
     /*background-color: wheat;*/
+    border-bottom:2px solid #E7E7E7 ;
 }
 .headerup_language{
     width: 210px;
@@ -259,6 +254,11 @@
     cursor: pointer;
     background: url("../img/xb_images/huawei_logo.png") no-repeat center;
     float: left;
+}
+.huawei_logo a{
+    display: block;
+    width: 160px;
+    height: 78px;
 }
 .headerdown_nav_content{
     width: 800px;
@@ -688,6 +688,12 @@
 
 
 
+.li_solve:hover .li_solvebox{
+    display: block;
+}
+
+
+
 
 
 /***************************************************************************/
@@ -719,8 +725,8 @@
 }
 
 /*.headerdown_nav_content ul .li_solve span{*/
-    /*height: 50px;*/
-    /*border-right: 1px solid #D4D4D4;*/
+/*height: 50px;*/
+/*border-right: 1px solid #D4D4D4;*/
 /*}*/
 .headerdown_nav_content ul .li_shop{
     width: 164px;

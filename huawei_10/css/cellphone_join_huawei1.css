@@ -1,0 +1,654 @@
+*{
+    margin:0;
+    padding:0;
+}
+.bigbox{
+    width: 1346px;
+    height: 2505px;
+    margin: 1px auto;
+    /*position: absolute;*/
+    /*border: 1px solid crimson;*/
+}
+.header{
+    width: 1346px;
+    height: 80px;
+    position: relative;
+    /*border: 1px solid darkgoldenrod;*/
+    z-index: 9;
+}
+.header_left{
+    width: 170px;
+    height: 50px;
+    position: absolute;
+    /*border: 1px solid red;*/
+    top: 14px;
+    left: 15px;
+    background: url("../img/cellphone/2018-04-08_103403.png")no-repeat;
+}
+.header_left a{
+    display: block;
+    width: 170px;
+    height: 50px;
+    /*border: 1px solid red;*/
+}
+.header_center{
+    width: 580px;
+    height: 50px;
+    /*border: 1px solid darkslategrey;*/
+    position: absolute;
+    top: 14px;
+    left: 215px;
+}
+.header_center ul li:first-child{
+    width: 50px;
+    height: 50px;
+    /*position: absolute;*/
+    /*border: 1px solid royalblue;*/
+    text-align: center;
+    line-height: 50px;
+    color: red;
+}
+.header_center ul{
+    width: 580px;
+    height: 50px;
+    /*position: absolute;*/
+    list-style: none;
+    box-sizing: border-box;
+
+    left: 70px;
+    /*border: 1px solid indianred;*/
+    float: left;
+}
+.header_center ul li{
+    width: 100px;
+    height: 50px;
+    /*border: 1px solid saddlebrown;*/
+    float: left;
+    text-align: center;
+    font-size: 16px;
+    line-height: 50px;
+    color: #333333;
+}
+.header_center ul li i{
+    font-size: 9px;
+}
+.header_center ul.header_center_one{
+    width: 110px;
+    height: 250px;
+    /*border: 1px solid red;*/
+    list-style: none;
+    display: none;
+    background-color: white;
+    /*left: -50px;*/
+}
+.header_center ul.header_center_one li{
+    width: 110px;
+    height: 50px;
+    /*border: 1px solid firebrick;*/
+    color: #191919;
+    text-align: center;
+    line-height: 50px;
+}
+.header_center ul .li_none1:hover .header_center_one{
+    display: block;
+}
+.header_center ul .header_center_two{
+    width: 110px;
+    height: 100px;
+    /*border: 1px solid darkgoldenrod;*/
+    list-style: none;
+    display: none;
+    background-color: white;
+}
+.header_center ul .header_center_two li{
+    width: 110px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    color: black;
+}
+.header_center ul .li_none2:hover .header_center_two{
+    display:block;
+
+}
+.header_right{
+    width: 200px;
+    height: 50px;
+    position: absolute;
+    /*border: 1px solid indigo;*/
+    right: 10px;
+    top: 14px;
+    color: #9999B2;
+}
+.header_right_one{
+    width: 90px;
+    height: 50px;
+    /*border: 1px solid darkgoldenrod;*/
+    position: absolute;
+    text-align: center;
+    line-height: 50px;
+    font-size: 14px;
+}
+.header_right_one:hover{
+    color: red;
+}
+.header_right_two{
+    width: 106px;
+    height: 50px;
+    position: absolute;
+    right: 1px;
+    /*border: 1px solid #e01d20;*/
+    text-align: center;
+    line-height: 50px;
+    font-size: 14px;
+}
+.header_right_two:hover{
+    color: red;
+}
+.content{
+    width: 1346px;
+    height: 2080px;
+    position: relative;
+    /*border: 1px solid green;*/
+}
+.content1{
+    width: 1346px;
+    height: 685px;
+    position: relative;
+    /*border: 1px solid firebrick;*/
+    background-color: #F7F7F7;
+}
+.content11{
+    width: 1346px;
+    height: 550px;
+    position: relative;
+    /*border: 1px solid firebrick;*/
+    background: url("../img/cellphone/banner_bg_img.jpg") no-repeat;
+}
+.content11_one{
+    width: 785px;
+    height: 90px;
+    position: absolute;
+    /*border: 1px solid darkblue;*/
+    left: 300px;
+   bottom: 118px;
+    font-size: 69px;
+    color: white;
+}
+.content11_two{
+    width: 690px;
+    height: 60px;
+    position: absolute;
+    /*border: 1px solid forestgreen;*/
+    left: 330px;
+    bottom: 5px;
+}
+.kuang input{
+    width:569px;
+    height:60px;
+    background:url(../img/cellphone/2018-04-09_2142081.png) no-repeat;
+    border:none;
+    float:left;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+
+}
+.an input{
+    width:120px;
+    height:60px;
+    background:url(../img/cellphone/2018-04-09_2133491.png) no-repeat;
+    border:none;
+    float:left;
+    /*background-color: #E41F2B;*/
+    color:#FAFFFF;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius:10px;
+}
+.content12{
+    width: 250px;
+    height: 50px;
+    /*border: 1px solid fuchsia;*/
+    position: relative;
+    left:330px;
+    color: #FAF7F7;
+    top: 10px;
+}
+.content2{
+    width: 1346px;
+    height: 685px;
+    position: relative;
+    /*border: 1px solid darkblue;*/
+}
+.content21{
+    width: 350px;
+    height: 50px;
+    position: absolute;
+    /*border: 1px solid #e41e2b;*/
+    left: 500px;
+    top: 35px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 27px;
+}
+.content22{
+    width: 520px;
+    height: 365px;
+    position:absolute;
+    /*border: 1px solid firebrick;*/
+    left: 125px;
+    top: 115px;
+    background: url("../img/cellphone/first-1.jpg" )no-repeat;
+}
+.content23{
+    width: 520px;
+    height: 365px;
+    position:absolute;
+    /*border: 1px solid firebrick;*/
+    top: 115px;
+    right: 125px;
+    background: url("../img/cellphone/Ad-2.jpg");
+
+}
+.content24 {
+    width: 110px;
+    height: 41px;
+    position: absolute;
+    border: 1px solid peru;
+    left: 325px;
+    bottom: 131px;
+    text-align: center;
+    line-height: 41px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background-color:#E41F2B;
+    color: #FDFFDD;
+}
+.content25 {
+    width: 110px;
+    height: 41px;
+    position:absolute;
+    border: 1px solid peru;
+    bottom: 131px;
+    right: 325px;
+    text-align: center;
+    line-height: 41px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background-color:#E41F2B;
+    color: #FDFFDD;
+}
+.content26{
+    width: 520px;
+    height: 40px;
+    position: absolute;
+    /*border: 1px solid #EF2F34;*/
+    bottom: 65px;
+    left: 125px;
+    text-align: center;
+    line-height: 40px;
+    color: #666666;
+
+}
+.content27{
+    width: 520px;
+    height: 40px;
+    position: absolute;
+    /*border: 1px solid #EF2F34;*/
+    bottom: 65px;
+    right: 125px;
+    text-align: center;
+    line-height: 40px;
+    color: #666666;
+}
+.content3{
+     width: 1346px;
+     height: 705px;
+     position: relative;
+     /*border: 1px solid #e01d20;*/
+}
+.content31{
+    width: 520px;
+    height: 365px;
+    position:absolute;
+    /*border: 1px solid firebrick;*/
+    left: 125px;
+    top: 70px;
+    background: url("../img/cellphone/Ad-3.jpg" )no-repeat;
+}
+.content32{
+    width: 520px;
+    height: 365px;
+    position:absolute;
+    /*border: 1px solid firebrick;*/
+    right: 125px;
+    top: 70px;
+    background: url("../img/cellphone/AD-4.jpg" )no-repeat;
+}
+.content33 {
+    width: 110px;
+    height: 41px;
+    position: absolute;
+    border: 1px solid peru;
+    left: 325px;
+    bottom: 200px;
+    text-align: center;
+    line-height: 41px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background-color:#E41F2B;
+    color: #FDFFDD;
+
+}
+.content34 {
+    width: 110px;
+    height: 41px;
+    position:absolute;
+    border: 1px solid peru;
+    bottom: 200px;
+    right: 325px;
+    text-align: center;
+    line-height: 41px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background-color:#E41F2B;
+    color: #FDFFDD;
+
+}
+.content35{
+    width: 520px;
+    height: 70px;
+    position: absolute;
+    /*border: 1px solid #EF2F34;*/
+    bottom: 118px;
+    left: 125px;
+    text-align: center;
+    line-height: 40px;
+    color: #666666;
+    font-size: 16px;
+
+}
+.content36{
+    width: 520px;
+    height: 70px;
+    position: absolute;
+    /*border: 1px solid #EF2F34;*/
+    bottom: 118px;
+    right: 125px;
+    text-align: center;
+    line-height: 40px;
+    color: #666666;
+    font-size: 16px;
+}
+.content4 ul {
+    width: 60px;
+    height: 180px;
+    position: fixed;
+    bottom: 120px;
+    right: 1px;
+    list-style: none;
+    z-index: 1;
+}
+.content4 ul li{
+    width: 60px;
+    height: 60px;
+    /*border: 1px solid #3EBFDD;*/
+    /*position: absolute;*/
+}
+.content4 ul li i{
+    font-size: 34px;
+    color:#BDBDBD;
+}
+.content4 .content4_li1_one{
+    width: 51px;
+    height: 51px;
+    /*border: 1px solid firebrick;*/
+    margin: 1px auto;
+    text-align: center;
+    line-height: 52px;
+    background-color: #EDEDED;
+    border-radius:10px;
+}
+.content4 .content4_li1_one .content4_li1_one_1{
+    width: 51px;
+    height: 51px;
+    right: -52px;
+    background-color: #E41F2B;
+    top: 1px;
+    z-index: -1;
+    position: absolute;
+    font-size: 14px;
+    border-radius: 10px;
+}
+.content4 .content4_li1_one .content4_li1_one_1 span{
+    display: inline-block;
+    width: 40px;
+    height: 51px;
+    line-height: 23px;
+    text-align: center;
+    font-size: 14px;
+    /*border: 1px solid black;*/
+    color: white;
+    padding-top: 1px;
+
+}
+.content4 .content4_li1_one:hover .content4_li1_one_1{
+    right: 4px;
+    z-index:2;
+    top: 1px;
+    border-radius: 10px;
+
+}
+.content4 .content4_li2_one{
+    width: 50px;
+    height: 50px;
+    /*border: 1px solid firebrick;*/
+    margin: 1px auto;
+    text-align: center;
+    line-height: 50px;
+    background-color: #EDEDED;
+    border-radius:10px;
+}
+.content4 .content4_li2_one .content4_li2_one_1{
+    width: 51px;
+    height: 51px;
+    right: -52px;
+    background-color: #E41F2B;
+    box-sizing: border-box;
+    padding-top: 5px;
+    top: 40px;
+    z-index: -1;
+    position: absolute;
+}
+.content4 .content4_li2_one .content4_li2_one_1 span{
+    display: inline-block;
+    width: 41px;
+    height: 51px;
+    /*line-height: 51px;*/
+    text-align: center;
+    line-height: 22px;
+    font-size: 14px;
+    /*border: 1px solid black;*/
+    color: white;
+}
+.content4 .content4_li2_one:hover .content4_li2_one_1{
+    right: 4px;
+    z-index:2;
+    top: 61px;
+    border-radius: 10px;
+}
+.content4 .content4_li3_one{
+    width: 52px;
+    height: 52px;
+    /*border: 1px solid firebrick;*/
+    margin: 1px auto;
+    text-align: center;
+    line-height: 52px;
+    background-color: #EDEDED;
+    border-radius:10px;
+}
+.content4 .content4_li3_one .content4_li3_one_1{
+    width: 52px;
+    height: 52px;
+    right: -53px;
+    background-color: #E41F2B;
+    /*top: 1px;*/
+    z-index: -1;
+    position: absolute;
+    /*font-size: 14px;*/
+    box-sizing: border-box;
+    /*padding-top: 1px;*/
+}
+.content4 .content4_li3_one .content4_li3_one_1 span{
+    display: inline-block;
+    width: 40px;
+    height: 51px;
+    line-height: 23px;
+    text-align: center;
+    font-size: 14px;
+    /*border: 1px solid black;*/
+    color: white;
+    padding-top: 1px;
+
+}
+.content4 .content4_li3_one:hover .content4_li3_one_1{
+    right: 4px;
+    z-index:2;
+    top: 123px;
+    border-radius: 10px;
+
+}
+.footer{
+    width:1346px;
+    height: 345px;
+    position:relative;
+    /*border: 1px solid slateblue;*/
+}
+.footer1{
+    width: 1346px;
+    height: 285px;
+    /*border: 1px solid  darkblue;*/
+    position: relative;
+    background-color:#363636;
+}
+.footer1 ul{
+    width: 100px;
+    height: 210px;
+    position: absolute;
+    list-style: none;
+    /*border: 1px solid #EF2F34;*/
+}
+.footer1 ul li{
+    width: 100px;
+    height: 25px;
+    text-align: center;
+    line-height: 25px;
+    font-size: 14px;
+    color: #cccccc;
+}
+.footer1 ul li:first-child{
+    font-size: 16px;
+    color:#FFFFDF;
+}
+.footer11{
+    top: 40px;
+    left: 150px;
+}
+.footer12{
+    top: 40px;
+    left: 280px;
+}
+.footer13{
+    top: 40px;
+    left: 400px;
+}
+.footer14{
+    top: 40px;
+    left: 520px;
+}
+.footer1 ul li:hover{
+    color: honeydew;
+}
+.footer1 .span_one{
+    width: 100px;
+    height: 25px;
+    position: absolute;
+    /*border: 1px solid indigo;*/
+    top: 40px;
+    right: 310px;
+    text-align: center;
+    line-height: 25px;
+    font-size: 16px;
+    color: white;
+}
+.footer15{
+    width: 100px;
+    height: 40px;
+    position: absolute;
+    /*border: 1px solid brown;*/
+    right: 290px;
+    top: 90px;
+    font-size: 30px;
+    color: #FFFFFF;
+}
+.footer1 i{
+    font-size: 30px;
+    color: #FFFFFF;
+
+}
+.footer16{
+    width: 85px;
+    height: 110px;
+    position: absolute;
+    /*border: 1px solid red;*/
+    right: 310px;
+    bottom: 30px;
+    background: url("../img/cellphone/hw_gw.png")no-repeat;
+}
+.footer16 .span_two{
+    bottom: 1px;
+    width: 85px;
+    right: 1px;
+    position: absolute;
+    text-align: center;
+    font-size: 13px;
+    color: #FFFFFF;
+}
+.footer17{
+    width: 85px;
+    height: 110px;
+    position: absolute;
+    /*border: 1px solid red;*/
+    right: 145px;
+    bottom: 30px;
+    background: url("../img/cellphone/ihuawei.png")no-repeat;
+    background-size: 85px 90px;
+
+}
+.footer17 .span_three{
+    bottom: 1px;
+    width: 85px;
+    right: 1px;
+    position: absolute;
+    text-align: center;
+    font-size: 13px;
+    color: #FFFFFF;
+}
+
+.footer2{
+    width: 1346px;
+    height: 60px;
+    /*border: 1px solid goldenrod;*/
+    position: relative;
+    background-color:#272727;
+}
+.footer21{
+    width: 385px;
+    height: 60px;
+    position: absolute;
+    left: 490px;
+    /*border: 1px solid mediumblue;*/
+    font-size: 14px;
+    text-align: center;
+    line-height: 60px;
+    color: #999999;
+}
