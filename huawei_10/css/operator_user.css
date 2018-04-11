@@ -141,7 +141,8 @@
     background-color: rgb(241,241,241);
     position: absolute;
     z-index: 999;
-    top: 87px;
+    /*top: 87px;*/
+    top:72px;
     left: 0px;
     display: none;
 }
