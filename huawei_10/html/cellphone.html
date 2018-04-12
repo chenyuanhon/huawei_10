@@ -5,12 +5,46 @@
     <title></title>
     <link href="../css/cellphone_1.css"  rel="stylesheet">
     <link href="../icon/cellphone1/font_r3zvhtyzadjcerk9/iconfont.css" rel="stylesheet">
+    <link href="../icon/xb_ttf/iconfont.css" rel="stylesheet">
+    <script>
+         function showHide()
+        {
+            var oDiv=document.getElementById('header12');
+
+            if(oDiv.style.display=='block')
+            {
+                oDiv.style.display='none';
+            }
+            else
+            {
+                oDiv.style.display='block';
+            }
+        }
+    </script>
 </head>
 <body>
 <div class="bigbox">
     <div class="header">
         <div class="header1">
-            <div class="header11">消费者业务网站</div>
+            <div class="header11" onclick="showHide()">消费者业务网站<i class="iconfont icon-xiajiantou" > </i></div>
+            <div id="header12">
+                <div class="header12_1">
+                    <h5>个人用户</h5>
+                    <p>手机，PC和平板，穿戴设备等个人及家用产品</p>
+                </div>
+                <div class="header12_2">
+                    <h5>集团网站<i class="iconfont icon-jiantou" ></i></h5>
+                    <p>公司信息，社会责任，新闻，展会活动，行业洞察等等</p>
+                </div>
+               <div class="header12_3">
+                   <h5>企业用户<i class="iconfont icon-jiantou" ></i></h5>
+                   <p>企业商用产品、解决方案和云服务</p>
+               </div>
+                <div class="header12_4">
+                    <h5> 运营商用户<i class="iconfont icon-jiantou" ></i></h5>
+                    <p>运营商网络解决方案、产品及服务</p>
+                </div>
+            </div>
         </div>
         <div class="header2">
            <div class="header2_left"><a href="../index.html"></a></div>
