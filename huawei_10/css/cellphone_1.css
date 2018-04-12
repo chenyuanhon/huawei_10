@@ -976,6 +976,9 @@
     font-size: 11px;
     position: absolute;
 }
+.footer11_1 i{
+    font-size: 18px;
+}
 .footer11_2{
     width: 623px;
     height: 84px;
@@ -998,6 +1001,9 @@
 .footer11_2 li:hover{
     color: red;
 
+}
+.footer11_2 li i{
+    font-size: 30px;
 }
 .footer11_2_lines{
     width: 1px;
@@ -1245,6 +1251,9 @@
     font-size: 13px;
     line-height: 50px;
     text-align: center;
+}
+.footer13_2 li i{
+    font-size: 30px;
 }
 .footer14{
     width: 1022px;
