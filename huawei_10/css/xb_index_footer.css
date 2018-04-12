@@ -93,13 +93,71 @@
     list-style: none;
     text-decoration: none;
 }
-.footerup_first_box5 ul li a:hover{
+.footerup_first_box5 ul li a i:hover{
+     opacity: .5;
+ }
+.footerup_first_box5 ul #wechatnone a:hover{
+    opacity: 1;
+}
+.footerup_first_box5 ul #wechatnone a i:hover{
     opacity: .5;
 }
 .footerup_first_box5 ul li a i{
     font-size: 26px;
 }
+.footerup_first_box5 ul li:last-child{
+    position: relative;
+}
+.footerup_first_box5 ul #wechatnone a .wechat{
+    width: 200px;
+    height: 190px;
+    background: url("../img/xb_images/wechat_orcode.jpg") no-repeat center;
+    background-size: 122px 125px ;
+    border: 1px solid #EEEEEE;
+    background-color: white;
+    display: none;
+    position: absolute;
+    top: -188px;
+    left: -83px;
+    box-shadow: 1px 1px 10px rgba(0,0,0,.5);
+}
 
+.footerup_first_box5 ul #wechatnone a:hover .wechat{
+    display: block;
+}
+.footerup_first_box5 ul #wechatnone a .wechat .wechatup{
+    width: 200px;
+    height: 30px;
+    background-color: #F3F3F3;
+    box-sizing: border-box;
+    padding-bottom: 5px;
+}
+.footerup_first_box5 ul #wechatnone a .wechat .wechatup span{
+    color: #777777;
+    font-size: 14px;
+    height: 30px;
+    line-height: 30px;
+    /*border: 1px solid red;*/
+    position: absolute;
+    top: 0px;
+    left: 67px;
+}
+.footerup_first_box5 ul #wechatnone a .wechat .radio{
+    width: 0px;
+    height: 0px;
+    border-top:10px solid white ;
+    border-right: 10px solid transparent;
+    border-left: 10px solid transparent;
+    position:absolute ;
+    bottom:-10px;
+    left: 90px;
+}
+
+
+
+
+
+/***********************************************************/
 .footerup_first_box3{
     width: 102px;
     height: 150px;
