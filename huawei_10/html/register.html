@@ -5,6 +5,7 @@
     <title>华为云注册页面</title>
     <style type="text/css"></style>
     <link rel="stylesheet" type="text/css" href="../css/register.css">
+    <link rel="stylesheet" type="text/css" href="../icon/zl_ttf/iconfont.css">
 </head>
 <body>
 <!--头部导航栏-->
@@ -16,12 +17,12 @@
         <div class="head-navright">
             <ul >
                 <li ><a href="" id="registration">已有账号：登陆</a></li>
+                <li class="chinese"><i class="iconfont icon-duoyuyan"></i> 中文(简体)
+                    <a href=""><div class="language">English</div></a></li>
                 <li><a href="">云社区</a></li>
                 <li><a href="">中心</a> </li>
                 <li><a href="huaweicloud.html"> 首页</a></li>
-                <li class="chinese">中文(简体)
-                    <div class="language"> <a href="">English</a></div></li>
-                <li>O</li>
+
             </ul>
         </div>
     </div>
@@ -33,11 +34,57 @@
 
     </div>
         <div class="content-main">
-            <div><input=</div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
+            <div class="id"><input type="search" placeholder="请设置您的账号名">
+                <div class="id-one">
+                    <ul>
+                        <li><img src="../img/tupian/default.png"> 5-32个字符</li>
+                        <li><img src="../img/tupian/default.png">只能包含字母、数字或特殊字符（-_）</li>
+                    </ul>
+                    <div class="id-two"></div>
+                    <div class="id-three"></div>
+                </div>
+            </div>
+            <div class="pw"><input type="password" placeholder="请设置您的密码" >
+                <div class="pw-one">
+                    <ul>
+                        <li><img src="../img/tupian/default.png">6-32个字符</li>
+                        <li><img src="../img/tupian/default.png">数字、大小写字母及特殊字符至少包含两种</li>
+                        <li><img src="../img/tupian/default.png">不能与用户名或倒序的用户名相同</li>
+                        <li><img src="../img/tupian/default.png">不能包含手机号</li>
+                    </ul>
+                    <div class="pw-two"></div>
+                    <div class="pw-three"></div>
+                </div>
+            </div>
+            <div class="pwagain"><input type="password" placeholder="请再次确认您的密码">
+                <div class="pwagain-one">
+                    <ul>
+                        <li><i class="iconfont icon-gantanhao1"></i>该项不能为空</li>
+                    </ul>
+                    <div class="pwagain-two"></div>
+                    <div class="pwagain-three"></div>
+                </div>
+            </div>
+            <div class="mobile"><div class="mobilenumber-1"></div><input type="search" placeholder="请输入手机号">
+                <div class="mobile-one">
+                    <ul>
+                        <li><i class="iconfont icon-gantanhao1"></i>该项不能为空</li>
+                    </ul>
+                    <div class="mobile-two"></div>
+                    <div class="mobile-three"></div>
+                </div>
+            </div>
+            <div class="note"><input type="search" placeholder="请输入短信验证码"><button>获取短信验证码</button>
+                <div class="note-one">
+                    <ul>
+                        <li><i class="iconfont icon-gantanhao1"></i>该项不能为空</li>
+                    </ul>
+                    <div class="note-two"></div>
+                    <div class="note-three"></div>
+                </div>
+            </div>
+            <div><span><input type="checkbox" >我已阅读并同意 <a href="">《华为云用户协议》</a>和<a href="">《隐私政策声明》</a></span></div>
+            <div ><button class="button">同意协议并注册</button></div>
         </div>
 </div>
 </div>

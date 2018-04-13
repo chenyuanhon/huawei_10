@@ -1,5 +1,12 @@
+.changewhite{
+    width: 4000px;
+    height: 260px ;
+    position: relative;
+    left: -1310px;
+    background-color: white;
+}
 .header{
-    width: 1365px;
+    width:1385px;
     height: 250px;
     top:0px;
     margin: 0px auto;
