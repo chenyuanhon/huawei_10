@@ -367,7 +367,7 @@
     padding-top: 46px;
     padding-left: 8px;
 }
-.nav_phone p a, .nav_computer p a,.nav_watch p a,.nav_intelligent p,.nav_fitting p,.nav_broadband p{
+.nav_phone a, .nav_computer p a,.nav_watch p a,.nav_intelligent p,.nav_fitting p,.nav_broadband p{
     color: #282828;
 }
 
