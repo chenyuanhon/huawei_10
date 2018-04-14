@@ -26,11 +26,13 @@
     color: #282828;
 }
 .content_left .account{
-    padding-top: 37px;
+    padding-top: 30px;
+    padding-bottom: 7px;
     color: #282828;
 }
 .content_left .psw{
     padding-top: 28px;
+    padding-bottom: 7px;
     color: #282828;
 }
 .content_left input{
@@ -59,6 +61,11 @@
     border-radius:7% ;
     float: right;
     margin-top: 27px;
+}
+.content_left .content_left_login a{
+    text-decoration: none;
+    list-style: none;
+    color: white;
 }
 .content_left .content_left_login:hover{
     background-color: #A54B4A;

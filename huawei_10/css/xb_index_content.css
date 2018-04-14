@@ -19,22 +19,34 @@
     position: absolute;
     left: 450px;
     top: 380px;
+    /*float: left;*/
     transition: 2s linear;
 }
 .bg_toknowmore span{
-    width: 160px;
+    width: 100px;
     height: 36px;
     line-height: 36px;
     /*font-weight: bold;*/
     font-size: 23px;
     color: #1A1C19;
     text-align: center;
+    display: block;
+    float: left;
+    /*border: 1px solid red;*/
     /*position: absolute;*/
     /*left: 20px;*/
     /*top: 10px;*/
 }
 .bg_toknowmore span i{
+    display: block;
+    width: 36px;
+    height: 36px;
+    /*border: 1px solid red;*/
+    float: left;
     font-size: 26px;
+    position: absolute;
+    left: 100px;
+    top: 0;
 
 }
 .bg_toknowmore:hover i{
