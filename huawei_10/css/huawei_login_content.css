@@ -26,11 +26,13 @@
     color: #282828;
 }
 .content_left .account{
-    padding-top: 37px;
+    padding-top: 30px;
+    padding-bottom: 7px;
     color: #282828;
 }
 .content_left .psw{
     padding-top: 28px;
+    padding-bottom: 7px;
     color: #282828;
 }
 .content_left input{
@@ -58,15 +60,21 @@
     margin-right: 22px;
     border-radius:7% ;
     float: right;
-    margin-top: 27px;
+    margin-top: 28px;
+}
+.content_left .content_left_login a{
+    text-decoration: none;
+    list-style: none;
+    color: white;
 }
 .content_left .content_left_login:hover{
     background-color: #A54B4A;
     color: white;
 }
-.content_left .content_left_login i{
-    padding-left: 50px;
+.content_left .content_left_login .icon-jiantou{
+    padding-left: 60px;
 }
+
 .content_left .content_left_dowm{
     padding-top: 90px;
     font-size: 14px;
@@ -118,11 +126,11 @@
     display: inline-block;
     float: left;
     margin-right: 5px;
-
+    font-style: normal;
 }
 .content_right .content_right_content ul li:last-child span{
     display: inline-block;
-    width: 115px;
+    width: 135px;
     height: 30px;
     line-height: 30px;
     text-align: center;
@@ -130,8 +138,16 @@
     color: white;
     float: left;
 }
+.content_right .content_right_content ul li:last-child span i{
+    display: block;
+    float: left;
+}
 .content_right .content_right_content ul li:last-child span small{
-    font-size: 14px;
+    display: block;
+    float: left;
+    width: 100px;
+    height: 30px;
+    font-size: 16px;
 }
 .content_right .content_right_content ul li:last-child span i{
     width: 30px;

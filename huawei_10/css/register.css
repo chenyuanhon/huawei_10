@@ -21,6 +21,7 @@ body
     color: white;
     background-color: #222222 ;
     position: fixed;
+    /*top: 0px;*/
 }
 li{
     list-style: none;
@@ -54,7 +55,7 @@ li{
     color: red;
 }
 .head-navright{
-    width: 398px;
+    width: 430px;
     height: 46px;
     /*border: 1px solid yellow;*/
     float: right;
@@ -84,23 +85,21 @@ li{
     display: block;
 }
 .language{
-    width: 128px;
-    height: 60px;
+    width: 115px;
+    height: 40px;
     /*border: 1px solid yellow;*/
     position: absolute;
-    left: -10px;
+    left: 0px;
+    top: 46px;
     background: rgba(34,34,34,.94);
     box-sizing: border-box;
-    /*padding-left: 20px;*/
-    padding-top: 10px;
+    padding-left: 20px;
     padding-bottom: 10px;
     display: none;
 }
-.language>a{
+.language a{
     display: block;
-    line-height: 20px;
     height: 20px;
-    padding: 10px 20px;
     font-size: 14px;
     color: #c3c5c6;
     /*white-space: nowrap;*/
@@ -108,7 +107,7 @@ li{
     /*position: relative;*/
 
 }
-.language>a:hover{
+.language a:hover{
     color: red;
     border-right: 2px solid red;
 }
@@ -126,17 +125,17 @@ li{
 .container{
     height: 100%;
     background:url("../img/tupian/authbackground.jpg") center;
-    position: relative;
-    margin: 0px auto -70px auto ;
+    /*position: relative;*/
+    margin: 0px auto -10px auto ;
     min-height: 770px;
     min-width: 980px;
-    border: solid 1px red;
+    border: solid 1px transparent;
 }
 .content{
     width: 1180px;
-    height: 86%;
+    height: 90%;
     background-color: rgba(255,255,255,.8);
-    margin: 70px auto;
+    margin: 70px  auto;
 
 }
 .content-head{
@@ -149,7 +148,7 @@ li{
     padding-top: 60px;
 }
 .content-main{
-    border: 1px solid yellow;
+    /*border: 1px solid yellow;*/
     width: 980px;
     height: auto;
     min-height: 390px;
@@ -160,10 +159,285 @@ li{
 
 }
 .content-main>div{
-    border: 1px solid black;
+    /*border: 1px solid black;*/
     margin: 10px auto;
-    width: 1000px;
+    width: 350px;
     height: 48px;
+    position: relative;
+    /*color: #999999;*/
+}
+input::-webkit-input-placeholder{
+    color:#c3c5c6;
+    font-size: 15px;
+}
+input:hover{
+    border: 2px solid #a4a4a7;
+}
+
+.id input{
+    /*color: red;*/
+    width: 350px;
+    height: 48px;
+    font-size: 16px;
+    box-sizing: border-box;
+    padding-left: 10px;
+}
+.pw input{
+    width: 350px;
+    height: 48px;
+    font-size: 16px;
+    box-sizing: border-box;
+    padding-left: 10px;
+}
+.pwagain input{
+    width: 350px;
+    height: 48px;
+    font-size: 16px;
+    box-sizing: border-box;
+    padding-left: 10px;
+}
+img{
+    width: 13px;
+    height: 13px;
+}
+.id-one{
+    width: 370px;
+    height: 79px;background-color: white;
+    box-shadow:#666 0 0 5px ;
+    box-sizing: border-box;
+    padding: 20px;
+    font-size: 14px;
+    position: absolute;
+   bottom: 0px;
+    left: 365px;
+    display: none;
+
+}
+.id-two{
+    width: 16px;
+    height: 16px;
+    box-sizing: border-box;
+    border: 8px solid white;
+    border-right:8px solid transparent ;
+    border-top:8px solid transparent ;
+    box-shadow: #666 0 0 5px;
+    transform:rotate(45deg);
+    position: absolute;
+    left: -8px;
+    top:30px;
+}
+.id-three{
+    /*border:  1px solid red;*/
+    width: 13px;
+    height: 100%;
+    background-color: white;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+.id:hover .id-one{
+    display: block;
+}
+
+.pw-one{
+    width: 370px;
+    height: 120px;background-color: white;
+    box-shadow:#666 0 0 5px ;
+    box-sizing: border-box;
+    padding: 20px;
+    font-size: 14px;
+    position: absolute;
+    bottom: 0px;
+    left: 365px;
+    display: none;
+
+}
+.pw-two{
+    width: 16px;
+    height: 16px;
+    box-sizing: border-box;
+    border: 8px solid white;
+    border-right:8px solid transparent ;
+    border-top:8px solid transparent ;
+    box-shadow: #666 0 0 5px;
+    transform:rotate(45deg);
+    position: absolute;
+    left: -8px;
+    top:70px;
+}
+.pw-three{
+    /*border:  1px solid red;*/
+    width: 13px;
+    height: 100%;
+    background-color: white;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+.pw:hover .pw-one{
+    display: block;
+}
+
+.pwagain-one{
+    width: 180px;
+    height: 40px;background-color: white;
+    box-shadow:#666 0 0 5px ;
+    box-sizing: border-box;
+    padding: 10px 20px;
+    font-size: 14px;
+    position: absolute;
+    top: 0px;
+    left: 360px;
+    display: none;
+
+}
+.pwagain-two{
+    width: 10px;
+    height: 10px;
+    box-sizing: border-box;
+    border: 5px solid white;
+    box-shadow: #666 0 0 5px;
+    transform:rotate(45deg);
+    position: absolute;
+    left: -4px;
+    top:15px;
+}
+.pwagain-three{
+    /*border:  1px solid red;*/
+    width: 13px;
+    height: 100%;
+    background-color: white;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+.pwagain:hover .pwagain-one{
+    display: block;
+}
+.mobilenumber-1{
+    float: left;
+    width: 94px;
+    height: 40px;
+    background-image: url("../img/tupian/moblienumber.png");
+
+}
+.mobile input{
+    /*color: #999999;*/
+    width: 256px;
+    height: 48px;
+    font-size: 16px;
+    box-sizing: border-box;
+    padding-left: 10px;
+}
+.mobile-one{
+    width: 180px;
+    height: 40px;background-color: white;
+    box-shadow:#666 0 0 5px ;
+    box-sizing: border-box;
+    padding: 10px 20px;
+    font-size: 14px;
+    position: absolute;
+    top: 0px;
+    left: 360px;
+    display: none;
+
+}
+.mobile-two{
+    width: 10px;
+    height: 10px;
+    box-sizing: border-box;
+    border: 5px solid white;
+
+    box-shadow: #666 0 0 5px;
+    transform:rotate(45deg);
+    position: absolute;
+    left: -4px;
+    top:15px;
+}
+.mobile-three{
+    /*border:  1px solid red;*/
+    width: 13px;
+    height: 100%;
+    background-color: white;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+.mobile:hover .mobile-one{
+    display: block;
+}
+
+.note input{
+    /*color: #999999;*/
+    width: 190px;
+    height: 48px;
+    font-size: 1px;
+    float: left;
+    margin-right: 10px;
+    padding-left: 10px;
+}
+.note-one{
+    width: 180px;
+    height: 40px;background-color: white;
+    box-shadow:#666 0 0 5px ;
+    box-sizing: border-box;
+    padding: 10px 20px;
+    font-size: 14px;
+    position: absolute;
+    top: -51px;
+    left: 0px;
+    display: none;
+
+}
+.note-two{
+    width: 10px;
+    height: 10px;
+    box-sizing: border-box;
+    border: 5px solid white;
+    box-shadow: #666 0 0 5px;
+    transform:rotate(45deg);
+    position: absolute;
+    left: 14px;
+    bottom:-5px;
+}
+.note-three{
+    /*border:  1px solid red;*/
+    width: 100%;
+    height: 13px;
+    background-color: white;
+    position: absolute;
+    left: 0px;
+   bottom: 0px;
+}
+.note button{
+    color: #999999;
+    width: 150px;
+    height: 48px;
+    font-size: 16px;
+}
+.note:hover .note-one{
+    display: block;
+}
+.note button:hover{
+    color: #007dff;
+}
+#registered a{
+    text-decoration: none;
+    list-style: none;
+    color: white;
+}
+.button{
+    background-color: #e14357;
+    color: white;
+    display: block;
+    margin: 10px auto;
+    width: 150px;
+    height: 48px;
+    font-size: 16px;
+    border:2px solid #dc424f;
+}
+.button:hover{
+    opacity:0.8
 }
 
 
@@ -172,7 +446,7 @@ li{
 
 /*µ×²¿À¸*/
 .footer-copyright-container{
-    border-top:1px solid red;
+    /*border-top:1px solid blue;*/
     width: 100%;
     height: 70px;
     background-color: #222222;
@@ -187,6 +461,8 @@ li{
     padding-top: 6px;
     color:#999;
     font-size: 15px;
+    position: relative;
+    bottom: 0px;
 }
 .footer-law>ul{
     float: right;
