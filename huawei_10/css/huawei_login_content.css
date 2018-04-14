@@ -60,6 +60,11 @@
     float: right;
     margin-top: 27px;
 }
+.content_left .content_left_login a{
+    text-decoration: none;
+    list-style: none;
+    color: white;
+}
 .content_left .content_left_login:hover{
     background-color: #A54B4A;
     color: white;
