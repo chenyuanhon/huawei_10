@@ -186,6 +186,7 @@
     text-align: center;
     line-height: 50px;
     color: white;
+    transition: 1s;
 }
 .content11_left:hover{
     color: red;
@@ -202,6 +203,8 @@
     text-align: center;
     line-height: 50px;
     color: white;
+    transition: 1s;
+
 }
 .content11_right:hover{
     color: red;
@@ -234,7 +237,8 @@
     /*bottom: 100px;*/
     font-size: 14px;
     text-align: center;
-    line-height: 50px
+    line-height: 48px;
+    transition: 1s;
 }
 .content21_left:hover{
     color: red;
@@ -250,6 +254,7 @@
     font-size: 14px;
     text-align: center;
     line-height: 50px;
+    transition: 1s;
 }
 .content21_right:hover{
     color: red;
