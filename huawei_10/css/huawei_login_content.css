@@ -26,11 +26,13 @@
     color: #282828;
 }
 .content_left .account{
-    padding-top: 37px;
+    padding-top: 30px;
+    padding-bottom: 7px;
     color: #282828;
 }
 .content_left .psw{
     padding-top: 28px;
+    padding-bottom: 7px;
     color: #282828;
 }
 .content_left input{
