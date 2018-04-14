@@ -27,25 +27,27 @@
 }
 .headerup_group{
     width: 80px;
-    height: 20px;
+    height: 25px;
     cursor: pointer;
     position: relative;
     float: left;
 }
 .headerup_group span{
     width: 50px;
-    height: 20px;
+    height: 25px;
     font-size: 12px;
-    line-height: 20px;
+    line-height: 25px;
     color: white;
 }
 .headerup_group i{
     width: 25px;
-    height: 20px;
+    height: 25px;
+    /*line-height: 20px;*/
+    /*padding-top: 2px;*/
     color: white;}
 /*}按钮事件*/
 #li_nonebig{
-    width: 1450px;
+    width: 1366px;
     height: 152px;
     box-sizing: border-box;
     padding-left: 10px;
@@ -106,46 +108,92 @@
     /*background-color: wheat;*/
 }
 .headerup_language{
-    width: 210px;
-    height: 27px;
+    width: 240px;
+    height: 25px;
     float: right;
+    position: relative;
 }
 .headerup_language ul{
-    width: 210px;
-    height: 27px;
+    width: 240px;
+    height: 25px;
     list-style: none;
 }
 .headerup_language ul li{
-    height: 27px;
+    height: 25px;
+    /*width: auto;*/
     font-size: 12px;
-    line-height: 27px;
+    line-height: 25px;
     color: white;
     float: left;
 }
+.headerup_language ul .li_language{
+    width: 157px;
+    border-right:1px solid white ;
+}
+/*.headerup_language ul li:first-child{*/
+/*width: 170px;*/
+/*}*/
 .headerup_language ul li a{
     text-decoration: none;
     list-style: none;
     color: white;
 }
+.headerup_language ul li a .icon-duoyuyan{
+    display: block;
+    float: left;
+}
+.headerup_language ul li a span{
+    display: block;
+    height: 25px;
+    width: 85px;
+    /*border: 1px solid red;*/
+    float: left;
+    line-height: 25px;
+    margin-left: 10px;
+}
+.headerup_language ul li a .icon-xiajiantou{
+    display: block;
+    float: left;
+    margin-left: 10px;
+}
 .headerup_language ul li a:hover span{
     text-decoration: underline;
+
 }
 .li_language{
-    height: 27px;
-    width: 155px;
-    border-right: 1px solid white;
+    /*height: 27px;*/
+    /*width: 140px;*/
+    /*border-right: 1px solid white;*/
     position: relative;
 }
 .li_login{
     height: 27px;
-    width: 51px;
+    width: 77px;
+    /*border: 1px solid red;*/
+
 }
+.li_login i{
+    display: block;
+    margin-left: 10px;
+    float: left;
+}
+.li_login .login{
+    display: block;
+    float: left;
+    width: 30px;
+    height: 25px;
+    line-height: 25px;
+    /*color: red;*/
+    /*border: 1px solid red;*/
+}
+
+
 .li_login a:hover{
     text-decoration: underline;
 }
 /*******************************设置按钮隐藏事件**************************************/
 #li_nonebig2{
-    width: 1380px;
+    width: 1400px;
     height: 313px;
     display: none;
     /*border: 1px solid red;*/
@@ -171,8 +219,8 @@
 }
 .language_box1 ul{
     width: 192px;
-    height: 237px;
-    box-sizing: border-box;
+    height: 207px;
+    /*box-sizing: border-box;*/
     list-style: none;
 }
 .language_box1 ul li{
@@ -181,6 +229,10 @@
     width: 190px;
     padding-top: 15px;
 }
+/*.language_box1 ul li:first-child{*/
+/*text-align: left;*/
+/*border: 1px solid red;*/
+/*}*/
 .language_box1 ul li span{
     color: #222222;
     font-size: 14px;
@@ -290,7 +342,7 @@
     /*border: 1px solid red;*/
 }
 .li_phonehover{
-    width: 1360px;
+    width: 1366px;
     height: 416px;
     display: none;
     background-color: #F5F5F5;
@@ -513,7 +565,7 @@
 }
 
 .li_solvebox{
-    width: 1363px;
+    width: 1366px;
     height: 417px;
     background-color: #F5F5F5;
     /*border: 1px solid red;*/
@@ -522,6 +574,7 @@
     top: 75px;
     z-index: 999;
     display: none;
+    /*transition: 2s;*/
 }
 .li_solveboxup{
     width: 1363px;
@@ -719,8 +772,8 @@
 }
 
 /*.headerdown_nav_content ul .li_solve span{*/
-    /*height: 50px;*/
-    /*border-right: 1px solid #D4D4D4;*/
+/*height: 50px;*/
+/*border-right: 1px solid #D4D4D4;*/
 /*}*/
 .headerdown_nav_content ul .li_shop{
     width: 164px;

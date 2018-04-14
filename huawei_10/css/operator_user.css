@@ -10,7 +10,7 @@
     width: 100%;
     /*width: 1349px;*/
     height: 2990.03px;
-
+    /*height: 2903.03px;*/
 }
 /********right_iconbox***********/
 .right_iconbox{
@@ -42,10 +42,13 @@
     width: 100%;
     /*width: 1349px;*/
     height: 87px;
-
+    position: fixed;
+    background-color: white;
+    z-index: 1000;
     padding-top: 6px;
     padding-bottom: 6px;
     border-bottom: 1px;
+    box-shadow: 0px 2px 8px rgba(0,0,0,0.1);
 }
 .header .nav{
     margin: 0 auto;
@@ -87,8 +90,6 @@
 }
 .header .nav .topnav div ul .fir_li{
 
-
-   /*  2018.3.30完成到此  */
 }
 .header .nav .topnav div ul .sec_li{
     margin-left: 20px;
@@ -125,7 +126,6 @@
     text-align: center;
     line-height: 40px;
     font-size: 17px;
-
 }
 .header .nav .bottomnav ul li:hover{
     color: red;
@@ -134,6 +134,10 @@
 .one:hover .dis_block,.dis_block :hover{
     display: block;
 }
+/*.dis_block:hover .one{*/
+    /*color: red;*/
+    /*border-bottom: 2px solid red;*/
+/*}*/
 /**************dis_block*******************/
 .header .dis_block{
     width: 100%;
@@ -142,7 +146,8 @@
     position: absolute;
     z-index: 999;
     /*top: 87px;*/
-    top:72px;
+    /*top:72px;*/
+    top:74px;
     left: 0px;
     display: none;
 }
@@ -187,9 +192,25 @@
     margin-left: 90px;
     margin-top: 15px;
 }
-.header .dis_block .hot .middle img{
+/*.header .dis_block .hot .middle img{*/
+    /*width: 295px;*/
+    /*height: 150px;*/
+/*}*/
+/*.header .dis_block .hot .middle img{*/
+    /*width: 295px;*/
+    /*height: 150px;*/
+/*}*/
+.header .dis_block .hot .middle .img_bg{
     width: 295px;
     height: 150px;
+    background: url("../img/operator_user/pic_5ggone.png") no-repeat center;
+    background-size: 100%;
+    transition: 1s;
+    position: relative;
+}
+.header .dis_block .hot .middle .img_bg:hover{
+    opacity: 0.6;
+    background-size: 125%;
 }
 .header .dis_block .hot .middle p{
     color: rgb(51,51,51);
@@ -198,6 +219,27 @@
     font-size: 15.5px;
     float: left;
 }
+.header .dis_block .hot .middle .p_character:hover{
+    color: rgba(0,102,204);
+}
+/***********************************/
+/*.content .bar .barre .box_right .col_left .img_bg{*/
+    /*width: 340px;*/
+    /*height: 149px;*/
+    /*/!*margin-top: 5px;*!/*/
+    /*margin-top: 0px;*/
+    /*background-color: grey;*/
+    /*background: url("../img/operator_user/pic_left.png") no-repeat center;*/
+    /*background-size: 100%;*/
+    /*transition: 1s;*/
+    /*position: relative;*/
+/*}*/
+/*.content .bar .barre .box_right .col_left .img_bg:hover{*/
+    /*/!*opacity: 0.9;*!/*/
+    /*opacity: 0.6;*/
+    /*background-size: 125%;*/
+/*}*/
+/*************************************/
 .header .dis_block .hot .right{
     width: 370px;
     height: 402px;
@@ -206,9 +248,21 @@
     margin-left: 22px;
     margin-top: 15px;
 }
-.header .dis_block .hot .right img{
+/*.header .dis_block .hot .right img{*/
+    /*width: 295px;*/
+    /*height: 150px;*/
+/*}*/
+.header .dis_block .hot .right .img_bg{
     width: 295px;
     height: 150px;
+    background: url("../img/operator_user/pic_transition.jpg");
+    background-size: 100%;
+    transition: 1s;
+    position: relative;
+}
+.header .dis_block .hot .right .img_bg:hover{
+    opacity: 0.6;
+    background-size: 125%;
 }
 .header .dis_block .hot .right p{
     color: rgb(51,51,51);
@@ -216,6 +270,9 @@
     line-height: 30px;
     font-size: 15.5px;
     float: left;
+}
+.header .dis_block .hot .right .p_character:hover{
+    color: rgba(0,102,204);
 }
 .header .nav .bottomnav i{
     float: right;
@@ -235,6 +292,7 @@
 .content{
     width: 100%;
     height: 2544.03px;
+
     /*background-color: antiquewhite;*/
 }
 .content .topbar{
@@ -242,6 +300,7 @@
     width: 100%;
     height: 508px;
     margin: 0 auto;
+    padding-top: 87px;
     background-color: rgb(35,82,120);
 }
 .content .topbar .barcontainer{
@@ -249,6 +308,8 @@
     /*width: 100%;*/
     height: 508px;
     margin: 0 auto;
+    /*padding-top: 87px;*/
+    padding-top: 25px;
     background: url("../img/operator_user/barcontainer_bg.jpg") center;
     background-repeat: no-repeat;
 
@@ -267,7 +328,8 @@
     height: 196px;
     position: absolute;
     top: 124px;
-    left: 100px;
+    /*left: 100px;*/
+    left: 25px;
 }
 .content .topbar .barcontainer div p{
     width: 1170px;
@@ -286,10 +348,10 @@
     padding: 8px 18px 8px 18px;
     /*line-height: 40px;*/
     top: 25px;
-    left: 100px;
+    /*left: 100px;*/
     border-radius: 5px;
     text-decoration: none;
-
+    left: 25px;
 }
 .content .topbar .barcontainer div p :hover{
     text-decoration: underline;
@@ -299,13 +361,15 @@
     height: 358px;
     padding: 0px 15px 20px 15px;
     /*background-color: #55a532;*/
+
 }
 .content .column h1{
     width: 1170px;
     margin: 0 auto;
     text-align: center;
     /*font-size: 25px;*/
-    margin-top: 30px;
+    /*margin-top: 30px;*/
+    margin-top: 107px;
     margin-bottom: 30px;
     font-size: 30px;
     font-weight: lighter;
@@ -1686,7 +1750,7 @@
 .content .bar .barre .box_right .col_left .img_bg{
     width: 340px;
     height: 149px;
-    margin-top: 5px;
+    /*margin-top: 5px;*/
     margin-top: 0px;
     background-color: grey;
     background: url("../img/operator_user/pic_left.png") no-repeat center;
@@ -1741,7 +1805,7 @@
 .content .bar .barre .box_right .col_right .img_bg{
     width: 340px;
     height: 149px;
-    margin-top: 5px;
+    /*margin-top: 5px;*/
     margin-top: 0px;
     background-color: grey;
     background: url("../img/operator_user/pic_right.png") no-repeat center;
@@ -1787,6 +1851,7 @@
     height: 359px;
     margin: 0 auto;
     padding: 0px 15px 0px 15px;
+    margin-top: 87px;
     /*background-color: #63a35c;*/
 }
 /**************row**********************/
