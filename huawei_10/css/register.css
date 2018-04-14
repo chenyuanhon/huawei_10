@@ -421,6 +421,11 @@ img{
 .note button:hover{
     color: #007dff;
 }
+#registered a{
+    text-decoration: none;
+    list-style: none;
+    color: white;
+}
 .button{
     background-color: #e14357;
     color: white;
